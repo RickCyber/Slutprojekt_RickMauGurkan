@@ -13,7 +13,9 @@ tick = 0
 hit = 0
 inwater = 0
 hittable = false
-
+firecircle = false
+coluor = c_white;
+knockback = 1000;
 //Gammalt, Men andvänder vissa
 xx = obj_boss3.phy_position_x
 yy = obj_boss3.phy_position_y

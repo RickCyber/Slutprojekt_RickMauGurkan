@@ -11,6 +11,7 @@ if dead == false{ //Om den är inte död
 		}
 		if jump == true{//När den hoppar resettas inwater
 			inwater = 0
+			firecircle = false; //Resetta firecircle när den åker upp
 			if z >= 90{//Gör så att den fadar ut
 				image_alpha *= 0.83
 			}
@@ -78,12 +79,45 @@ else{
 	}
 
 }
+
+coluor = image_blend;
+
 if hittable == false{
 	image_blend = c_white
+	
+	if z <= 1{
+	image_blend = c_aqua
+	if physics_test_overlap(x,y,0,obj_player)
+	{
+		var dir = point_direction(x,y,obj_player.x,obj_player.y)
+		var xforce = lengthdir_x(knockback,dir);
+		var yforce = lengthdir_y(knockback,dir);
+		with (obj_player)
+		{
+			physics_apply_force(x,y,xforce,yforce)
+		}
+		}
+	if (firecircle == false)
+	{
+		instance_create_depth(x+10,y+10,0,obj_firecircle)
+	}
+	firecircle = true;
+	}
 }
 else if z <= 1{
 	image_blend = c_aqua
+	if physics_test_overlap(x,y,0,obj_player)
+	{
+		var dir = point_direction(x,y,obj_player.x,obj_player.y)
+		var xforce = lengthdir_x(knockback,dir);
+		var yforce = lengthdir_y(knockback,dir);
+		with (obj_player)
+		{
+			physics_apply_force(x,y,xforce,yforce)
+		}
+	}
 }
+
 
 //Limit z_speed
 z_spd = clamp(z_spd, -z_spd_max, z_spd_max)

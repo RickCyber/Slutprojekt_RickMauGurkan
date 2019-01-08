@@ -223,6 +223,14 @@
             }
         },
         {
+            "Key": "15132f9f-4622-46a1-9059-6fa7285ab681",
+            "Value": {
+                "id": "d62f796d-f485-49ae-abc9-a3ec310282cf",
+                "resourcePath": "objects\\obj_firecircle\\obj_firecircle.yy",
+                "resourceType": "GMObject"
+            }
+        },
+        {
             "Key": "17794377-0f65-4ce6-a49d-bbccd3eca3b3",
             "Value": {
                 "id": "c80235b2-e13d-4702-8233-3c53e9c0cabd",
