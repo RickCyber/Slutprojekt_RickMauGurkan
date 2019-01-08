@@ -1,0 +1,30 @@
+{
+    "id": "03ca6787-4c00-48cf-8802-2ba8a7960d3e",
+    "modelName": "GMFolder",
+    "mvc": "1.1",
+    "name": "03ca6787-4c00-48cf-8802-2ba8a7960d3e",
+    "children": [
+        "888850b5-b08e-4aa6-a9e4-a9fb6915aa25",
+        "892b9235-851b-4dde-8ea8-e4b3f162db7b",
+        "d6395cf2-909d-40fa-95da-588d72f19e69",
+        "6e4edbb8-fedd-405c-b3f8-7f1dcad9bb85",
+        "a86732a4-8a35-4596-9470-5c0695c1d0c3",
+        "cc26837e-8f46-4862-a27b-1154a4ca7898",
+        "845256f8-9549-4b21-8520-a6904cd16369",
+        "dad386e2-39f7-4c1e-aa10-9a8ccc9235fb",
+        "4d4a45b0-7186-4fea-954d-7f4f2ccdcc6e",
+        "8e628abe-0ecc-496c-9d48-cd7e95d6ba0a",
+        "c5200753-5bff-43bf-bb73-f1b02bcddc9f",
+        "915d2823-f98b-4ffb-bf1c-b358751f39d3",
+        "da8d7c72-a6cf-48bc-ac3d-1a4636ff9b96",
+        "1cd97c75-6b02-47d2-99f6-efb0f2c2e8bd",
+        "f61e89a9-6403-4d03-b43b-80a3ab27b238",
+        "3325d516-372f-444e-a992-8ff15df3b147",
+        "c1b78dcb-a3f1-4c30-b78a-90bbce09e911",
+        "dbfe6a4d-d6c8-4e4f-99cf-4f7ec9ab21e5"
+    ],
+    "filterType": "GMSprite",
+    "folderName": "Rick Boss Sprites",
+    "isDefaultView": false,
+    "localisedFolderName": ""
+}
