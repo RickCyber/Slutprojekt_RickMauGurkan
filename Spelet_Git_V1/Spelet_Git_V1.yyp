@@ -103,14 +103,6 @@
             }
         },
         {
-            "Key": "072a76f9-35e0-4c92-89a2-138c2a02ce8f",
-            "Value": {
-                "id": "855b5bfb-78bf-40cc-9579-9913bf979273",
-                "resourcePath": "sprites\\spr_big_boy_front_sword\\spr_big_boy_front_sword.yy",
-                "resourceType": "GMSprite"
-            }
-        },
-        {
             "Key": "0873583d-f9ba-44c9-abf7-b725dae9c99e",
             "Value": {
                 "id": "2fd9b201-f093-4e07-80f1-f8e4d1c5bca2",
@@ -567,6 +559,14 @@
             }
         },
         {
+            "Key": "4dc48b71-5f5c-4e4d-bb4a-b7c19311b24d",
+            "Value": {
+                "id": "d5472704-96a3-4e2a-be0f-f1c0eb37bf23",
+                "resourcePath": "sprites\\spr_boss1_v1\\spr_boss1_v1.yy",
+                "resourceType": "GMSprite"
+            }
+        },
+        {
             "Key": "4fe797a4-5449-4846-9992-314161147d87",
             "Value": {
                 "id": "6bec5705-9db7-452d-9c60-02372093a757",
@@ -700,14 +700,6 @@
                 "id": "8d4207ab-bd5c-421e-bffb-e49bdbb0e896",
                 "resourcePath": "scripts\\scr_icerod_state\\scr_icerod_state.yy",
                 "resourceType": "GMScript"
-            }
-        },
-        {
-            "Key": "64e93741-a975-4a64-bdbe-1997aba84f3b",
-            "Value": {
-                "id": "f387e77a-94cf-457e-9d30-76eae1ca20ee",
-                "resourcePath": "sprites\\spr_big_boy_back_bow\\spr_big_boy_back_bow.yy",
-                "resourceType": "GMSprite"
             }
         },
         {
@@ -1628,22 +1620,6 @@
                 "id": "0ffa5ac9-511a-4d68-87af-a0a3468e37b9",
                 "resourcePath": "views\\e954de26-73fe-4b5c-a1b1-0a5359130c5f.yy",
                 "resourceType": "GMFolder"
-            }
-        },
-        {
-            "Key": "eaad3ddd-63bc-493a-b57e-7344bf3ada51",
-            "Value": {
-                "id": "9ccbcac3-8990-4aea-bbe0-6f4cd3ff693e",
-                "resourcePath": "sprites\\spr_big_boy_back_sword\\spr_big_boy_back_sword.yy",
-                "resourceType": "GMSprite"
-            }
-        },
-        {
-            "Key": "ec29bc2b-a5d2-41ae-ba5c-4011bf8e29b9",
-            "Value": {
-                "id": "35bef812-57f7-4edc-b320-7f83b74852ad",
-                "resourcePath": "sprites\\spr_big_boy_front_bow\\spr_big_boy_front_bow.yy",
-                "resourceType": "GMSprite"
             }
         },
         {
