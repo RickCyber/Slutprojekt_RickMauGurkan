@@ -799,6 +799,14 @@
             }
         },
         {
+            "Key": "6ee057f5-de60-4b78-bc22-beba81b1a948",
+            "Value": {
+                "id": "fe9fb6f8-d763-4836-9c55-1092370ce00b",
+                "resourcePath": "objects\\obj_boss3Spar\\obj_boss3Spar.yy",
+                "resourceType": "GMObject"
+            }
+        },
+        {
             "Key": "756f30ab-2ab2-4004-a60f-f163e12a94c6",
             "Value": {
                 "id": "c4e356d9-b8d6-438b-9c41-32adb9930efd",
