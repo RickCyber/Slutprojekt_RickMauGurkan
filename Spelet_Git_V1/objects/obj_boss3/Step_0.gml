@@ -100,6 +100,15 @@ if hittable == false{
 	if (firecircle == false)
 	{
 		instance_create_depth(x+10,y+10,0,obj_firecircle)
+		instance_create_depth(x+10,y-10,0,obj_firecircle)
+		instance_create_depth(x-10,y+10,0,obj_firecircle)
+		instance_create_depth(x-10,y-10,0,obj_firecircle)
+		instance_create_depth(x+10,y,0,obj_firecircle)
+		instance_create_depth(x-10,y,0,obj_firecircle)
+		instance_create_depth(x,y+10,0,obj_firecircle)
+		instance_create_depth(x,y-10,0,obj_firecircle)
+		firecircle1 = true;
+		alarm[2] = 120;
 	}
 	firecircle = true;
 	}

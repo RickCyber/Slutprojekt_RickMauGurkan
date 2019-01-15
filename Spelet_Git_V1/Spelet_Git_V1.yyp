@@ -847,6 +847,14 @@
             }
         },
         {
+            "Key": "84582d4b-1199-4660-887f-f9d614c88255",
+            "Value": {
+                "id": "82e8d218-f2c2-4d49-95e2-04e2da8fb346",
+                "resourcePath": "sprites\\spt_firecircle\\spt_firecircle.yy",
+                "resourceType": "GMSprite"
+            }
+        },
+        {
             "Key": "84eb6556-c206-4a1c-a23d-fac86556fb58",
             "Value": {
                 "id": "130e28a8-6a3d-428e-bbc0-ad33cd4d2d6b",
