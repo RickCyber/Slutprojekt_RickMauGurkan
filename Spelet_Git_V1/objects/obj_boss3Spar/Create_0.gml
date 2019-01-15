@@ -14,7 +14,6 @@ hit = 0
 inwater = 0
 hittable = false
 firecircle = true
-res = false
 coluor = c_white;
 knockback = 1000;
 //Gammalt, Men andvänder vissa
