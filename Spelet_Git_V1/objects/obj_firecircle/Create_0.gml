@@ -48,36 +48,108 @@ else
 	{
 	    var sdir = point_direction(0,0,1,1.5)
 	}
-	else if (x < obj_boss3.x and y < obj_boss3.y and y < obj_boss.y+40)
+	else if (x < obj_boss3.x and y < obj_boss3.y and y < obj_boss3.y+40)
 	{
 	    var sdir = point_direction(0,0,-1,-1.5)
 	}
-	else if (x < obj_boss3.x and y > obj_boss3.y and y > obj_boss.y+40)
+	else if (x < obj_boss3.x and y > obj_boss3.y and y > obj_boss3.y+40)
 	{
-	    var sdir = point_direction(0,0,-1,1)
+	    var sdir = point_direction(0,0,-1,1.5)
 	}
-	else if (x > obj_boss3.x and y < obj_boss3.y)
+	else if (x > obj_boss3.x and y < obj_boss3.y and y < obj_boss3.y+40)
 	{
-	    var sdir = point_direction(0,0,1,-1)
+	    var sdir = point_direction(0,0,1,-1.5)
 	}
 	else if (x > obj_boss3.x and y > obj_boss3.y and y < obj_boss3.y+40)
 	{
 	    var sdir = point_direction(0,0,1,0.5)
 	}
-	else if (x < obj_boss3.x and y < obj_boss3.y and y > obj_boss.y+40)
+	else if (x < obj_boss3.x and y < obj_boss3.y and y > obj_boss3.y+40)
 	{
 	    var sdir = point_direction(0,0,-1,-0.5)
 	}
-	else if (x < obj_boss3.x and y > obj_boss3.y)
+	else if (x < obj_boss3.x and y > obj_boss3.y and y > obj_boss3.y+40)
 	{
-	    var sdir = point_direction(0,0,-1,1)
+	    var sdir = point_direction(0,0,-1,0.5)
 	}
-	else if (x > obj_boss3.x and y < obj_boss3.y)
+	else if (x > obj_boss3.x and y < obj_boss3.y and y < obj_boss3.y+40)
 	{
-	    var sdir = point_direction(0,0,1,-1)
+	    var sdir = point_direction(0,0,1,-0.5)
 	}
 }
+
 
 //Set speed based upon speed and direction
 bhspd = lengthdir_x(bspd, sdir);
 bvspd = lengthdir_y(bspd, sdir);
+
+if (obj_boss3.firecircle1 != true)
+{
+	if (bhspd < 0 and bvspd == 0)
+	{
+	    phy_rotation = 180;
+	}
+	else if (bhspd > 0 and bvspd == 0)
+	{
+	    phy_rotation = 0;
+	}
+	else if (bhspd == 0 and bvspd > 0)
+	{
+	    phy_rotation = 90;
+	}
+	else if (bhspd == 0 and bvspd < 0)
+	{
+	    phy_rotation = -90;
+	}
+	else if (bhspd < 0 and bvspd < 0)
+	{
+	    phy_rotation = -135;
+	}
+	else if (bhspd < 0 and bvspd > 0)
+	{
+	    phy_rotation = 135;
+	}
+	else if (bhspd > 0 and bvspd > 0)
+	{
+	    phy_rotation = 45;
+	}
+	else if (bhspd > 0 and bvspd < 0)
+	{
+	    phy_rotation = -45;
+	}
+}
+else
+{
+	if (bhspd < 0 and bvspd == 0)
+	{
+	    phy_rotation = 180;
+	}
+	else if (bhspd > 0 and bvspd == 0)
+	{
+	    phy_rotation = 0;
+	}
+	else if (bhspd == 0 and bvspd > 0)
+	{
+	    phy_rotation = 90;
+	}
+	else if (bhspd == 0 and bvspd < 0)
+	{
+	    phy_rotation = -90;
+	}
+	else if (bhspd < 0 and bvspd < 0)
+	{
+	    phy_rotation = -135;
+	}
+	else if (bhspd < 0 and bvspd > 0)
+	{
+	    phy_rotation = 135;
+	}
+	else if (bhspd > 0 and bvspd > 0)
+	{
+	    phy_rotation = 45;
+	}
+	else if (bhspd > 0 and bvspd < 0)
+	{
+	    phy_rotation = -45;
+	}
+}
