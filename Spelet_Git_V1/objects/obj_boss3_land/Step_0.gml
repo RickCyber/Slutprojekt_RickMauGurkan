@@ -1,8 +1,8 @@
 /// @description Insert description here
 // You can write your code in this editor
 
-x += (obj_player.x - x) * .1;
-y += (obj_player.y - y) * .1;
+x += (obj_boss3.x - x) * .1;
+y += (obj_boss3.y - y) * .1;
 
 if obj_boss3.image_alpha >= 0.03{
 	x = obj_boss3.x
@@ -19,3 +19,15 @@ if obj_boss3.image_alpha >= 0.983{
 }
 
 depth = obj_player.depth + 10
+
+if (obj_boss3.fas > 1)
+{
+	if (obj_boss3.flamepos < 4)
+	{
+		image_blend = c_aqua;
+	}
+	else 
+	{
+		image_blend = c_white;
+	}
+}

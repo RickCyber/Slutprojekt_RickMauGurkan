@@ -9,7 +9,8 @@
         "6ee057f5-de60-4b78-bc22-beba81b1a948",
         "c96b8daf-7e21-4a57-aab6-f42bfd38b5e8",
         "352a7241-d5f2-45cd-8238-5008f72abd07",
-        "15132f9f-4622-46a1-9059-6fa7285ab681"
+        "15132f9f-4622-46a1-9059-6fa7285ab681",
+        "1c24eda6-8115-4bdc-a0b6-67f5e1e74b0a"
     ],
     "filterType": "GMObject",
     "folderName": "Boss3",

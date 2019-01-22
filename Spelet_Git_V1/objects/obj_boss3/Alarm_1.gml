@@ -1,4 +1,4 @@
-/// @description Andvänds med gamla koden, inte längre
+/// @description Resetta Jump
 // You can write your code in this editor
 targetX = obj_player.phy_position_x;
 targetY = obj_player.phy_position_y;
@@ -14,9 +14,57 @@ if place_meeting(x,y,obj_water){
 }
 else if z <= 1{
 	jump = true
+	if (fas == 2)
+	{
+		flamepos = irandom_range(0,3);
+	}
+	else if (fas == 3)
+	{
+		flamepos = irandom_range(0,7);
+	}
 }
 if z <= 1 and inwater >= 3{
 	jump = true
+	if (fas == 2)
+	{
+		flamepos = irandom_range(0,3);
+	}
+	else if (fas == 3)
+	{
+		flamepos = irandom_range(0,7);
+	}
 }
 
-alarm[1] = 90
+if (fas == 1)
+{
+	alarm[1] = 90
+}
+else if (fas == 2)
+{
+	if (hittable == false)
+	{
+		alarm[1] = 270
+	}
+	else
+	{
+		alarm[1] = 90
+	}
+}
+else if (fas == 3)
+{
+	if (flamepos > 3)
+	{
+		alarm[1] = 90
+	}
+	else
+	{
+		if (hittable == false)
+		{
+			alarm[1] = 270
+		}
+		else
+		{
+			alarm[1] = 90
+		}
+	}
+}

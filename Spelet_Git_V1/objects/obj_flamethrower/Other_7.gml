@@ -1,5 +1,9 @@
 /// @description Insert description here
 // You can write your code in this editor
-if hittable == true and res == false{
-hp -= 50
+image_index = 3;
+
+if (tick == true)
+{
+	tick = false;
+	alarm[0] = 270;
 }
