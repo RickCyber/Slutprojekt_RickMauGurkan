@@ -14,6 +14,7 @@ hit = 0
 inwater = 0
 hittable = false
 firecircle = true
+flamepos = 0;
 res = false
 coluor = c_white;
 knockback = 1000;

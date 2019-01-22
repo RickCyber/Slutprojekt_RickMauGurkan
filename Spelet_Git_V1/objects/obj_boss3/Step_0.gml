@@ -8,6 +8,7 @@ if (hp <= 0){
 	fas +=1
 	res = true
 	hittable = false
+	alarm[1] = 10;
 }
 
 if (res == true)
@@ -19,7 +20,8 @@ if (hp <= 0){
 	hp = 0;
 	res = true;
 }
-else if (hp >= 100){
+
+if (hp >= 100){
 	hp = 100;
 	res = false;
 }
@@ -115,29 +117,32 @@ if (fas == 1)
 		image_blend = c_white
 	
 		if z <= 1{
-		image_blend = c_aqua
-		if physics_test_overlap(x,y,0,obj_player)
-		{
-			var dir = point_direction(x,y,obj_player.x,obj_player.y)
-			var xforce = lengthdir_x(knockback,dir);
-			var yforce = lengthdir_y(knockback,dir);
-			with (obj_player)
+			image_blend = c_aqua
+			if physics_test_overlap(x,y,0,obj_player)
 			{
-				physics_apply_force(x,y,xforce,yforce)
+				var dir = point_direction(x,y,obj_player.x,obj_player.y)
+				var xforce = lengthdir_x(knockback,dir);
+				var yforce = lengthdir_y(knockback,dir);
+				with (obj_player)
+				{
+					physics_apply_force(x,y,xforce,yforce)
+				}
+				obj_player.hp -= 5;
 			}
+		
+			if (firecircle == false)
+			{
+				instance_create_depth(x+10,y+10,0,obj_firecircle)
+				instance_create_depth(x+10,y-10,0,obj_firecircle)
+				instance_create_depth(x-10,y+10,0,obj_firecircle)
+				instance_create_depth(x-10,y-10,0,obj_firecircle)
+				instance_create_depth(x+10,y,0,obj_firecircle)
+				instance_create_depth(x-10,y,0,obj_firecircle)
+				instance_create_depth(x,y+10,0,obj_firecircle)
+				instance_create_depth(x,y-10,0,obj_firecircle)
 			}
-		if (firecircle == false)
-		{
-			instance_create_depth(x+10,y+10,0,obj_firecircle)
-			instance_create_depth(x+10,y-10,0,obj_firecircle)
-			instance_create_depth(x-10,y+10,0,obj_firecircle)
-			instance_create_depth(x-10,y-10,0,obj_firecircle)
-			instance_create_depth(x+10,y,0,obj_firecircle)
-			instance_create_depth(x-10,y,0,obj_firecircle)
-			instance_create_depth(x,y+10,0,obj_firecircle)
-			instance_create_depth(x,y-10,0,obj_firecircle)
-		}
-		firecircle = true;
+		
+			firecircle = true;
 		}
 	}
 	else if z <= 1{
@@ -151,6 +156,7 @@ if (fas == 1)
 			{
 				physics_apply_force(x,y,xforce,yforce)
 			}
+			obj_player.hp -= 5;
 		}
 	}
 
@@ -184,8 +190,58 @@ if (fas == 2)
 			if tick <= 50{//
 				if z >= 350{
 					z = 290
-					phy_position_x = obj_player.x
-					phy_position_y = obj_player.y
+					if (flamepos == 0)
+					{
+						phy_position_x = obj_player.x
+						
+						if (obj_player.y < 228)
+						{
+							phy_position_y = 128;
+						}
+						else
+						{
+							phy_position_y = obj_player.y-100
+						}
+					}
+					else if (flamepos == 1)
+					{
+						phy_position_x = obj_player.x
+						
+						if (obj_player.y > 540)
+						{
+							phy_position_y = 640;
+						}
+						else
+						{
+							phy_position_y = obj_player.y+100
+						}
+					}
+					else if (flamepos == 2)
+					{
+						phy_position_y = obj_player.y
+						
+						if (obj_player.x < 228)
+						{
+							phy_position_x = 128;
+						}
+						else
+						{
+							phy_position_x = obj_player.x-100
+						}
+					}
+					else if (flamepos == 3)
+					{
+						phy_position_y = obj_player.y
+						
+						if (obj_player.x > 860)
+						{
+							phy_position_x = 960;
+						}
+						else
+						{
+							phy_position_x = obj_player.x+100
+						}
+					}
 					tick += 1
 				}
 				z += 2.5
@@ -262,14 +318,28 @@ if (fas == 2)
 			{
 				physics_apply_force(x,y,xforce,yforce)
 			}
-			}
+			obj_player.hp -= 5;
+		}
 		if (firecircle == false)
 		{
-			instance_create_depth(x+10,y+10,0,obj_firecircle)
-			instance_create_depth(x+10,y-10,0,obj_firecircle)
-			instance_create_depth(x-10,y+10,0,obj_firecircle)
-			instance_create_depth(x-10,y-10,0,obj_firecircle)
+			if (flamepos == 0)
+			{
+				instance_create_depth(x,y+10,0,obj_flamethrower)
+			}
+			else if (flamepos == 1)
+			{
+				instance_create_depth(x,y-10,0,obj_flamethrower)
+			}
+			else if (flamepos == 2)
+			{
+				instance_create_depth(x+10,y,0,obj_flamethrower)
+			}
+			else if (flamepos == 3)
+			{
+				instance_create_depth(x-10,y,0,obj_flamethrower)
+			}
 		}
+		
 		firecircle = true;
 		}
 	}
@@ -284,9 +354,9 @@ if (fas == 2)
 			{
 				physics_apply_force(x,y,xforce,yforce)
 			}
+			obj_player.hp -= 5;
 		}
 	}
-
 
 	//Limit z_speed
 	z_spd = clamp(z_spd, -z_spd_max, z_spd_max)
@@ -317,8 +387,63 @@ if (fas == 3)
 			if tick <= 50{//
 				if z >= 350{
 					z = 290
-					phy_position_x = obj_player.x
-					phy_position_y = obj_player.y
+					if (flamepos == 0)
+					{
+						phy_position_x = obj_player.x
+						
+						if (obj_player.y < 228)
+						{
+							phy_position_y = 128;
+						}
+						else
+						{
+							phy_position_y = obj_player.y-100
+						}
+					}
+					else if (flamepos == 1)
+					{
+						phy_position_x = obj_player.x
+						
+						if (obj_player.y > 540)
+						{
+							phy_position_y = 640;
+						}
+						else
+						{
+							phy_position_y = obj_player.y+100
+						}
+					}
+					else if (flamepos == 2)
+					{
+						phy_position_y = obj_player.y
+						
+						if (obj_player.x < 228)
+						{
+							phy_position_x = 128;
+						}
+						else
+						{
+							phy_position_x = obj_player.x-100
+						}
+					}
+					else if (flamepos == 3)
+					{
+						phy_position_y = obj_player.y
+						
+						if (obj_player.x > 860)
+						{
+							phy_position_x = 960;
+						}
+						else
+						{
+							phy_position_x = obj_player.x+100
+						}
+					}
+					else
+					{
+						phy_position_x = obj_player.x
+						phy_position_y = obj_player.y
+					}
 					tick += 1
 				}
 				z += 2.5
@@ -395,11 +520,40 @@ if (fas == 3)
 			{
 				physics_apply_force(x,y,xforce,yforce)
 			}
-			}
+			obj_player.hp -= 5;
+		}
 		if (firecircle == false)
 		{
-			instance_create_depth(x+10,y+10,0,obj_firecircle)
-			instance_create_depth(x-10,y-10,0,obj_firecircle)
+			if (flamepos > 3)
+			{
+				instance_create_depth(x+10,y+10,0,obj_firecircle)
+				instance_create_depth(x+10,y-10,0,obj_firecircle)
+				instance_create_depth(x-10,y+10,0,obj_firecircle)
+				instance_create_depth(x-10,y-10,0,obj_firecircle)
+				instance_create_depth(x+10,y,0,obj_firecircle)
+				instance_create_depth(x-10,y,0,obj_firecircle)
+				instance_create_depth(x,y+10,0,obj_firecircle)
+				instance_create_depth(x,y-10,0,obj_firecircle)
+			}
+			else
+			{
+				if (flamepos == 0)
+				{
+					instance_create_depth(x,y+10,0,obj_flamethrower)
+				}
+				else if (flamepos == 1)
+				{
+					instance_create_depth(x,y-10,0,obj_flamethrower)
+				}
+				else if (flamepos == 2)
+				{
+					instance_create_depth(x+10,y,0,obj_flamethrower)
+				}
+				else if (flamepos == 3)
+				{
+					instance_create_depth(x-10,y,0,obj_flamethrower)
+				}
+			}
 		}
 		firecircle = true;
 		}
@@ -415,10 +569,10 @@ if (fas == 3)
 			{
 				physics_apply_force(x,y,xforce,yforce)
 			}
+			obj_player.hp -= 5;
 		}
 	}
-
-
+	
 	//Limit z_speed
 	z_spd = clamp(z_spd, -z_spd_max, z_spd_max)
 	if image_alpha <= 0{

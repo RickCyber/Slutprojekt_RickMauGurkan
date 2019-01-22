@@ -72,6 +72,17 @@ if (physics_test_overlap(x,y,0,obj_pit_water))
 		alarm[1] = room_speed;
 	}
 }
+
+if physics_test_overlap(x,y,0,obj_flamethrower)
+{
+	if (obj_flamethrower.reset == true)
+	{
+		obj_player.hp -= 1;
+		obj_flamethrower.reset = false;
+		obj_flamethrower.alarm[1] = 60
+	}
+}
+
 if (hit >= 10){
 	game_restart()
 }
