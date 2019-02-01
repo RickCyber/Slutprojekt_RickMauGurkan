@@ -14,6 +14,10 @@ if place_meeting(x,y,obj_water){
 }
 else if z <= 1{
 	jump = true
+	if (hp >= 100){
+	hp = 100;
+	res = false;
+	}
 	if (fas == 2)
 	{
 		flamepos = irandom_range(0,3);

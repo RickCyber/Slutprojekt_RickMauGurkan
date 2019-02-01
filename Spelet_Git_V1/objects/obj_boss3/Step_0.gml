@@ -21,10 +21,6 @@ if (hp <= 0){
 	res = true;
 }
 
-if (hp >= 100){
-	hp = 100;
-	res = false;
-}
 if (fas == 4){
 	fas = 0;
 	instance_destroy();
@@ -141,8 +137,19 @@ if (fas == 1)
 				instance_create_depth(x,y+10,0,obj_firecircle)
 				instance_create_depth(x,y-10,0,obj_firecircle)
 			}
-		
 			firecircle = true;
+			
+			if physics_test_overlap(x,y,0,obj_pil)
+			{
+				instance_destroy(obj_pil);
+			}
+			
+			if physics_test_overlap(x,y,0,obj_hookshot)
+			{
+				obj_player.state = scr_move_state;
+				obj_player.attacked = false;
+				instance_destroy(obj_hookshot);
+			}
 		}
 	}
 	else if z <= 1{
@@ -157,6 +164,23 @@ if (fas == 1)
 				physics_apply_force(x,y,xforce,yforce)
 			}
 			obj_player.hp -= 5;
+		}
+		
+		if (hittable == true and res == false)
+		{
+			if physics_test_overlap(x,y,0,obj_pil)
+			{
+				instance_destroy(obj_pil);
+				hp -= 90;
+			}
+			
+			if physics_test_overlap(x,y,0,obj_hookshot)
+			{
+				hp -= 10;
+				obj_player.state = scr_move_state;
+				obj_player.attacked = false;
+				instance_destroy(obj_hookshot);
+			}
 		}
 	}
 
@@ -320,27 +344,39 @@ if (fas == 2)
 			}
 			obj_player.hp -= 5;
 		}
-		if (firecircle == false)
-		{
-			if (flamepos == 0)
+			if (firecircle == false)
 			{
-				instance_create_depth(x,y+10,0,obj_flamethrower)
+				if (flamepos == 0)
+				{
+					instance_create_depth(x,y+10,0,obj_flamethrower)
+				}
+				else if (flamepos == 1)
+				{
+					instance_create_depth(x,y-10,0,obj_flamethrower)
+				}
+				else if (flamepos == 2)
+				{
+					instance_create_depth(x+10,y,0,obj_flamethrower)
+				}
+				else if (flamepos == 3)
+				{
+					instance_create_depth(x-10,y,0,obj_flamethrower)
+				}
 			}
-			else if (flamepos == 1)
-			{
-				instance_create_depth(x,y-10,0,obj_flamethrower)
-			}
-			else if (flamepos == 2)
-			{
-				instance_create_depth(x+10,y,0,obj_flamethrower)
-			}
-			else if (flamepos == 3)
-			{
-				instance_create_depth(x-10,y,0,obj_flamethrower)
-			}
-		}
 		
 		firecircle = true;
+		
+		if physics_test_overlap(x,y,0,obj_pil)
+			{
+				instance_destroy(obj_pil);
+			}
+			
+			if physics_test_overlap(x,y,0,obj_hookshot)
+			{
+				obj_player.state = scr_move_state;
+				obj_player.attacked = false;
+				instance_destroy(obj_hookshot);
+			}
 		}
 	}
 	else if z <= 1{
@@ -355,6 +391,23 @@ if (fas == 2)
 				physics_apply_force(x,y,xforce,yforce)
 			}
 			obj_player.hp -= 5;
+		}
+		
+		if (hittable == true and res == false)
+		{
+			if physics_test_overlap(x,y,0,obj_pil)
+			{
+				instance_destroy(obj_pil);
+				hp -= 90;
+			}
+			
+			if physics_test_overlap(x,y,0,obj_hookshot)
+			{
+				hp -= 10;
+				obj_player.state = scr_move_state;
+				obj_player.attacked = false;
+				instance_destroy(obj_hookshot);
+			}
 		}
 	}
 
@@ -556,6 +609,18 @@ if (fas == 3)
 			}
 		}
 		firecircle = true;
+		
+		if physics_test_overlap(x,y,0,obj_pil)
+			{
+				instance_destroy(obj_pil);
+			}
+			
+			if physics_test_overlap(x,y,0,obj_hookshot)
+			{
+				obj_player.state = scr_move_state;
+				obj_player.attacked = false;
+				instance_destroy(obj_hookshot);
+			}
 		}
 	}
 	else if z <= 1{
@@ -570,6 +635,23 @@ if (fas == 3)
 				physics_apply_force(x,y,xforce,yforce)
 			}
 			obj_player.hp -= 5;
+		}
+		
+		if (hittable == true and res == false)
+		{
+			if physics_test_overlap(x,y,0,obj_pil)
+			{
+				instance_destroy(obj_pil);
+				hp -= 90;
+			}
+			
+			if physics_test_overlap(x,y,0,obj_hookshot)
+			{
+				hp -= 10;
+				obj_player.state = scr_move_state;
+				obj_player.attacked = false;
+				instance_destroy(obj_hookshot);
+			}
 		}
 	}
 	
