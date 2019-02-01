@@ -71,51 +71,58 @@
     "physicsShape": 2,
     "physicsShapePoints": [
         {
-            "id": "af70655b-7423-4e65-97dd-8a2c8a8dca8f",
+            "id": "7a026537-380c-4779-b53f-a5cbc6fcd211",
             "modelName": "GMPoint",
             "mvc": "1.0",
-            "x": 4.12249,
-            "y": 16.1020317
+            "x": 1.12248993,
+            "y": 12.1020317
         },
         {
-            "id": "0a13d955-6387-488b-9c1e-5876f439c306",
+            "id": "37d3b5a9-6e78-4e21-8996-70e4150b758c",
             "modelName": "GMPoint",
             "mvc": "1.0",
-            "x": 12.5102463,
-            "y": 3.63264656
+            "x": 4.51024628,
+            "y": 2.63264656
         },
         {
-            "id": "c1505ae6-4476-4d6e-8ef5-9b9d37cf3573",
+            "id": "303fa087-0fa1-4c8f-9847-339c1b468a1e",
             "modelName": "GMPoint",
             "mvc": "1.0",
             "x": 32.10208,
             "y": 1.14285088
         },
         {
-            "id": "109cb2df-4bb2-4386-a78f-d0ab18170487",
+            "id": "082c0242-24b8-422a-a7c7-25481c5e761d",
             "modelName": "GMPoint",
             "mvc": "1.0",
-            "x": 51.6939163,
+            "x": 58.6939163,
             "y": 1.99999237
         },
         {
-            "id": "c59ae691-e32a-4f08-a18a-25fff4892d81",
+            "id": "7988e349-e868-4df4-b0a3-f93d900d7999",
             "modelName": "GMPoint",
             "mvc": "1.0",
-            "x": 62.12249,
-            "y": 13.7959118
+            "x": 63.12249,
+            "y": 18.7959118
         },
         {
-            "id": "e72e5a4d-c249-48d9-a7f3-85e6f2505747",
+            "id": "0a9c004a-e77e-4615-8071-a96f12cff4ed",
             "modelName": "GMPoint",
             "mvc": "1.0",
-            "x": 33.5510635,
-            "y": 62.4081573
+            "x": 51.5510635,
+            "y": 64.40816
+        },
+        {
+            "id": "2f15420f-45d4-47ab-a314-cbe849f5f0eb",
+            "modelName": "GMPoint",
+            "mvc": "1.0",
+            "x": 14.9419174,
+            "y": 64.62751
         }
     ],
     "physicsStartAwake": true,
     "properties": null,
     "solid": false,
-    "spriteId": "95f9443b-d79f-4e7c-b5b0-1e497e5eead8",
+    "spriteId": "cf96a689-d656-4c4d-a378-c3ad76b6e791",
     "visible": true
 }

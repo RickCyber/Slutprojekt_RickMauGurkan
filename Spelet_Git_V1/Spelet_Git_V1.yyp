@@ -415,6 +415,14 @@
             }
         },
         {
+            "Key": "3205796f-9ffe-4cf7-94da-8cac846768c4",
+            "Value": {
+                "id": "126f5930-bc70-4263-8c5e-c3c6356968c4",
+                "resourcePath": "sprites\\spr_real_chain\\spr_real_chain.yy",
+                "resourceType": "GMSprite"
+            }
+        },
+        {
             "Key": "3325d516-372f-444e-a992-8ff15df3b147",
             "Value": {
                 "id": "2ae0bd82-84fe-4984-aaea-50087e2c5945",
@@ -468,6 +476,14 @@
                 "id": "bf8e0675-473c-4492-8f02-b83ad7662989",
                 "resourcePath": "scripts\\scr_move_bounce\\scr_move_bounce.yy",
                 "resourceType": "GMScript"
+            }
+        },
+        {
+            "Key": "385482d2-6953-4888-bf8b-c78cdd5d97c6",
+            "Value": {
+                "id": "251aea47-66f6-46f6-a5d5-0adbb290c93d",
+                "resourcePath": "sprites\\spr_real_pil\\spr_real_pil.yy",
+                "resourceType": "GMSprite"
             }
         },
         {
@@ -652,6 +668,14 @@
                 "id": "25b1c2dc-a9ac-4abd-a686-c7573e5d8b61",
                 "resourcePath": "objects\\obj_dash_effect\\obj_dash_effect.yy",
                 "resourceType": "GMObject"
+            }
+        },
+        {
+            "Key": "5928f954-65e2-438d-ade2-c1d45b4d2abb",
+            "Value": {
+                "id": "efe5e172-1add-4f27-8264-8c7f59591f9d",
+                "resourcePath": "sprites\\spr_real_hookshot\\spr_real_hookshot.yy",
+                "resourceType": "GMSprite"
             }
         },
         {
@@ -1515,6 +1539,14 @@
             "Value": {
                 "id": "5376613b-5303-4c7a-ada4-cfb2405b1e04",
                 "resourcePath": "sprites\\spr_holy_boi_back\\spr_holy_boi_back.yy",
+                "resourceType": "GMSprite"
+            }
+        },
+        {
+            "Key": "cf96a689-d656-4c4d-a378-c3ad76b6e791",
+            "Value": {
+                "id": "da423493-2f73-4f1c-b8cf-6d4a8818674e",
+                "resourcePath": "sprites\\spr_real_ice\\spr_real_ice.yy",
                 "resourceType": "GMSprite"
             }
         },
