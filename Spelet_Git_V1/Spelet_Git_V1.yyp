@@ -375,6 +375,14 @@
             }
         },
         {
+            "Key": "2dd4f03d-a385-4b2e-9199-4ca7434ecd0e",
+            "Value": {
+                "id": "04e365b4-e613-4c61-a08b-0601da4931af",
+                "resourcePath": "sprites\\spr_amulett_1\\spr_amulett_1.yy",
+                "resourceType": "GMSprite"
+            }
+        },
+        {
             "Key": "2e8bf253-c13b-4115-9578-eecb8134e53c",
             "Value": {
                 "id": "b05ed3c7-5f37-4be4-9b4c-f955c8ea15a4",
@@ -651,6 +659,14 @@
             "Value": {
                 "id": "0b4cb713-9989-41a5-9dfb-7f7bc12ac0e0",
                 "resourcePath": "sprites\\spr_clotharmor\\spr_clotharmor.yy",
+                "resourceType": "GMSprite"
+            }
+        },
+        {
+            "Key": "57d65f29-678d-48aa-8090-e66e0df02213",
+            "Value": {
+                "id": "03ca5fd0-273f-438e-853c-06ae0f19a9fa",
+                "resourcePath": "sprites\\spr_amulett_3\\spr_amulett_3.yy",
                 "resourceType": "GMSprite"
             }
         },
@@ -999,6 +1015,14 @@
             }
         },
         {
+            "Key": "893e17c1-33b1-4d67-b968-f34fcdbb38d6",
+            "Value": {
+                "id": "27c6e7ac-1d92-4cfb-b7b4-ecaa147fb4db",
+                "resourcePath": "sprites\\spr_pick_up_Hookshot\\spr_pick_up_Hookshot.yy",
+                "resourceType": "GMSprite"
+            }
+        },
+        {
             "Key": "89f6a7f5-c208-40cb-8322-581c7c0aa81c",
             "Value": {
                 "id": "93688f89-ac33-47ba-b942-f7743a246404",
@@ -1236,6 +1260,14 @@
                 "id": "065913d0-aa12-43cb-ac14-067a58f120b7",
                 "resourcePath": "scripts\\scr_slime_chase\\scr_slime_chase.yy",
                 "resourceType": "GMScript"
+            }
+        },
+        {
+            "Key": "a0f279a8-ed6b-4c82-8335-ee205b90dc87",
+            "Value": {
+                "id": "ad56378d-61fd-4741-a97c-ebb9b08aba8c",
+                "resourcePath": "objects\\obj_amulet\\obj_amulet.yy",
+                "resourceType": "GMObject"
             }
         },
         {
@@ -1639,6 +1671,14 @@
             }
         },
         {
+            "Key": "dddaea4b-6eb7-427d-a71f-0adea7c01c43",
+            "Value": {
+                "id": "4e6d69e7-b941-4f1e-b0a9-36af738a1964",
+                "resourcePath": "sprites\\spr_pick_up_Icerod\\spr_pick_up_Icerod.yy",
+                "resourceType": "GMSprite"
+            }
+        },
+        {
             "Key": "ddeb65af-6f41-4fc3-a1f7-51320685aac1",
             "Value": {
                 "id": "3ad15c94-d59a-469d-8f29-82f4abc12c95",
@@ -1707,6 +1747,14 @@
             "Value": {
                 "id": "5a6342cc-2352-4c32-898d-190fe790b322",
                 "resourcePath": "sprites\\spr_boss1_v3\\spr_boss1_v3.yy",
+                "resourceType": "GMSprite"
+            }
+        },
+        {
+            "Key": "eb3ad0d9-dd88-456f-8350-1a94bcd246e4",
+            "Value": {
+                "id": "d560f638-118b-49b3-9a5c-27184fd5679c",
+                "resourcePath": "sprites\\spr_amulett_2\\spr_amulett_2.yy",
                 "resourceType": "GMSprite"
             }
         },
@@ -1836,6 +1884,14 @@
                 "id": "5ea99197-3619-4b6b-9553-6c4a5cc1e169",
                 "resourcePath": "objects\\obj_ice\\obj_ice.yy",
                 "resourceType": "GMObject"
+            }
+        },
+        {
+            "Key": "fc609de4-f2b3-4d36-9ce8-e74a2352e79c",
+            "Value": {
+                "id": "2c2385b6-2c63-47eb-baea-cc89b5f1b212",
+                "resourcePath": "sprites\\spr_pick_up_Dash\\spr_pick_up_Dash.yy",
+                "resourceType": "GMSprite"
             }
         },
         {
