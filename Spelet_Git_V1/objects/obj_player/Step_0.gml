@@ -77,9 +77,9 @@ if physics_test_overlap(x,y,0,obj_flamethrower)
 {
 	if (obj_flamethrower.reset == true)
 	{
-		obj_player.hp -= 1;
+		obj_player.hp -= 5;
 		obj_flamethrower.reset = false;
-		obj_flamethrower.alarm[1] = 60
+		obj_flamethrower.alarm[1] = 50
 	}
 }
 

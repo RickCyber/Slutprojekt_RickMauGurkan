@@ -39,6 +39,10 @@ if z <= 1 and inwater >= 3{
 	}
 }
 
+alarm[1] = 90;
+
+
+/*
 if (fas == 1)
 {
 	if (hittable == false)
@@ -85,4 +89,4 @@ else if (fas == 3)
 			alarm[1] = 90
 		}
 	}
-}
+}*/
