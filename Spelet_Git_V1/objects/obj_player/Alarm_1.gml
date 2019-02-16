@@ -19,13 +19,13 @@ if (room == rm1)
 	state = scr_move_state;
 }
 
-if (room == rm2)
+if (room == rm_intro)
 {
 	phy_rotation = 0;
 	image_xscale = 1;
 	image_yscale = 1;
-	phy_position_x = 900;
-	phy_position_y = 100;
+	phy_position_x = 360;
+	phy_position_y = 216;
 	damaged = false;
 	state = scr_move_state;
 }
