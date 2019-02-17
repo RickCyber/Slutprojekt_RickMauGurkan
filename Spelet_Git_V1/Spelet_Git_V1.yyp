@@ -847,6 +847,14 @@
             }
         },
         {
+            "Key": "6bc1c189-7d26-4cc7-b0ae-23fd4ae9a5a4",
+            "Value": {
+                "id": "13fc1ca4-1aae-4665-b3a2-1aa4819d1b7a",
+                "resourcePath": "objects\\obj_tree_big_evil\\obj_tree_big_evil.yy",
+                "resourceType": "GMObject"
+            }
+        },
+        {
             "Key": "6d25ef8d-1fe8-49db-bad6-95545c058727",
             "Value": {
                 "id": "4a35690f-f977-4feb-be7f-33b8cc47a68d",
@@ -884,6 +892,14 @@
                 "id": "fe9fb6f8-d763-4836-9c55-1092370ce00b",
                 "resourcePath": "objects\\obj_boss3Spar\\obj_boss3Spar.yy",
                 "resourceType": "GMObject"
+            }
+        },
+        {
+            "Key": "741e07dc-ad4b-425e-af07-009559b10f09",
+            "Value": {
+                "id": "44c71cd0-4096-43fe-9fc7-4cf24ac41959",
+                "resourcePath": "rooms\\rm_church\\rm_church.yy",
+                "resourceType": "GMRoom"
             }
         },
         {
@@ -1111,6 +1127,14 @@
             }
         },
         {
+            "Key": "8ef45613-011b-49c4-8388-1ba6bb576a4a",
+            "Value": {
+                "id": "91761d21-f126-4e38-96f9-072d47494324",
+                "resourcePath": "rooms\\rm_level_1_1\\rm_level_1_1.yy",
+                "resourceType": "GMRoom"
+            }
+        },
+        {
             "Key": "8f948e66-9be2-4c42-8175-6120780c4337",
             "Value": {
                 "id": "6b6eeed2-49ac-4edb-9349-06bd9233a61a",
@@ -1163,6 +1187,14 @@
             "Value": {
                 "id": "03012761-d1b1-4428-a5d3-edca41a658c3",
                 "resourcePath": "sprites\\spr_attack_left\\spr_attack_left.yy",
+                "resourceType": "GMSprite"
+            }
+        },
+        {
+            "Key": "923e3289-440d-4430-afe6-7cd8fe7eef1f",
+            "Value": {
+                "id": "38e2b1ee-47ef-4001-9349-1942716d5592",
+                "resourcePath": "sprites\\spr_tree_big_evil\\spr_tree_big_evil.yy",
                 "resourceType": "GMSprite"
             }
         },
