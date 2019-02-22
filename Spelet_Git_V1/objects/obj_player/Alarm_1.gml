@@ -30,6 +30,50 @@ if (room == rm_intro)
 	state = scr_move_state;
 }
 
+if (room == rm_level_3_1)
+{
+	phy_rotation = 0;
+	image_xscale = 1;
+	image_yscale = 1;
+	phy_position_x = 192;
+	phy_position_y = 488;
+	damaged = false;
+	state = scr_move_state;
+}
+
+if (room == rm_level_3_2)
+{
+	phy_rotation = 0;
+	image_xscale = 1;
+	image_yscale = 1;
+	phy_position_x = 248;
+	phy_position_y = 224;
+	damaged = false;
+	state = scr_move_state;
+}
+
+if (room == rm_level_3_3)
+{
+	phy_rotation = 0;
+	image_xscale = 1;
+	image_yscale = 1;
+	phy_position_x = 552;
+	phy_position_y = 700;
+	damaged = false;
+	state = scr_move_state;
+}
+
+if (room == rm_boss_3)
+{
+	phy_rotation = 0;
+	image_xscale = 1;
+	image_yscale = 1;
+	phy_position_x = 510;
+	phy_position_y = 382;
+	damaged = false;
+	state = scr_move_state;
+}
+
 if (room == rm3)
 {
 	phy_rotation = 0;
