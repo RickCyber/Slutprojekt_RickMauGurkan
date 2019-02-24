@@ -1,4 +1,4 @@
-///scr_respawn_state
+///scr_respawn_state ÄNVÄNDS INTE
 
 // Take damage
 if (damaged == false)

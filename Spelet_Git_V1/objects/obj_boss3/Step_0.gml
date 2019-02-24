@@ -73,6 +73,10 @@ if (fas == 1)
 	//Check if collition with floor
 	if !place_meeting(x,y,obj_water){
 		hittable = false
+		if (jump == true)
+		{
+			res = false;
+		}
 		if ((z + z_spd) < 0){
 			while((z + sign(z_spd)) > 0){
 				z += sign(z_spd)
@@ -89,7 +93,7 @@ if (fas == 1)
 		}
 	}
 	else{
-		hittable = true
+		hittable = true;
 		if ((z + z_spd) < 0){
 			while((z + sign(z_spd)) > 0){
 				z += sign(z_spd)
@@ -292,6 +296,10 @@ if (fas == 2)
 	//Check if collition with floor
 	if !place_meeting(x,y,obj_water){
 		hittable = false
+		if (jump == true)
+		{
+			res = false;
+		}
 		if ((z + z_spd) < 0){
 			while((z + sign(z_spd)) > 0){
 				z += sign(z_spd)
@@ -523,6 +531,10 @@ if (fas == 3)
 	//Check if collition with floor
 	if !place_meeting(x,y,obj_water){
 		hittable = false
+		if (jump == true)
+		{
+			res = false;
+		}
 		if ((z + z_spd) < 0){
 			while((z + sign(z_spd)) > 0){
 				z += sign(z_spd)

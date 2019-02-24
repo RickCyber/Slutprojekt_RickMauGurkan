@@ -25,3 +25,13 @@ if (jump == false){
 else{
 	draw_text(obj_player.x + 40,obj_player.y + 4, "Jump = True")
 }
+
+
+if (res == true)
+{
+	draw_text(obj_player.x + 40,obj_player.y + 20,"RES == TRUE");
+}
+else
+{
+	draw_text(obj_player.x + 40,obj_player.y + 20,"RES == FALSE");
+}
