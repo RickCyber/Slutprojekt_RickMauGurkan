@@ -5,12 +5,12 @@ image_speed = 0;
 //Change from correct sprite after attack
 switch (sprite_index)
 {
-	case spr_attack_down:
-		sprite_index = spr_player_down;
+	case spr_zombie_side_Animation_Walk_Attack:
+		sprite_index = spr_zombie_side_Animation_Walk;
 		break;
 		
-	case spr_attack_right:
-		sprite_index = spr_player_right;
+	case spr_zombie_side_Animation_Walk_Attack_left:
+		sprite_index = spr_zombie_side_Animation_Walk_left;
 		break;
 			
 	case spr_attack_up:

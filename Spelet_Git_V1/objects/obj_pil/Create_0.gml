@@ -7,19 +7,19 @@ creator = noone;
 bspd = 5;
 
 //Get direction based upon player direction
-if (obj_player.sprite_index == spr_attack_right)
+if (obj_player.face == 0)
 {
     var sdir = point_direction(0,0,1,0)
 }
-else if (obj_player.sprite_index == spr_attack_up)
+else if (obj_player.face == 1)
 {
     var sdir = point_direction(0,0,0,-1)
 }
-else if (obj_player.sprite_index == spr_attack_left)
+else if (obj_player.face == 2)
 {
     var sdir = point_direction(0,0,-1,0)
 }
-else if (obj_player.sprite_index == spr_attack_down)
+else if (obj_player.face == 3)
 {
     var sdir = point_direction(0,0,0,1)
 }

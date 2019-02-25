@@ -3,7 +3,6 @@
 event_inherited();
 state = scr_zombie_idle;
 alarm[2] = room_speed*irandom_range(2,5);
-image_blend = c_green;
 image_speed = .25;
 tick = false;
 attacked = false;

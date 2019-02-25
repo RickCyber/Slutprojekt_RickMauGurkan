@@ -6,20 +6,20 @@ if (state != scr_dash_state and state != scr_hookshot_state and fall == false an
 {
 	switch (sprite_index)
 	{
-		case spr_attack_down:
-			sprite_index = spr_player_down;
+		case spr_big_boy_side_sword_attack_animation_left:
+			sprite_index = spr_big_boy_side_sword_animation_left;
 			break;
 		
-		case spr_attack_right:
-			sprite_index = spr_player_right;
+		case spr_big_boy_side_sword_attack_animation_right:
+			sprite_index = spr_big_boy_side_sword_animation_right;
 			break;
 			
-		case spr_attack_up:
-			sprite_index = spr_player_up;
+		case spr_big_boy_side_bow_attack_animation_left:
+			sprite_index = spr_big_boy_side_bow_animation_left;
 			break;
 		
-		case spr_attack_left:
-			sprite_index = spr_player_left;
+		case spr_big_boy_side_bow_attack_animation_right:
+			sprite_index = spr_big_boy_side_bow_animation_right;
 			break;
 	}
 	fall = true;

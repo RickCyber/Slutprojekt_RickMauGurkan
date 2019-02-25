@@ -1,34 +1,57 @@
 ///scr_bow_state
 scr_get_input();
 
-image_speed = .75;
+image_speed = 1.5;
 
 // Change to Bow sprite based on direction
 switch (sprite_index)
 {
-	case spr_player_down:
-		sprite_index = spr_attack_down;
+	case spr_big_boy_side_bow_animation_left:
+		sprite_index = spr_big_boy_side_bow_attack_animation_left;
 		break;
 		
-	case spr_player_right:
-		sprite_index = spr_attack_right;
+	case spr_big_boy_side_bow_animation_right:
+		sprite_index = spr_big_boy_side_bow_attack_animation_right;
 		break;
 			
-	case spr_player_up:
-		sprite_index = spr_attack_up;
+	case spr_big_boy_side_sword_animation_left:
+		sprite_index = spr_big_boy_side_sword_attack_animation_left;
 		break;
 		
-	case spr_player_left:
-		sprite_index = spr_attack_left;
+	case spr_big_boy_side_sword_animation_right:
+		sprite_index = spr_big_boy_side_sword_attack_animation_right;
 		break;
 }
 
 // Use Attack only once
-if (image_index >= 2 and attacked == false)
+if (image_index >= 10 and attacked == false)
 {
 	//Get distance based upon which direction
 	var xx = 0;
 	var yy = 0;
+	
+	if (face == 1)
+	{
+		xx = x;
+		yy = y-12;
+	}
+	else if (face == 3)
+	{
+		xx = x;
+		yy = y+15;
+	}
+	else if (face == 0)
+	{
+		xx = x+16;
+		yy = y;
+	}
+	else if (face == 2)
+	{
+		xx = x-16;
+		yy = y;
+	}
+	
+	/*
 	switch (sprite_index)
 	{
 		case spr_attack_down:
@@ -50,7 +73,7 @@ if (image_index >= 2 and attacked == false)
 			xx = x-16;
 			yy = y;
 			break;
-	}
+	}*/
 	
 	///Create Arrow, Make it so it doesn't hit player, Make it so it only attack once
 	var damage = instance_create_depth(xx,yy,depth,obj_pil)

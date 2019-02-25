@@ -19,6 +19,14 @@ if (bhspd < 0 and bvspd == 0)
 			obj_player.state = scr_poison_state;
 		}
 		obj_player.attacked = false;
+		if (obj_player.attack == 1)
+		{
+			obj_player.sprite_index = spr_big_boy_side_sword_animation_right
+		}
+		else
+		{
+			obj_player.sprite_index = spr_big_boy_side_bow_animation_right
+		}
 		instance_destroy();
 	}
 	
@@ -26,7 +34,16 @@ if (bhspd < 0 and bvspd == 0)
 	{
 		//Drag player towards point hit
 		obj_player.phy_position_x -= obj_player.spd*3;
-		
+		switch (obj_player.sprite_index)
+		{
+			case spr_big_boy_side_hookshot_animation_left:
+				obj_player.sprite_index = spr_big_boy_side_hookshot_animation_left_flying
+				break;
+			
+			case spr_big_boy_side_hookshot_animation_right:
+				obj_player.sprite_index = spr_big_boy_side_hookshot_animation_right_flying
+				break;
+		}
 		//Destroy hook after player is at final distance
 		if (x+10 >= obj_player.x)
 		{
@@ -59,6 +76,14 @@ else if (bhspd > 0 and bvspd == 0)
 			obj_player.state = scr_poison_state;
 		}
 		obj_player.attacked = false;
+		if (obj_player.attack == 1)
+		{
+			obj_player.sprite_index = spr_big_boy_side_sword_animation_right
+		}
+		else
+		{
+			obj_player.sprite_index = spr_big_boy_side_bow_animation_right
+		}
 		instance_destroy();
 	}
 	
@@ -66,6 +91,16 @@ else if (bhspd > 0 and bvspd == 0)
 	{
 		//Drag player towards point hit
 		obj_player.phy_position_x += obj_player.spd*3;
+		switch (obj_player.sprite_index)
+		{
+			case spr_big_boy_side_hookshot_animation_left:
+				obj_player.sprite_index = spr_big_boy_side_hookshot_animation_left_flying
+				break;
+			
+			case spr_big_boy_side_hookshot_animation_right:
+				obj_player.sprite_index = spr_big_boy_side_hookshot_animation_right_flying
+				break;
+		}
 		
 		//Destroy hook after player is at final distance
 		if (x-10 <= obj_player.x)
@@ -99,6 +134,14 @@ else if (bhspd == 0 and bvspd > 0)
 			obj_player.state = scr_poison_state;
 		}
 		obj_player.attacked = false;
+		if (obj_player.attack == 1)
+		{
+			obj_player.sprite_index = spr_big_boy_side_sword_animation_right
+		}
+		else
+		{
+			obj_player.sprite_index = spr_big_boy_side_bow_animation_right
+		}
 		instance_destroy();
 	}
 	
@@ -106,6 +149,16 @@ else if (bhspd == 0 and bvspd > 0)
 	{
 		//Drag player towards point hit
 		obj_player.phy_position_y += obj_player.spd*3;
+		switch (obj_player.sprite_index)
+		{
+			case spr_big_boy_side_hookshot_animation_left:
+				obj_player.sprite_index = spr_big_boy_side_hookshot_animation_left_flying
+				break;
+			
+			case spr_big_boy_side_hookshot_animation_right:
+				obj_player.sprite_index = spr_big_boy_side_hookshot_animation_right_flying
+				break;
+		}
 		
 		//Destroy hook after player is at final distance
 		if (y-10 <= obj_player.y)
@@ -139,6 +192,14 @@ else
 			obj_player.state = scr_poison_state;
 		}
 		obj_player.attacked = false;
+		if (obj_player.attack == 1)
+		{
+			obj_player.sprite_index = spr_big_boy_side_sword_animation_right
+		}
+		else
+		{
+			obj_player.sprite_index = spr_big_boy_side_bow_animation_right
+		}
 		instance_destroy();
 	}
 	
@@ -146,6 +207,16 @@ else
 	{	
 		//Drag player towards point hit
 		obj_player.phy_position_y -= obj_player.spd*3;
+		switch (obj_player.sprite_index)
+		{
+			case spr_big_boy_side_hookshot_animation_left:
+				obj_player.sprite_index = spr_big_boy_side_hookshot_animation_left_flying
+				break;
+			
+			case spr_big_boy_side_hookshot_animation_right:
+				obj_player.sprite_index = spr_big_boy_side_hookshot_animation_right_flying
+				break;
+		}
 		
 		//Destroy hook after player is at final distance
 		if (y+10 >= obj_player.y)

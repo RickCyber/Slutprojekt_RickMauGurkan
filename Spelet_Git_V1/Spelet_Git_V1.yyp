@@ -191,6 +191,14 @@
             }
         },
         {
+            "Key": "0e20bea1-7bab-4693-8ef4-98b55fc8d09c",
+            "Value": {
+                "id": "40b12d8d-d98f-421e-81e9-40d7184a5ee1",
+                "resourcePath": "sprites\\spr_zombie_side_Animation_Walk_Attack\\spr_zombie_side_Animation_Walk_Attack.yy",
+                "resourceType": "GMSprite"
+            }
+        },
+        {
             "Key": "0e586dd9-da7c-402e-b01a-4df6601c6909",
             "Value": {
                 "id": "4b28c41c-7ad2-4be5-b7f6-d305b947adff",
@@ -207,11 +215,27 @@
             }
         },
         {
+            "Key": "0ed99f74-8433-4360-a8e9-857caf88cd6c",
+            "Value": {
+                "id": "2a0112ad-a7b1-49c1-9dd6-5e4f8eac218b",
+                "resourcePath": "sprites\\spr_big_boy_side_sword_animation_left\\spr_big_boy_side_sword_animation_left.yy",
+                "resourceType": "GMSprite"
+            }
+        },
+        {
             "Key": "12b05d2f-0294-4ba2-96e1-2d5efd0d29f4",
             "Value": {
                 "id": "e2d2fac6-092a-4222-8293-3d11cc30e582",
                 "resourcePath": "objects\\oFireParticle\\oFireParticle.yy",
                 "resourceType": "GMObject"
+            }
+        },
+        {
+            "Key": "146fe6be-af94-4e6c-bc87-8be79fe2192b",
+            "Value": {
+                "id": "62fc796e-1219-4176-a6c3-508fa940fe43",
+                "resourcePath": "sprites\\spr_big_boy_side_sword_animation_right\\spr_big_boy_side_sword_animation_right.yy",
+                "resourceType": "GMSprite"
             }
         },
         {
@@ -228,6 +252,14 @@
                 "id": "d62f796d-f485-49ae-abc9-a3ec310282cf",
                 "resourcePath": "objects\\obj_firecircle\\obj_firecircle.yy",
                 "resourceType": "GMObject"
+            }
+        },
+        {
+            "Key": "1559e325-f49d-47da-b1f3-89d9638475b8",
+            "Value": {
+                "id": "0680dfc6-0d46-41b5-b268-6075a9041e34",
+                "resourcePath": "sprites\\spr_big_boy_side_hookshot_animation_right\\spr_big_boy_side_hookshot_animation_right.yy",
+                "resourceType": "GMSprite"
             }
         },
         {
@@ -319,6 +351,14 @@
             }
         },
         {
+            "Key": "1cee733d-7f46-4401-ab10-8abe9e6432d1",
+            "Value": {
+                "id": "2d2e9462-9013-41ca-90cd-f6139e4eb8c0",
+                "resourcePath": "sprites\\spr_big_boy_side_hookshot_animation_right_flying\\spr_big_boy_side_hookshot_animation_right_flying.yy",
+                "resourceType": "GMSprite"
+            }
+        },
+        {
             "Key": "1cf0bcba-4c68-491e-bf82-4d227eff7484",
             "Value": {
                 "id": "6dc4c0b6-f5bd-4407-acb5-7beb767a827b",
@@ -351,6 +391,14 @@
             }
         },
         {
+            "Key": "259928cc-9c05-4348-b179-4a3b471dc3ef",
+            "Value": {
+                "id": "04d6ff91-88c5-4848-a53c-9481b834f7b0",
+                "resourcePath": "sprites\\spr_big_boy_side_icerod_animation_left\\spr_big_boy_side_icerod_animation_left.yy",
+                "resourceType": "GMSprite"
+            }
+        },
+        {
             "Key": "263bda10-9b75-4c68-9486-1906e091a6dc",
             "Value": {
                 "id": "36a468bc-fe53-476e-b71a-79de7796aab4",
@@ -380,6 +428,14 @@
                 "id": "88eb99fb-a9d8-4376-ab09-fbacecf0c6b9",
                 "resourcePath": "views\\289fa5b5-d3a9-46af-a229-035a02b2964c.yy",
                 "resourceType": "GMFolder"
+            }
+        },
+        {
+            "Key": "2c0707c8-3710-4bc2-a4a7-5e89ae017687",
+            "Value": {
+                "id": "98536ed5-f50c-4be7-bd40-2f47034d0ad9",
+                "resourcePath": "sprites\\spr_zombie_side_Animation_Walk_Attack_left\\spr_zombie_side_Animation_Walk_Attack_left.yy",
+                "resourceType": "GMSprite"
             }
         },
         {
@@ -519,6 +575,14 @@
             }
         },
         {
+            "Key": "39d0ea53-e082-457b-b05b-8000e04568c2",
+            "Value": {
+                "id": "77382380-53fb-4dfb-9c00-6491b46264fc",
+                "resourcePath": "sprites\\spr_zombie_side_Animation_Walk\\spr_zombie_side_Animation_Walk.yy",
+                "resourceType": "GMSprite"
+            }
+        },
+        {
             "Key": "3d6d7e2b-2d26-4874-920c-2deac453a411",
             "Value": {
                 "id": "f58f32e3-eb89-4175-9097-75c0c35c94d8",
@@ -538,7 +602,7 @@
             "Key": "3e1fef91-aa33-4fe0-b4fd-f04f5757dec1",
             "Value": {
                 "id": "1adb4d2f-e705-40d6-a63b-cc1184ad403c",
-                "resourcePath": "sprites\\spr_big_boy_side_bow_attack_animation_left\\spr_big_boy_side_bow_attack_animation_left.yy",
+                "resourcePath": "sprites\\spr_big_boy_side_bow_attack_animation_left_old\\spr_big_boy_side_bow_attack_animation_left_old.yy",
                 "resourceType": "GMSprite"
             }
         },
@@ -703,6 +767,14 @@
             }
         },
         {
+            "Key": "578bb880-28bc-42ef-ba98-933dfa278988",
+            "Value": {
+                "id": "43cc9a9b-a121-493c-a08a-41b8c1c59e96",
+                "resourcePath": "sprites\\spr_big_boy_side_bow_attack_animation_left\\spr_big_boy_side_bow_attack_animation_left.yy",
+                "resourceType": "GMSprite"
+            }
+        },
+        {
             "Key": "57d65f29-678d-48aa-8090-e66e0df02213",
             "Value": {
                 "id": "03ca5fd0-273f-438e-853c-06ae0f19a9fa",
@@ -751,11 +823,27 @@
             }
         },
         {
+            "Key": "5c58ebd3-9090-4c5d-a0eb-d446918eadb8",
+            "Value": {
+                "id": "c15f5a87-0be1-472b-895f-342d9c63ac96",
+                "resourcePath": "sprites\\spr_big_boy_side_bow_animation_left\\spr_big_boy_side_bow_animation_left.yy",
+                "resourceType": "GMSprite"
+            }
+        },
+        {
             "Key": "5d6a100c-f6dc-478d-b5c8-51f375429a08",
             "Value": {
                 "id": "68ecdc15-82c1-4583-a556-189dcbd21eda",
                 "resourcePath": "views\\5d6a100c-f6dc-478d-b5c8-51f375429a08.yy",
                 "resourceType": "GMFolder"
+            }
+        },
+        {
+            "Key": "5e0aa4f0-3305-4847-8eac-a9bc16eac408",
+            "Value": {
+                "id": "b8169872-85c2-424b-940b-b28221a5f7cf",
+                "resourcePath": "sprites\\spr_big_boy_side_bow_animation_right\\spr_big_boy_side_bow_animation_right.yy",
+                "resourceType": "GMSprite"
             }
         },
         {
@@ -770,7 +858,7 @@
             "Key": "60a64e52-f756-44e5-90bb-2f3c20c4a807",
             "Value": {
                 "id": "4ac07050-b295-4f54-bcef-c79f0df0345a",
-                "resourcePath": "sprites\\spr_big_boy_side_bow_animation_left\\spr_big_boy_side_bow_animation_left.yy",
+                "resourcePath": "sprites\\spr_big_boy_side_bow_animation_left_old\\spr_big_boy_side_bow_animation_left_old.yy",
                 "resourceType": "GMSprite"
             }
         },
@@ -779,6 +867,14 @@
             "Value": {
                 "id": "437861e8-43e9-4e9b-9914-489982464144",
                 "resourcePath": "sprites\\spr_player_left\\spr_player_left.yy",
+                "resourceType": "GMSprite"
+            }
+        },
+        {
+            "Key": "62a4c337-b3e7-4346-a000-4e86dcc7df45",
+            "Value": {
+                "id": "6d28cc94-9c49-4535-a31d-e989e07cc675",
+                "resourcePath": "sprites\\spr_big_boy_side_bow_attack_animation_right\\spr_big_boy_side_bow_attack_animation_right.yy",
                 "resourceType": "GMSprite"
             }
         },
@@ -951,11 +1047,27 @@
             }
         },
         {
+            "Key": "784b7d38-fe85-4533-a5e2-cec2c618c6b4",
+            "Value": {
+                "id": "46d9d8ab-0266-4c6e-862f-038759cb3e19",
+                "resourcePath": "sprites\\spr_big_boy_side_bow_breath_right\\spr_big_boy_side_bow_breath_right.yy",
+                "resourceType": "GMSprite"
+            }
+        },
+        {
             "Key": "796a8b66-15ac-4ce6-9b59-9dde73064562",
             "Value": {
                 "id": "faa8615b-56f9-4d82-a4de-9b92d39ca484",
                 "resourcePath": "scripts\\scr_poison_state\\scr_poison_state.yy",
                 "resourceType": "GMScript"
+            }
+        },
+        {
+            "Key": "7a75a70a-4890-46c4-92c1-02bf9ae6ab67",
+            "Value": {
+                "id": "7e618eac-1a0f-494f-ace3-97868a6bb669",
+                "resourcePath": "sprites\\spr_big_boy_side_sword_attack_animation_right\\spr_big_boy_side_sword_attack_animation_right.yy",
+                "resourceType": "GMSprite"
             }
         },
         {
@@ -1231,6 +1343,14 @@
             }
         },
         {
+            "Key": "93d72b49-68be-4691-bb2e-38af34cc4a81",
+            "Value": {
+                "id": "69873953-ea0d-40f8-9a95-95ea2c13a476",
+                "resourcePath": "sprites\\spr_zombie_side_Animation_Stall\\spr_zombie_side_Animation_Stall.yy",
+                "resourceType": "GMSprite"
+            }
+        },
+        {
             "Key": "959dd734-d5f9-4e2c-9914-0c12c3b17f59",
             "Value": {
                 "id": "b2b6d1b9-0cca-44ec-b4a6-ac33834c3d83",
@@ -1258,7 +1378,7 @@
             "Key": "96e29e4d-e808-441b-8c16-b0703d40f3ae",
             "Value": {
                 "id": "77d8f12f-5196-4d66-a273-14541b627425",
-                "resourcePath": "sprites\\spr_big_boy_side_bow_attack_animation_right\\spr_big_boy_side_bow_attack_animation_right.yy",
+                "resourcePath": "sprites\\spr_big_boy_side_bow_attack_animation_right_old\\spr_big_boy_side_bow_attack_animation_right_old.yy",
                 "resourceType": "GMSprite"
             }
         },
@@ -1375,6 +1495,14 @@
             }
         },
         {
+            "Key": "a1e6c0dc-c369-4918-937a-2ef4c7514215",
+            "Value": {
+                "id": "dc82aaf4-b323-4f28-8748-4a22943e4720",
+                "resourcePath": "sprites\\spr_zombie_side_Animation_Walk_left\\spr_zombie_side_Animation_Walk_left.yy",
+                "resourceType": "GMSprite"
+            }
+        },
+        {
             "Key": "a36f71ce-ab81-45d4-b75a-29d405399839",
             "Value": {
                 "id": "cb357f9e-d94d-48ab-8c3a-3349da487681",
@@ -1404,6 +1532,14 @@
                 "id": "39294a1c-1c80-4fd0-9c2e-9db68ab1eb56",
                 "resourcePath": "scripts\\scr_zombie_chase\\scr_zombie_chase.yy",
                 "resourceType": "GMScript"
+            }
+        },
+        {
+            "Key": "a55675a3-fb05-4087-9f39-44032ed63038",
+            "Value": {
+                "id": "745bc729-c5e5-4c70-9425-ecf6171482ce",
+                "resourcePath": "views\\a55675a3-fb05-4087-9f39-44032ed63038.yy",
+                "resourceType": "GMFolder"
             }
         },
         {
@@ -1511,10 +1647,26 @@
             }
         },
         {
+            "Key": "b5eaa946-1b89-4f47-8e1c-38a4de990840",
+            "Value": {
+                "id": "9e80d5c2-7f4a-4954-b415-b96ab251b32a",
+                "resourcePath": "sprites\\spr_big_boy_side_bow_breath_left\\spr_big_boy_side_bow_breath_left.yy",
+                "resourceType": "GMSprite"
+            }
+        },
+        {
             "Key": "b96ec357-1269-4fb1-a465-6a861931c336",
             "Value": {
                 "id": "c6f6c711-7ce5-4f64-9911-b1530351d849",
                 "resourcePath": "sprites\\spr_player_down\\spr_player_down.yy",
+                "resourceType": "GMSprite"
+            }
+        },
+        {
+            "Key": "b9d5b07a-3549-45e8-8611-70290aadd339",
+            "Value": {
+                "id": "9431c1c7-3184-4666-8f26-6bbfae0be49c",
+                "resourcePath": "sprites\\spr_big_boy_side_sword_breath_left\\spr_big_boy_side_sword_breath_left.yy",
                 "resourceType": "GMSprite"
             }
         },
@@ -1655,6 +1807,14 @@
             }
         },
         {
+            "Key": "cbc1df0e-83f4-41ac-8246-458b4adeee08",
+            "Value": {
+                "id": "b43ace75-dcaa-4f91-ba6b-c42f674ea4ff",
+                "resourcePath": "sprites\\spr_big_boy_side_hookshot_animation_left\\spr_big_boy_side_hookshot_animation_left.yy",
+                "resourceType": "GMSprite"
+            }
+        },
+        {
             "Key": "cc26837e-8f46-4862-a27b-1154a4ca7898",
             "Value": {
                 "id": "d2d46d2f-8333-4cbd-91c6-f993f461fcf9",
@@ -1759,6 +1919,14 @@
             }
         },
         {
+            "Key": "d99c9cae-d254-4582-ac17-d18e7d31f9b0",
+            "Value": {
+                "id": "f464578c-3f1d-4371-9006-801aee8f899e",
+                "resourcePath": "sprites\\spr_big_boy_side_icerod_animation_right\\spr_big_boy_side_icerod_animation_right.yy",
+                "resourceType": "GMSprite"
+            }
+        },
+        {
             "Key": "da8d7c72-a6cf-48bc-ac3d-1a4636ff9b96",
             "Value": {
                 "id": "508a4432-5c87-404f-b0d7-9640afed8862",
@@ -1779,6 +1947,14 @@
             "Value": {
                 "id": "85f70768-1210-46c0-8d99-e704f561f5ce",
                 "resourcePath": "sprites\\spr_ph_wall_corners\\spr_ph_wall_corners.yy",
+                "resourceType": "GMSprite"
+            }
+        },
+        {
+            "Key": "dd1baa22-4f76-4f18-b250-1ae7b2d41caa",
+            "Value": {
+                "id": "881ae20f-b2b2-4df6-8e10-e756088e3d77",
+                "resourcePath": "sprites\\spr_big_boy_side_hookshot_animation_left_flying\\spr_big_boy_side_hookshot_animation_left_flying.yy",
                 "resourceType": "GMSprite"
             }
         },
@@ -1810,7 +1986,7 @@
             "Key": "dee01a61-7577-4cb2-9920-f43356a14c4f",
             "Value": {
                 "id": "28ffd3c8-d171-44e1-ae6b-9f54ba971330",
-                "resourcePath": "sprites\\spr_big_boy_side_bow_animation_right\\spr_big_boy_side_bow_animation_right.yy",
+                "resourcePath": "sprites\\spr_big_boy_side_bow_animation_right_old\\spr_big_boy_side_bow_animation_right_old.yy",
                 "resourceType": "GMSprite"
             }
         },
@@ -1932,6 +2108,22 @@
                 "id": "40b1b054-dabd-4a0c-8115-212f97285eed",
                 "resourcePath": "views\\f26f2a3d-72c5-412f-9152-faf9ab472e76.yy",
                 "resourceType": "GMFolder"
+            }
+        },
+        {
+            "Key": "f324a2ac-675f-47c9-90e1-29b0c6bc09cf",
+            "Value": {
+                "id": "e4868eaa-d619-48f1-a650-9fdca089b258",
+                "resourcePath": "sprites\\spr_big_boy_side_sword_breath_right\\spr_big_boy_side_sword_breath_right.yy",
+                "resourceType": "GMSprite"
+            }
+        },
+        {
+            "Key": "f3ded9d0-7461-4006-8d49-411728689a19",
+            "Value": {
+                "id": "0eba7117-8f1b-4185-abc3-ed99b61b42aa",
+                "resourcePath": "sprites\\spr_big_boy_side_sword_attack_animation_left\\spr_big_boy_side_sword_attack_animation_left.yy",
+                "resourceType": "GMSprite"
             }
         },
         {
@@ -2060,6 +2252,12 @@
         "ad710803-25ac-4f42-a3d1-da7e809eb146",
         "796a8b66-15ac-4ce6-9b59-9dde73064562",
         "0e586dd9-da7c-402e-b01a-4df6601c6909",
+        "42a8e5b2-575b-41ac-b1d6-238feb29f796",
+        "4c6b07cf-2392-4d94-b513-6059d357e12c",
+        "c1149e56-4c46-4f68-af28-09c4e8ccf40c",
+        "a058c4b4-3f1c-4cda-81b1-9f734d77bd20",
+        "18a4e7fd-ab6d-4cb4-91da-563b408f3ede",
+        "c58abbfc-d9fa-4ee0-a6f9-79221e376b8a",
         "046f90a2-ccd6-46b6-a9aa-6332eb72f4c7",
         "dfda1916-4889-45c5-95d6-9c77f5d7ec06",
         "6d69e16b-7ba6-453e-99c9-5780405ad312",
@@ -2068,12 +2266,6 @@
         "9996da61-fc18-45df-940d-bbb33f69c871",
         "ad8a29ab-c788-4cf9-9834-4a1062f37de6",
         "555bb5cd-9b45-4f14-9281-39de7744e93b",
-        "42a8e5b2-575b-41ac-b1d6-238feb29f796",
-        "4c6b07cf-2392-4d94-b513-6059d357e12c",
-        "c1149e56-4c46-4f68-af28-09c4e8ccf40c",
-        "a058c4b4-3f1c-4cda-81b1-9f734d77bd20",
-        "18a4e7fd-ab6d-4cb4-91da-563b408f3ede",
-        "c58abbfc-d9fa-4ee0-a6f9-79221e376b8a",
         "3810d89f-dc11-4c54-8b99-5a557a9988ad"
     ],
     "tutorial": ""

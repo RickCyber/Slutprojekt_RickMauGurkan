@@ -1,4 +1,4 @@
 /// @description Insert description here
 // You can write your code in this editor
-state = scr_slime_stall;
+state = scr_zombie_stall;
 alarm[3] = 20;

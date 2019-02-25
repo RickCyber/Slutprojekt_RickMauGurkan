@@ -1,6 +1,6 @@
 ///scr_zombie_choose_next_state
 
-sprite_index = spr_player_down;
+sprite_index = spr_zombie_side_Animation_Walk;
 
 //Either stand still or wander around while not chasing
 if (alarm[2] <= 0)

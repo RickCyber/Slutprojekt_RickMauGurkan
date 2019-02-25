@@ -51,12 +51,10 @@ if (switch_key)
 {
 	if (attack == 1)
 	{
-		image_blend = c_orange;
 		attack = 2;
 	}
 	else if (attack == 2)
 	{
-		image_blend = c_white;
 		attack = 1;
 	}
 }
@@ -92,21 +90,45 @@ if (len == 0)
 }
 
 // Switch sprite
-switch (face)
+if (attack == 1)
 {
-	case 0:
-		sprite_index = spr_player_right;
-		break;
-	
-	case 1:
-		sprite_index = spr_player_up;
-		break;
+	switch (face)
+	{
+		case 0:
+			sprite_index = spr_big_boy_side_sword_animation_right;
+			break;
 		
-	case 2:
-		sprite_index = spr_player_left;
-		break;
+		case 2:
+			sprite_index = spr_big_boy_side_sword_animation_left;
+			break;
+		/*
+		case 1:
+			sprite_index = spr_player_up;
+			break;
 		
-	case 3:
-		sprite_index = spr_player_down;
-		break;
+		case 3:
+			sprite_index = spr_player_down;
+			break;*/
+	}
+}
+else
+{
+	switch (face)
+	{
+		case 0:
+			sprite_index = spr_big_boy_side_bow_animation_right;
+			break;
+		
+		case 2:
+			sprite_index = spr_big_boy_side_bow_animation_left;
+			break;
+		/*
+		case 1:
+			sprite_index = spr_player_up;
+			break;
+		
+		case 3:
+			sprite_index = spr_player_down;
+			break;*/
+	}
 }

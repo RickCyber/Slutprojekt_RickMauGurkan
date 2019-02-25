@@ -5,19 +5,19 @@ depth = 20;
 creator = noone;
 
 //Rotate based upon direction facing
-if (obj_player.sprite_index == spr_attack_right)
+if (obj_player.face == 0)
 {
     phy_rotation = 90;
 }
-else if (obj_player.sprite_index == spr_attack_up)
+else if (obj_player.face == 1)
 {
     phy_rotation = 0;
 }
-else if (obj_player.sprite_index == spr_attack_left)
+else if (obj_player.face == 2)
 {
     phy_rotation = -90;
 }
-else if (obj_player.sprite_index == spr_attack_down)
+else if (obj_player.face == 3)
 {
     phy_rotation = 180;
 }

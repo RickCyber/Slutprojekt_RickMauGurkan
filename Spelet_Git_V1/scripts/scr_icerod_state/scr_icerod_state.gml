@@ -7,20 +7,20 @@ image_speed = .75;
 // Change to icerod sprite based on direction
 switch (sprite_index)
 {
-	case spr_player_down:
-		sprite_index = spr_attack_down;
+	case spr_big_boy_side_bow_animation_left:
+		sprite_index = spr_big_boy_side_icerod_animation_left;
 		break;
 		
-	case spr_player_right:
-		sprite_index = spr_attack_right;
+	case spr_big_boy_side_bow_animation_right:
+		sprite_index = spr_big_boy_side_icerod_animation_right;
 		break;
 			
-	case spr_player_up:
-		sprite_index = spr_attack_up;
+	case spr_big_boy_side_sword_animation_left:
+		sprite_index = spr_big_boy_side_icerod_animation_left;
 		break;
 		
-	case spr_player_left:
-		sprite_index = spr_attack_left;
+	case spr_big_boy_side_sword_animation_right:
+		sprite_index = spr_big_boy_side_icerod_animation_right;
 		break;
 }
 
@@ -30,6 +30,27 @@ if (attacked == false)
 	//Get distance based upon which direction
 	var xx = 0;
 	var yy = 0;
+	if (face == 1)
+	{
+		xx = x;
+		yy = y-12;
+	}
+	else if (face == 3)
+	{
+		xx = x;
+		yy = y+12;
+	}
+	else if (face == 0)
+	{
+		xx = x+16;
+		yy = y+2;
+	}
+	else if (face == 2)
+	{
+		xx = x-16;
+		yy = y+2;
+	}
+	/*
 	switch (sprite_index)
 	{
 		case spr_attack_down:
@@ -51,7 +72,7 @@ if (attacked == false)
 			xx = x-16;
 			yy = y+2;
 			break;
-	}
+	}*/
 	
 	///Create Icerod, Make it so it doesn't hit player, Make it so it only do it once
 	var damage = instance_create_depth(xx,yy,depth,obj_ice)
