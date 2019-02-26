@@ -5,11 +5,18 @@
 depth = -y;
 
 //Destroy if dead
-if (hp <= 0)
+
+if (obj_player.hp <= 0 and room != rm_boss_3)
 {
-	if (instance_exists(obj_player))
-	{
-		obj_player.money += irandom_range(10,25);
-	}
-	instance_destroy();
+	obj_player.x = 488;
+	obj_player.y = 400;
+	room = rm_village;
+	obj_player.hp = 100;
+}
+else if (obj_player.hp <= 0 and room == rm_boss_3)
+{
+	obj_player.x = 326;
+	obj_player.y = 100;
+	room = rm_level_3_3;
+	obj_player.hp = 100;
 }

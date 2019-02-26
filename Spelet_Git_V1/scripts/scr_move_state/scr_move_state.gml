@@ -83,10 +83,28 @@ phy_position_x += hspd;
 phy_position_y += vspd;
 
 // Control sprite
-image_speed = .5;
+image_speed = .75;
 if (len == 0)
 {
 	image_index = 0;
+	switch (sprite_index)
+	{
+		case spr_big_boy_side_bow_animation_left:
+			sprite_index = spr_big_boy_side_bow_breath_left;
+			break;
+		
+		case spr_big_boy_side_bow_animation_right:
+			sprite_index = spr_big_boy_side_bow_breath_right;
+			break;
+			
+		case spr_big_boy_side_sword_animation_left:
+			sprite_index = spr_big_boy_side_sword_breath_left;
+			break;
+		
+		case spr_big_boy_side_sword_animation_right:
+			sprite_index = spr_big_boy_side_sword_breath_right;
+			break;
+	}
 }
 
 // Switch sprite

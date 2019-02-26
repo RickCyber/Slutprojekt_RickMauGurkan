@@ -16,6 +16,15 @@ if (physics_test_overlap(x,y,0,obj_pit) and tick == false)
 	tick = true;
 }
 
+if (hp <= 0)
+{
+	if (instance_exists(obj_player))
+	{
+		obj_player.money += irandom_range(10,25);
+	}
+	instance_destroy();
+}
+
 //Change Sprite
 scr_get_face();
 

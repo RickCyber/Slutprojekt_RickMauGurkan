@@ -2,7 +2,7 @@
 
 scr_get_input();
 
-image_speed = .75;
+image_speed = 1.25;
 
 // Change to icerod sprite based on direction
 switch (sprite_index)

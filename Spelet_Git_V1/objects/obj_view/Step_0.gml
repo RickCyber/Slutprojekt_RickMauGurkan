@@ -9,4 +9,3 @@ else
 {
 	game_restart();
 }
-
