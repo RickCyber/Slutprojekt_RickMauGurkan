@@ -4,7 +4,8 @@ if (tick == false)
 {
 	frozen = true;
 	tick = true;
-	image_blend = c_yellow;
+	sprite_index = spr_ice_real;
+	save = frame;
 }
 
 alarm[0] = 240;

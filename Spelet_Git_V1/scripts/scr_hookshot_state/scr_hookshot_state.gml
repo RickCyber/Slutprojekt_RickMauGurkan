@@ -21,6 +21,22 @@ switch (sprite_index)
 	case spr_big_boy_side_sword_animation_right:
 		sprite_index = spr_big_boy_side_hookshot_animation_right;
 		break;
+		
+	case spr_big_boy_side_bow_breath_left:
+		sprite_index = spr_big_boy_side_hookshot_animation_left;
+		break;
+		
+	case spr_big_boy_side_bow_breath_right:
+		sprite_index = spr_big_boy_side_hookshot_animation_right;
+		break;
+		
+	case spr_big_boy_side_sword_breath_left:
+		sprite_index = spr_big_boy_side_hookshot_animation_left;
+		break;
+		
+	case spr_big_boy_side_sword_breath_right:
+		sprite_index = spr_big_boy_side_hookshot_animation_right;
+		break;
 }
 
 // Hook only once

@@ -83,10 +83,10 @@ phy_position_x += hspd;
 phy_position_y += vspd;
 
 // Control sprite
+// Switch sprite
 image_speed = .75;
 if (len == 0)
 {
-	image_index = 0;
 	switch (sprite_index)
 	{
 		case spr_big_boy_side_bow_animation_left:
@@ -106,9 +106,7 @@ if (len == 0)
 			break;
 	}
 }
-
-// Switch sprite
-if (attack == 1)
+else if (attack == 1 and len != 0)
 {
 	switch (face)
 	{
@@ -119,17 +117,31 @@ if (attack == 1)
 		case 2:
 			sprite_index = spr_big_boy_side_sword_animation_left;
 			break;
-		/*
+		
 		case 1:
-			sprite_index = spr_player_up;
+			if (sprite_index == spr_big_boy_side_sword_breath_left)
+			{
+				sprite_index = spr_big_boy_side_sword_animation_left;
+			}
+			else
+			{
+				sprite_index = spr_big_boy_side_sword_animation_right;
+			}
 			break;
 		
 		case 3:
-			sprite_index = spr_player_down;
-			break;*/
+			if (sprite_index == spr_big_boy_side_sword_breath_left)
+			{
+				sprite_index = spr_big_boy_side_sword_animation_left;
+			}
+			else
+			{
+				sprite_index = spr_big_boy_side_sword_animation_right;
+			}
+			break;
 	}
 }
-else
+else if (attack == 2 and len != 0)
 {
 	switch (face)
 	{
@@ -140,13 +152,27 @@ else
 		case 2:
 			sprite_index = spr_big_boy_side_bow_animation_left;
 			break;
-		/*
+		
 		case 1:
-			sprite_index = spr_player_up;
+			if (sprite_index == spr_big_boy_side_bow_breath_left)
+			{
+				sprite_index = spr_big_boy_side_bow_animation_left;
+			}
+			else
+			{
+				sprite_index = spr_big_boy_side_bow_animation_right;
+			}
 			break;
 		
 		case 3:
-			sprite_index = spr_player_down;
-			break;*/
+			if (sprite_index == spr_big_boy_side_bow_breath_left)
+			{
+				sprite_index = spr_big_boy_side_bow_animation_left;
+			}
+			else
+			{
+				sprite_index = spr_big_boy_side_bow_animation_right;
+			}
+			break;
 	}
 }

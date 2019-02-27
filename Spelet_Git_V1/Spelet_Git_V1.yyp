@@ -159,6 +159,14 @@
             }
         },
         {
+            "Key": "0b590424-389c-4a65-b030-05fa84e02d61",
+            "Value": {
+                "id": "56f2cfb0-c9f4-4e1b-bd1f-b0d19a3b36dd",
+                "resourcePath": "sprites\\spr_healpad\\spr_healpad.yy",
+                "resourceType": "GMSprite"
+            }
+        },
+        {
             "Key": "0b74c108-c3bd-4085-af6a-8cb2ad0e068f",
             "Value": {
                 "id": "76058a15-97eb-408d-8270-121f2a4910ba",
@@ -388,6 +396,14 @@
                 "id": "9fa9143a-0829-4e4e-ab90-8c9902c79276",
                 "resourcePath": "rooms\\rm_level_3_2\\rm_level_3_2.yy",
                 "resourceType": "GMRoom"
+            }
+        },
+        {
+            "Key": "1efe2e2b-70fe-4270-bbf1-ed52a790bdb4",
+            "Value": {
+                "id": "e4bc1f86-fccf-44a3-bcb7-8d4110086a1f",
+                "resourcePath": "sprites\\spr_church_test\\spr_church_test.yy",
+                "resourceType": "GMSprite"
             }
         },
         {
@@ -644,6 +660,14 @@
                 "id": "1adb4d2f-e705-40d6-a63b-cc1184ad403c",
                 "resourcePath": "sprites\\spr_big_boy_side_bow_attack_animation_left_old\\spr_big_boy_side_bow_attack_animation_left_old.yy",
                 "resourceType": "GMSprite"
+            }
+        },
+        {
+            "Key": "3e248437-a08d-47f3-aa6d-640768c3b29f",
+            "Value": {
+                "id": "6e02a28d-f66d-499a-8d6a-1610057819c4",
+                "resourcePath": "objects\\obj_church\\obj_church.yy",
+                "resourceType": "GMObject"
             }
         },
         {
@@ -1044,6 +1068,14 @@
                 "id": "13fc1ca4-1aae-4665-b3a2-1aa4819d1b7a",
                 "resourcePath": "objects\\obj_tree_big_evil\\obj_tree_big_evil.yy",
                 "resourceType": "GMObject"
+            }
+        },
+        {
+            "Key": "6ce0976d-958c-46a6-9731-eb1dabe2e2a0",
+            "Value": {
+                "id": "3ed81e01-43ed-4b6f-a510-be9794c7f6dc",
+                "resourcePath": "scripts\\scr_heal_state\\scr_heal_state.yy",
+                "resourceType": "GMScript"
             }
         },
         {
@@ -1759,6 +1791,14 @@
             }
         },
         {
+            "Key": "be0fa335-20a1-43ce-a777-791650d7aec4",
+            "Value": {
+                "id": "d3ccf3ae-2da8-4f83-b72a-98c3200c9aad",
+                "resourcePath": "sprites\\spr_water_real\\spr_water_real.yy",
+                "resourceType": "GMSprite"
+            }
+        },
+        {
             "Key": "c1149e56-4c46-4f68-af28-09c4e8ccf40c",
             "Value": {
                 "id": "ef3b439c-ede2-4c0f-9ae1-dd4a1009a9f3",
@@ -2007,6 +2047,14 @@
             }
         },
         {
+            "Key": "d6897353-a45b-4f36-955e-6e2ad122b24d",
+            "Value": {
+                "id": "0bea2daf-0312-4fae-8a3b-f5e110700da5",
+                "resourcePath": "sprites\\spr_hookpole_real\\spr_hookpole_real.yy",
+                "resourceType": "GMSprite"
+            }
+        },
+        {
             "Key": "d8619fe3-d3bd-446e-b03a-e1898e06f713",
             "Value": {
                 "id": "f8ef231c-5ada-4d07-bbde-8e26a9674222",
@@ -2247,6 +2295,14 @@
             }
         },
         {
+            "Key": "f4ca4212-0c76-4aa5-99ea-71cee1dc2180",
+            "Value": {
+                "id": "4440acd2-c80c-428d-a9bf-4d58242b0dd1",
+                "resourcePath": "sprites\\spr_ice_real\\spr_ice_real.yy",
+                "resourceType": "GMSprite"
+            }
+        },
+        {
             "Key": "f4e39d6e-5fed-42dd-a207-877797715e70",
             "Value": {
                 "id": "d255dcf2-8b1a-4458-a2ec-8846e000af18",
@@ -2356,13 +2412,14 @@
         "2f74db9b-230d-4a0d-a7f3-bbc13fcaa9bc",
         "4fe797a4-5449-4846-9992-314161147d87",
         "6b2ae09f-e5da-49e5-a109-4a7e480194ee",
+        "796a8b66-15ac-4ce6-9b59-9dde73064562",
+        "6ce0976d-958c-46a6-9731-eb1dabe2e2a0",
         "bc8df46c-88cd-4595-a87c-c753f078dc78",
         "b0e1634b-5404-42c5-9c76-b935bea42ee1",
         "cc8ca443-92c8-4120-a44f-54d53835accb",
         "642e46ba-75f7-489f-b972-4d2f9fcef315",
         "01c17b20-bd95-4799-885c-0a636fc10e9b",
         "ad710803-25ac-4f42-a3d1-da7e809eb146",
-        "796a8b66-15ac-4ce6-9b59-9dde73064562",
         "0e586dd9-da7c-402e-b01a-4df6601c6909",
         "42a8e5b2-575b-41ac-b1d6-238feb29f796",
         "4c6b07cf-2392-4d94-b513-6059d357e12c",

@@ -5,6 +5,11 @@ script_execute(state);
 
 phy_fixed_rotation = true;
 
+if (state != scr_fall_state)
+{
+	phy_rotation = 0;
+}
+
 //Reload Item and Magicbars
 if (itembar < 200)
 {

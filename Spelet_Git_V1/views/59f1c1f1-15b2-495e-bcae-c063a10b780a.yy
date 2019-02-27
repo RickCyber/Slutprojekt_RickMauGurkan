@@ -7,7 +7,8 @@
         "4dc48b71-5f5c-4e4d-bb4a-b7c19311b24d",
         "4bffc444-0b8a-4c40-b4f3-15bea603c98f",
         "ea0e9e73-6dc6-414c-a3ab-f80ef863032f",
-        "c71b5347-c19a-4721-b33c-a2ec25c4bae7"
+        "c71b5347-c19a-4721-b33c-a2ec25c4bae7",
+        "1efe2e2b-70fe-4270-bbf1-ed52a790bdb4"
     ],
     "filterType": "GMSprite",
     "folderName": "Rick",

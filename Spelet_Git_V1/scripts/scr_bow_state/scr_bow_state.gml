@@ -15,16 +15,32 @@ switch (sprite_index)
 		break;
 			
 	case spr_big_boy_side_sword_animation_left:
-		sprite_index = spr_big_boy_side_sword_attack_animation_left;
+		sprite_index = spr_big_boy_side_bow_attack_animation_left;
 		break;
 		
 	case spr_big_boy_side_sword_animation_right:
-		sprite_index = spr_big_boy_side_sword_attack_animation_right;
+		sprite_index = spr_big_boy_side_bow_attack_animation_right;
+		break;
+		
+	case spr_big_boy_side_bow_breath_left:
+		sprite_index = spr_big_boy_side_bow_animation_left;
+		break;
+		
+	case spr_big_boy_side_bow_breath_right:
+		sprite_index = spr_big_boy_side_bow_animation_right;
+		break;
+		
+	case spr_big_boy_side_sword_breath_left:
+		sprite_index = spr_big_boy_side_bow_animation_left;
+		break;
+		
+	case spr_big_boy_side_sword_breath_right:
+		sprite_index = spr_big_boy_side_bow_animation_right;
 		break;
 }
 
 // Use Attack only once
-if (image_index >= 10 and attacked == false)
+if (image_index >= 7 and attacked == false)
 {
 	//Get distance based upon which direction
 	var xx = 0;
@@ -38,7 +54,7 @@ if (image_index >= 10 and attacked == false)
 	else if (face == 3)
 	{
 		xx = x;
-		yy = y+15;
+		yy = y+27;
 	}
 	else if (face == 0)
 	{

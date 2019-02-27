@@ -18,7 +18,11 @@
         "f14a5aac-d327-47a2-a269-567f9c890b7c",
         "923e3289-440d-4430-afe6-7cd8fe7eef1f",
         "a43c64c5-317f-4ccb-8890-e9273b67cec9",
-        "9b97ed0c-ecb1-4fed-9c6a-4c62fa88f58d"
+        "9b97ed0c-ecb1-4fed-9c6a-4c62fa88f58d",
+        "be0fa335-20a1-43ce-a777-791650d7aec4",
+        "f4ca4212-0c76-4aa5-99ea-71cee1dc2180",
+        "d6897353-a45b-4f36-955e-6e2ad122b24d",
+        "0b590424-389c-4a65-b030-05fa84e02d61"
     ],
     "filterType": "GMSprite",
     "folderName": "Mau",
