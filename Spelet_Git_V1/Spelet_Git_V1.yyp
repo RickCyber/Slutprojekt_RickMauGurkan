@@ -263,6 +263,22 @@
             }
         },
         {
+            "Key": "135d064f-dd36-4bc4-92fd-3e4e62af8bbc",
+            "Value": {
+                "id": "1e4285c5-1daf-4243-9827-f116222bdfd7",
+                "resourcePath": "sprites\\spr_flamethrower_bkp\\spr_flamethrower_bkp.yy",
+                "resourceType": "GMSprite"
+            }
+        },
+        {
+            "Key": "144f1c10-9db9-4eae-a418-4de45d3c8845",
+            "Value": {
+                "id": "07f079dd-a0f0-43e5-aafb-2f6b8271b4c6",
+                "resourcePath": "sprites\\spt_firecircle_bkp\\spt_firecircle_bkp.yy",
+                "resourceType": "GMSprite"
+            }
+        },
+        {
             "Key": "146fe6be-af94-4e6c-bc87-8be79fe2192b",
             "Value": {
                 "id": "62fc796e-1219-4176-a6c3-508fa940fe43",
