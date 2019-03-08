@@ -31,7 +31,7 @@ if (physics_test_overlap(x,y,0,obj_player))
 			}
 			else
 			{
-				scr_start_dialog(obj_dialog_holder,obj_dialog_holder.d_intro_text);
+				scr_start_dialog(obj_dialog_holder,obj_dialog_holder.d_villager_intro_text);
 				obj_player.state = scr_freeze_state;
 				switch (obj_player.sprite_index)
 				{
@@ -56,7 +56,7 @@ if (physics_test_overlap(x,y,0,obj_player))
 		
 		if (creator == 1)
 		{
-			scr_start_dialog(obj_dialog_holder,obj_dialog_holder.d_second_text);
+			scr_start_dialog(obj_dialog_holder,obj_dialog_holder.d_boss_text);
 			obj_player.state = scr_freeze_state;
 			switch (obj_player.sprite_index)
 			{

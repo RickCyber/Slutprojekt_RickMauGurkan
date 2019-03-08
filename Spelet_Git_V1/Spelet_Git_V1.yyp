@@ -47,6 +47,14 @@
             }
         },
         {
+            "Key": "024e66c0-7bf8-4b16-a0b9-4537a1d15973",
+            "Value": {
+                "id": "1b11b420-3cfa-42aa-85ce-35346661b88b",
+                "resourcePath": "sprites\\spr_Port_bar_Boss\\spr_Port_bar_Boss.yy",
+                "resourceType": "GMSprite"
+            }
+        },
+        {
             "Key": "03831d46-0673-42b0-b570-e5d84dd25cc3",
             "Value": {
                 "id": "f005b41e-f443-4a00-a8d7-9c8687634bb0",
@@ -340,6 +348,14 @@
                 "id": "c22c3d4c-b172-4730-9699-a11838866b6e",
                 "resourcePath": "objects\\obj_intro_pit\\obj_intro_pit.yy",
                 "resourceType": "GMObject"
+            }
+        },
+        {
+            "Key": "19131b1d-5abd-4078-80ef-ddabb25c1922",
+            "Value": {
+                "id": "5a999483-4115-4811-8037-f0aaa44eebd0",
+                "resourcePath": "sprites\\spr_Port_bar_Villager_normal\\spr_Port_bar_Villager_normal.yy",
+                "resourceType": "GMSprite"
             }
         },
         {
@@ -751,6 +767,14 @@
             }
         },
         {
+            "Key": "4a2219a0-c709-44dc-946d-8b0dbe4e2ae8",
+            "Value": {
+                "id": "53752fc3-b8b8-4302-a456-b66b5018c0cb",
+                "resourcePath": "sprites\\spr_Port_bar_Judas_Priest\\spr_Port_bar_Judas_Priest.yy",
+                "resourceType": "GMSprite"
+            }
+        },
+        {
             "Key": "4a8c592e-7233-4761-a7f4-20ba07ab5725",
             "Value": {
                 "id": "2585f145-9ae6-40b2-88ee-977701160adc",
@@ -1003,6 +1027,22 @@
             "Value": {
                 "id": "437861e8-43e9-4e9b-9914-489982464144",
                 "resourcePath": "sprites\\spr_player_left\\spr_player_left.yy",
+                "resourceType": "GMSprite"
+            }
+        },
+        {
+            "Key": "61a97ca7-80c0-403c-bfdf-f7a3465ba72e",
+            "Value": {
+                "id": "a4ded747-e35f-4809-b45a-4534c25f6586",
+                "resourcePath": "sprites\\spr_Speech_bar_HUD\\spr_Speech_bar_HUD.yy",
+                "resourceType": "GMSprite"
+            }
+        },
+        {
+            "Key": "62127d52-0622-4d35-8d59-dc20a01d5dad",
+            "Value": {
+                "id": "14071a75-98cc-41fd-a025-42f230e31a09",
+                "resourcePath": "sprites\\spr_Port_bar_Villager_female\\spr_Port_bar_Villager_female.yy",
                 "resourceType": "GMSprite"
             }
         },
@@ -1799,6 +1839,14 @@
             }
         },
         {
+            "Key": "b27bd8e9-57bf-4b61-9d9c-5eb845432009",
+            "Value": {
+                "id": "89564bff-a1f0-4f0a-9d9b-23bb8ae9c997",
+                "resourcePath": "sprites\\spr_Port_bar_Priest\\spr_Port_bar_Priest.yy",
+                "resourceType": "GMSprite"
+            }
+        },
+        {
             "Key": "b2a0cac2-c0db-45b2-bd57-aeb51ffd9c1c",
             "Value": {
                 "id": "0f41c5a8-0c33-4182-a057-8e80dc529786",
@@ -1883,6 +1931,14 @@
             "Value": {
                 "id": "4ae0fab1-2ae9-4c2f-b4b9-cdb2f6c565f6",
                 "resourcePath": "sprites\\sFireball\\sFireball.yy",
+                "resourceType": "GMSprite"
+            }
+        },
+        {
+            "Key": "c20d75af-be67-4d48-8035-17380072bb37",
+            "Value": {
+                "id": "44680d03-778e-4f6e-8399-349635fbb9f7",
+                "resourcePath": "sprites\\spr_Port_bar_Player\\spr_Port_bar_Player.yy",
                 "resourceType": "GMSprite"
             }
         },
@@ -2239,6 +2295,14 @@
             }
         },
         {
+            "Key": "e14cb5a6-9b64-4770-8ea8-ba072f45db9c",
+            "Value": {
+                "id": "9eba7158-98cf-4ace-910b-7f4ee064f753",
+                "resourcePath": "fonts\\fnt_arial\\fnt_arial.yy",
+                "resourceType": "GMFont"
+            }
+        },
+        {
             "Key": "e245ea8d-74b9-4842-9d72-8563cf640e98",
             "Value": {
                 "id": "7ec84905-3279-4ab1-be40-9a6788559eab",
@@ -2484,6 +2548,14 @@
                 "id": "80babdfa-693c-4a58-bb6d-a90bfec5e119",
                 "resourcePath": "views\\fd535efa-62eb-40c0-97f4-fa11bbe4c235.yy",
                 "resourceType": "GMFolder"
+            }
+        },
+        {
+            "Key": "feab5f26-97cf-4227-a397-01506799431c",
+            "Value": {
+                "id": "60da3ff3-a260-4493-a49f-1276e3ebe672",
+                "resourcePath": "fonts\\fnt_alagard\\fnt_alagard.yy",
+                "resourceType": "GMFont"
             }
         }
     ],
