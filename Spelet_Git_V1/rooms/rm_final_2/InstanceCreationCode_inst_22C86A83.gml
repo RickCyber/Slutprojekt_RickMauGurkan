@@ -1,0 +1,1 @@
+sprite_index = spr_notholy_boy_front;

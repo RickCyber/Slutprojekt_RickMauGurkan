@@ -93,3 +93,62 @@ if (hit >= 10){
 }
 
 if keyboard_check(ord("R")) room_restart()
+
+if (room == rm_final_1 and churchfall == false)
+{
+	obj_player.state = scr_freeze_state;
+	switch (obj_player.sprite_index)
+	{
+		case spr_big_boy_side_bow_animation_left:
+			obj_player.sprite_index = spr_big_boy_side_bow_breath_left;
+			break;
+		
+		case spr_big_boy_side_bow_animation_right:
+			obj_player.sprite_index = spr_big_boy_side_bow_breath_right;
+			break;
+			
+		case spr_big_boy_side_sword_animation_left:
+			obj_player.sprite_index = spr_big_boy_side_sword_breath_left;
+			break;
+		
+		case spr_big_boy_side_sword_animation_right:
+			obj_player.sprite_index = spr_big_boy_side_sword_breath_right;
+			break;
+	}
+	scr_start_dialog(obj_dialog_holder,obj_dialog_holder.d_priest_third_text);
+	churchfall = true;
+	phy_position_x = 344;
+	phy_position_y = 472;
+}
+
+if (room == rm_final_2 and y < 460 and finalspeach == false)
+{
+	finalspeach = true;
+	obj_player.state = scr_freeze_state;
+	switch (obj_player.sprite_index)
+	{
+		case spr_big_boy_side_bow_animation_left:
+			obj_player.sprite_index = spr_big_boy_side_bow_breath_left;
+			break;
+		
+		case spr_big_boy_side_bow_animation_right:
+			obj_player.sprite_index = spr_big_boy_side_bow_breath_right;
+			break;
+			
+		case spr_big_boy_side_sword_animation_left:
+			obj_player.sprite_index = spr_big_boy_side_sword_breath_left;
+			break;
+		
+		case spr_big_boy_side_sword_animation_right:
+			obj_player.sprite_index = spr_big_boy_side_sword_breath_right;
+			break;
+	}
+	if (amulet3 == true)
+	{
+		scr_start_dialog(obj_dialog_holder,obj_dialog_holder.d_priest_fifth_text);
+	}
+	else
+	{
+		scr_start_dialog(obj_dialog_holder,obj_dialog_holder.d_priest_fourth_text);
+	}
+}

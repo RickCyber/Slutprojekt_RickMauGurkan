@@ -2,6 +2,31 @@
 
 depth = -y //Vanliga Dpeth
 
+if (sleep == true and obj_player.y < 606 and room == rm_final_boss)
+{
+	instance_create_depth(536,680,depth,obj_final_boss_1);
+	scr_start_dialog(obj_dialog_holder,obj_dialog_holder.d_boss_second_text);
+	obj_player.state = scr_freeze_state;
+	switch (obj_player.sprite_index)
+	{
+		case spr_big_boy_side_bow_animation_left:
+			obj_player.sprite_index = spr_big_boy_side_bow_breath_left;
+			break;
+		
+		case spr_big_boy_side_bow_animation_right:
+			obj_player.sprite_index = spr_big_boy_side_bow_breath_right;
+			break;
+			
+		case spr_big_boy_side_sword_animation_left:
+			obj_player.sprite_index = spr_big_boy_side_sword_breath_left;
+			break;
+		
+		case spr_big_boy_side_sword_animation_right:
+			obj_player.sprite_index = spr_big_boy_side_sword_breath_right;
+			break;
+	}
+}
+
 hp += .02
 
 if (hp <= 0){
@@ -9,6 +34,10 @@ if (hp <= 0){
 	res = true
 	hittable = false
 	alarm[1] = 10;
+	if (room == rm_boss_3 and fas == 3)
+	{
+		fas = 4;
+	}
 }
 
 if (res == true)
@@ -23,6 +52,10 @@ if (hp <= 0){
 
 if (fas == 4){
 	fas = 0;
+	if (instance_exists(obj_final_boss_2))
+	{
+		instance_destroy(obj_final_boss_2);
+	}
 	instance_destroy();
 }
 
