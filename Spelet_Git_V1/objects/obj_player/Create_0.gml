@@ -34,3 +34,5 @@ state = scr_move_state;
 
 //Randomize seed
 randomize();
+
+alarm[9] = 3;

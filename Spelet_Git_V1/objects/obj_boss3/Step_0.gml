@@ -56,6 +56,10 @@ if (fas == 4){
 	{
 		instance_destroy(obj_final_boss_2);
 	}
+	if (room == rm_boss_3)
+	{
+		instance_create_depth(544,400,depth,obj_amulet);
+	}
 	instance_destroy();
 }
 

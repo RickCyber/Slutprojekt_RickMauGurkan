@@ -279,6 +279,14 @@
             }
         },
         {
+            "Key": "125a51e0-7c49-4411-9211-03186449aac8",
+            "Value": {
+                "id": "f16af884-2211-4088-9638-700c1f8c6635",
+                "resourcePath": "sprites\\Spr_Dummythicc_Doll\\Spr_Dummythicc_Doll.yy",
+                "resourceType": "GMSprite"
+            }
+        },
+        {
             "Key": "12b05d2f-0294-4ba2-96e1-2d5efd0d29f4",
             "Value": {
                 "id": "e2d2fac6-092a-4222-8293-3d11cc30e582",
@@ -1407,6 +1415,14 @@
             }
         },
         {
+            "Key": "84fc52ed-06bb-4336-b570-9686d18ac9a3",
+            "Value": {
+                "id": "0b43274e-fa85-4170-acef-551abca3bfba",
+                "resourcePath": "objects\\obj_teleport\\obj_teleport.yy",
+                "resourceType": "GMObject"
+            }
+        },
+        {
             "Key": "866c6db8-398d-4a79-bc39-5e1204a0eddb",
             "Value": {
                 "id": "0ec9ebe4-36a3-437e-a7f2-2584f537d3f7",
@@ -1711,6 +1727,14 @@
             }
         },
         {
+            "Key": "9ab7c2a8-dae1-4352-a762-f1f83067d6ed",
+            "Value": {
+                "id": "b3fb3d61-7c61-45d8-a013-aac8bfdeba35",
+                "resourcePath": "sprites\\spr_crack\\spr_crack.yy",
+                "resourceType": "GMSprite"
+            }
+        },
+        {
             "Key": "9b97ed0c-ecb1-4fed-9c6a-4c62fa88f58d",
             "Value": {
                 "id": "ee739ec9-222f-4ca1-8175-ebd424d54501",
@@ -1996,6 +2020,14 @@
                 "id": "d2b62698-696c-4b41-91e5-76203885748e",
                 "resourcePath": "scripts\\scr_respawn_state\\scr_respawn_state.yy",
                 "resourceType": "GMScript"
+            }
+        },
+        {
+            "Key": "bdd43712-69b1-4690-982a-879d68f9f4cf",
+            "Value": {
+                "id": "a49bf203-ba29-4606-a73c-b567510d4b61",
+                "resourcePath": "objects\\obj_crack\\obj_crack.yy",
+                "resourceType": "GMObject"
             }
         },
         {

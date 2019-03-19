@@ -143,7 +143,7 @@ if (room == rm_final_2 and y < 460 and finalspeach == false)
 			obj_player.sprite_index = spr_big_boy_side_sword_breath_right;
 			break;
 	}
-	if (amulet3 == true)
+	if (amulet2 == true)
 	{
 		scr_start_dialog(obj_dialog_holder,obj_dialog_holder.d_priest_fifth_text);
 	}

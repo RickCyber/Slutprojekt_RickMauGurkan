@@ -48,6 +48,22 @@ if (room == rm_final_2)
 			case spr_big_boy_side_sword_animation_right:
 				obj_player.sprite_index = spr_big_boy_side_sword_breath_right;
 				break;
+				
+			case spr_big_boy_side_bow_attack_animation_left:
+				obj_player.sprite_index = spr_big_boy_side_bow_breath_left;
+				break;
+		
+			case spr_big_boy_side_bow_attack_animation_right:
+				obj_player.sprite_index = spr_big_boy_side_bow_breath_right;
+				break;
+			
+			case spr_big_boy_side_sword_attack_animation_left:
+				obj_player.sprite_index = spr_big_boy_side_sword_breath_left;
+				break;
+		
+			case spr_big_boy_side_sword_attack_animation_right:
+				obj_player.sprite_index = spr_big_boy_side_sword_breath_right;
+				break;
 		}
 		scr_start_dialog(obj_dialog_holder,obj_dialog_holder.d_player_second_text);
 		instance_destroy();
@@ -71,6 +87,22 @@ if (room == rm_final_2)
 				break;
 		
 			case spr_big_boy_side_sword_animation_right:
+				obj_player.sprite_index = spr_big_boy_side_sword_breath_right;
+				break;
+				
+			case spr_big_boy_side_bow_attack_animation_left:
+				obj_player.sprite_index = spr_big_boy_side_bow_breath_left;
+				break;
+		
+			case spr_big_boy_side_bow_attack_animation_right:
+				obj_player.sprite_index = spr_big_boy_side_bow_breath_right;
+				break;
+			
+			case spr_big_boy_side_sword_attack_animation_left:
+				obj_player.sprite_index = spr_big_boy_side_sword_breath_left;
+				break;
+		
+			case spr_big_boy_side_sword_attack_animation_right:
 				obj_player.sprite_index = spr_big_boy_side_sword_breath_right;
 				break;
 		}

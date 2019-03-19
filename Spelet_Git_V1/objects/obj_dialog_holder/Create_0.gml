@@ -49,13 +49,16 @@ scr_add_dialog( "The holy artifact are used to unlock the gate to heaven so ", t
 scr_add_dialog( "we can contact the guardian angels to help us in this terrible time.", true, spr_Port_bar_Priest );
 scr_add_dialog( "The demon lords lair is hidden somewhere in the Haunted-woods to the north.", true, spr_Port_bar_Priest );
 scr_add_dialog( "I'll be on my way then...", true, spr_Port_bar_Player, false);
-scr_add_dialog( "Wait, take these magical boots with you. With them you can dash over cliffs and away from enemys.", true, spr_Port_bar_Priest );
+scr_add_dialog( "Wait, take these magical boots with you.", true, spr_Port_bar_Priest );
+scr_add_dialog( "With them you can dash over cliffs and away from enemys.", true, spr_Port_bar_Priest );
 scr_add_dialog( "Why thank you, how do I use them?", true, spr_Port_bar_Player, false);
-scr_add_dialog( "You press the SHIFT-KEY on Keyboard or the LEFT-SHOULDER BUTTON on Controller.", true, spr_Port_bar_Priest );
+scr_add_dialog( "You press the SHIFT-KEY on Keyboard or", true, spr_Port_bar_Priest );
+scr_add_dialog( "the LEFT-SHOULDER BUTTON on Controller.", true, spr_Port_bar_Priest );
 scr_add_dialog( "Thank you, and leave this matter to me!", false, spr_Port_bar_Player, false);
 
 d_priest_sixth_text =
-scr_add_dialog( "You press the SHIFT-KEY on Keyboard or the LEFT-SHOULDER BUTTON on Controller to use the boots", true, spr_Port_bar_Priest );
+scr_add_dialog( "You press the SHIFT-KEY on Keyboard or", true, spr_Port_bar_Priest );
+scr_add_dialog( "the LEFT-SHOULDER BUTTON on Controller to use the boots", true, spr_Port_bar_Priest );
 scr_add_dialog( "Good luck out there!", false, spr_Port_bar_Priest );
 
 //Folk i banan
@@ -89,12 +92,12 @@ scr_add_dialog( "he probably won't appear before the demon lord is defeated.", t
 scr_add_dialog( "Sounds interesting, I'll have to check that out.", false, spr_Port_bar_Player, false);
 
 d_wild_fourth_text =
-scr_add_dialog( "The mysterious man appears to the west of the village when it's save.", true, spr_Port_bar_Villager_normal );
+scr_add_dialog( "The mysterious man appears to the west of the village when it's safe.", true, spr_Port_bar_Villager_normal );
 scr_add_dialog( "Thank you stranger!", false, spr_Port_bar_Villager_normal);
 
 d_wild_fifth_text =
 scr_add_dialog( "You can use that Ice Rod to freeze water and enemies.", true, spr_Port_bar_Villager_female );
-scr_add_dialog( "Sounds neat", false, spr_Port_bar_Player, false);
+scr_add_dialog( "Sounds neat.", false, spr_Port_bar_Player, false);
 
 d_wild_sixth_text =
 scr_add_dialog( "Hi there traveler! I heard you use that sword there by pressing the", true, spr_Port_bar_Villager_normal );
@@ -102,8 +105,8 @@ scr_add_dialog( "J-KEY on keyboard or the A-BUTTON on controller.", true, spr_Po
 scr_add_dialog( "Well, ofcourse that's right.", false, spr_Port_bar_Player, false);
 
 d_wild_seventh_text =
-scr_add_dialog( "So the J-KEY on keyboard or A-BUTTON on controller. I also heard that if", true, spr_Port_bar_Villager_normal );
-scr_add_dialog( "you press the Q-KEY on keyboard or the RIGHT-SHOULDER BUTTON on controller", true, spr_Port_bar_Villager_normal );
+scr_add_dialog( "So the J-KEY on keyboard or A-BUTTON on controller. I also heard that if you press", true, spr_Port_bar_Villager_normal );
+scr_add_dialog( "the Q-KEY on keyboard or the RIGHT-SHOULDER BUTTON on controller", true, spr_Port_bar_Villager_normal );
 scr_add_dialog( "you will switch between your Sword and Bow to then use the Q-KEY or A-BUTTON", true, spr_Port_bar_Villager_normal );
 scr_add_dialog( "to then use your Bow instead of your sword.", true, spr_Port_bar_Villager_normal );
 scr_add_dialog( "That's quite right.", false, spr_Port_bar_Player, false);
@@ -112,30 +115,30 @@ scr_add_dialog( "That's quite right.", false, spr_Port_bar_Player, false);
 d_priest_second_text =
 scr_add_dialog( "I can't thank you enough, you don't know how much you've helped me... he.", true, spr_Port_bar_Priest );
 scr_add_dialog( "Wait outside while I start the ritual.", true, spr_Port_bar_Priest );
-scr_add_dialog( "Okej", false, spr_Port_bar_Player, false);
+scr_add_dialog( "Okay", false, spr_Port_bar_Player, false);
 
 d_player_text =
 scr_add_dialog( "Huh, what was that!?", false, spr_Port_bar_Player, false);
 
 d_priest_third_text =
-scr_add_dialog( "Now I can achieve greatness and rule the world, HA, HA, HAA!", true, spr_Port_bar_Priest );
+scr_add_dialog( "Now I can achieve greatness and rule the world, HA, HA, HAA!", true, spr_Port_bar_Judas_Priest );
 scr_add_dialog( "This was all your doing, preist?", true, spr_Port_bar_Player, false);
-scr_add_dialog( "Yes, it was I that summoned all these demons. And thanks to this holy artifact that", true, spr_Port_bar_Priest );
-scr_add_dialog( "only appears before the true hero I can summon the greatest demon of all time!", true, spr_Port_bar_Priest );
-scr_add_dialog( "Don't even think of stopping me, it's already too late now! HA, HA, HAAA!!", true, spr_Port_bar_Priest );
+scr_add_dialog( "Yes, it was I that summoned all these demons. And thanks to this holy artifact that", true, spr_Port_bar_Judas_Priest );
+scr_add_dialog( "only appears before the true hero I can summon the greatest demon of all time!", true, spr_Port_bar_Judas_Priest );
+scr_add_dialog( "Don't even think of stopping me, it's already too late now! HA, HA, HAAA!!", true, spr_Port_bar_Judas_Priest );
 scr_add_dialog( "How could you do this?", true, spr_Port_bar_Player, false);
-scr_add_dialog( "This village was never enough for me, I WAS MEANT FOR SOMETHING BIGGER!", true, spr_Port_bar_Priest );
+scr_add_dialog( "This village was never enough for me, I WAS MEANT FOR SOMETHING BIGGER!", true, spr_Port_bar_Judas_Priest );
 scr_add_dialog( "The village trusts you to save them from the demons, why betray them?!", true, spr_Port_bar_Player, false);
-scr_add_dialog( "This village you talk of betrayed me, they've always looked down on me.", true, spr_Port_bar_Priest );
-scr_add_dialog( "That's why they built the church away from the village, they never wanted me near them.", true, spr_Port_bar_Priest );
+scr_add_dialog( "This village you talk of betrayed me, they've always looked down on me.", true, spr_Port_bar_Judas_Priest );
+scr_add_dialog( "That's why they built the church away from the village, they never wanted me near them.", true, spr_Port_bar_Judas_Priest );
 scr_add_dialog( "You know that's not true, they love you and all off their hope lies in you.", true, spr_Port_bar_Player, false);
 scr_add_dialog( "Please stop this, you can still go back to being the beloved priest of this village.", true, spr_Port_bar_Player, false);
-scr_add_dialog( "It's too late, I can't turn back now.", true, spr_Port_bar_Priest );
-scr_add_dialog( "I WILL CHANGE THE WORLD, I WAS MEANT FOR SOMETHING BIGGER, BEHOLD MY POWER", true, spr_Port_bar_Priest );
-scr_add_dialog( "p̶͙̗̣̥̿͌͠˥̴̠̱͔̩̭̠̲͓̇́͛͌ɹ̵͙̥̥̬̳̜̤̯͔̯̉̓́̓͋O̷̢͇͉̘̺͉̊̏̿͊̕M̴͖̬̰̫̤̖͚̼̟̜͛̐̌͘ ̴̩̠̯̘͚̺̯̓͆̓̿͑̌S̵̘̤̎I̷̹̟͒͝͠͝͝H̷͕̤̗̬̾̉͋┴̴͖̉̽͗̆͂̾͠ ̷̨͔̙̒̽̃̑̒͝͝Ơ̸̡̙̺̗̱͙̲̤̜̞̎͐͒͝┴̵̳̗̺̲͈͕̟̥̓ ̶̢̡͇̳̠̙͚̲͆∩̷̤͂́͋̈́͌͐̈́͘͘͠ ̷̖͍̮̩͝N̷̦͍̠̞͊͋̉Ơ̶̗̬͓̐̇̀̀̉̑́W̷̡̧͖̙͇͙̥̟̐̇͑̾̈́W̶̦̱̝̎̍͜͝͝∩̵̨̨̛̖̮̎͐̀͑̈͛̕̕͝S̸̰͔͇͎̈́ ̷̤̻̫̬̈́̿͌̄͠ͅ˥̵̬͔̖͙̠̭̯̫̊̊̐̈́̇̉͘̕˥̶̜̟͙͐̈͋͜∀̴͖͙͓̳͐̃̀͝H̸̛̝̜̽̌͋̊̋͋̃̓͘Ş̸̯̮͓̘̭̝̈́̍͗̑̄͠ ̴̖̺̫͚͍̇͗̔̇Ì̸̢͎̅͆̆̂̚͝ ̶̞̠͚̺͎͐̂́͆͠͠Ņ̸̠̥̻̳̟̰͈̇∀̶̡̛̫͕̩͉̦͙͕̳̍̿̓̈͆̋͋͝ͅ┴̵͇͌̏̒͗͐͠∀̶̻̘̖̦̔͐͆ͅS̷̛̛̠̯͓̦̺̩͖̙̝͆̔͒̎̈ ̴̲̭̥̜͔̆͆̕Ⅎ̷̢͕̞̼̇̈́͜Ơ̸̠̼̖̈́̂́ ̴̭̮̬̤̹̣͈̐̾̑̿̓̀̃͝ͅŞ̴̬̺̖̲̦͇̤̖̔̆͋̈́͜ṕ̷̨̛͕̪̼͍͓̭͆͊̂̿̀͝ɹ̶̨̧̼̼̬͖̝̞͓͕̏Ō̵̩̂̆̒͐̅̓͝Ḿ̶͉̰̅̚͜͠ ̶̪̂͗̊̊̀̄̚͝Ǝ̵̧͎͙̥̑͋̒͑̓͂͒̿͜H̶̡̡͎͚̟̲͉̑͠┴̶̟̣͓̠̗͚͊͠ ̴̛̥̥͖͒̅̒͛͗͊̀̎⅄̶͎͎͒̏͒̿̂̒͝q̵͎̲͛͆̚", false, spr_Port_bar_Priest, );
+scr_add_dialog( "It's too late, I can't turn back now.", true, spr_Port_bar_Judas_Priest );
+scr_add_dialog( "I WILL CHANGE THE WORLD, I WAS MEANT FOR SOMETHING BIGGER, BEHOLD MY POWER", true, spr_Port_bar_Judas_Priest );
+scr_add_dialog( "p̶͙̗̣̥̿͌͠˥̴̠̱͔̩̭̠̲͓̇́͛͌ɹ̵͙̥̥̬̳̜̤̯͔̯̉̓́̓͋O̷̢͇͉̘̺͉̊̏̿͊̕M̴͖̬̰̫̤̖͚̼̟̜͛̐̌͘ ̴̩̠̯̘͚̺̯̓͆̓̿͑̌S̵̘̤̎I̷̹̟͒͝͠͝͝H̷͕̤̗̬̾̉͋┴̴͖̉̽͗̆͂̾͠ ̷̨͔̙̒̽̃̑̒͝͝Ơ̸̡̙̺̗̱͙̲̤̜̞̎͐͒͝┴̵̳̗̺̲͈͕̟̥̓ ̶̢̡͇̳̠̙͚̲͆∩̷̤͂́͋̈́͌͐̈́͘͘͠ ̷̖͍̮̩͝N̷̦͍̠̞͊͋̉Ơ̶̗̬͓̐̇̀̀̉̑́W̷̡̧͖̙͇͙̥̟̐̇͑̾̈́W̶̦̱̝̎̍͜͝͝∩̵̨̨̛̖̮̎͐̀͑̈͛̕̕͝S̸̰͔͇͎̈́ ̷̤̻̫̬̈́̿͌̄͠ͅ˥̵̬͔̖͙̠̭̯̫̊̊̐̈́̇̉͘̕˥̶̜̟͙͐̈͋͜∀̴͖͙͓̳͐̃̀͝H̸̛̝̜̽̌͋̊̋͋̃̓͘Ş̸̯̮͓̘̭̝̈́̍͗̑̄͠ ̴̖̺̫͚͍̇͗̔̇Ì̸̢͎̅͆̆̂̚͝ ̶̞̠͚̺͎͐̂́͆͠͠Ņ̸̠̥̻̳̟̰͈̇∀̶̡̛̫͕̩͉̦͙͕̳̍̿̓̈͆̋͋͝ͅ┴̵͇͌̏̒͗͐͠∀̶̻̘̖̦̔͐͆ͅS̷̛̛̠̯͓̦̺̩͖̙̝͆̔͒̎̈ ̴̲̭̥̜͔̆͆̕Ⅎ̷̢͕̞̼̇̈́͜Ơ̸̠̼̖̈́̂́ ̴̭̮̬̤̹̣͈̐̾̑̿̓̀̃͝ͅŞ̴̬̺̖̲̦͇̤̖̔̆͋̈́͜ṕ̷̨̛͕̪̼͍͓̭͆͊̂̿̀͝ɹ̶̨̧̼̼̬͖̝̞͓͕̏Ō̵̩̂̆̒͐̅̓͝Ḿ̶͉̰̅̚͜͠ ̶̪̂͗̊̊̀̄̚͝Ǝ̵̧͎͙̥̑͋̒͑̓͂͒̿͜H̶̡̡͎͚̟̲͉̑͠┴̶̟̣͓̠̗͚͊͠ ̴̛̥̥͖͒̅̒͛͗͊̀̎⅄̶͎͎͒̏͒̿̂̒͝q̵͎̲͛͆̚", false, spr_Port_bar_Judas_Priest, );
 
 d_priest_fourth_text =
-scr_add_dialog( "You can't stop me. I've already opened the gate to hell. I will be the ruler of this world.", true, spr_Port_bar_Priest  );
+scr_add_dialog( "You can't stop me. I've already opened the gate to hell. I will be the ruler of this world.", true, spr_Port_bar_Judas_Priest  );
 scr_add_dialog( "It's a shame you had to turn against your village.", false, spr_Port_bar_Player, false);
 
 d_player_second_text =
@@ -143,7 +146,7 @@ scr_add_dialog( "For I am now done with my quest, my quest to save this town... 
 scr_add_dialog( "from you.", false, spr_Port_bar_Player, false);
 
 d_priest_fifth_text =
-scr_add_dialog( "Seemes like you found the easter egg and defeated my scrapped minions.", true, spr_Port_bar_Priest  );
+scr_add_dialog( "Seemes like you found the easter egg and defeated my scrapped minions.", true, spr_Port_bar_Judas_Priest  );
 scr_add_dialog( "Yes and now you'll die OwO", false, spr_Port_bar_Player, false);
 
 //När man möter bossen

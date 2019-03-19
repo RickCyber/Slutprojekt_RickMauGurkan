@@ -31,4 +31,5 @@ if (fas == 4){
 	fas = 0;
 	sprite_index = spr_boss_ded
 	image_speed = 0
+	instance_create_depth(544,336,depth,obj_teleport);
 }
