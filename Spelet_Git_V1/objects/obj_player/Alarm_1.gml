@@ -74,6 +74,16 @@ if (room == rm_boss_3)
 	state = scr_move_state;
 }
 
+if (room == rm_church)
+{
+	phy_rotation = 0;
+	image_xscale = 1;
+	image_yscale = 1;
+	damaged = false;
+	state = scr_move_state;
+	room = rm_final_1;
+}
+
 if (room == rm3)
 {
 	phy_rotation = 0;
