@@ -11,15 +11,26 @@ if (state != scr_fall_state)
 }
 
 //Reload Item and Magicbars
-if (itembar < 200)
+if (itembar < 100)
 {
-	itembar += 1;
+	itembar += .75;
 }
 
-if (magicbar < 200)
+if (magicbar < 100)
 {
-	magicbar += 1;
+	magicbar += .75;
 }
+
+if (itembar >= 100)
+{
+	itembar = 100;
+}
+
+if (magicbar >= 100)
+{
+	magicbar = 100;
+}
+
 
 //Fall if on pit
 if (physics_test_overlap(x,y,0,obj_pit))

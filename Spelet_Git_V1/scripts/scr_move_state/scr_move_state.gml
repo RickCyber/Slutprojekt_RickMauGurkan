@@ -2,31 +2,31 @@
 scr_get_input();
 
 // Activate Dash-ability if contitions true
-if (dash_key and dash == true and itembar >= 110 and len != 0)
+if (dash_key and dash == true and itembar >= 53 and len != 0)
 {
 	image_index = 0;
 	state = scr_dash_state;
 	alarm[0] = room_speed/4.5;
-	itembar -= 100;
+	itembar -= 50;
 }
 
 // Activate Hook-ability if contitions true
 if (!physics_test_overlap(x,y,0,obj_hookpole))
 {
-	if (hook_key and hook == true and itembar >= 100)
+	if (hook_key and hook == true and itembar >= 53)
 	{
 		image_index = 0;
 		state = scr_hookshot_state;
-		itembar -= 100;
+		itembar -= 50;
 	}
 }
 
 // Activate Icerod-ability if contitions true
-if (ice_key and ice == true and magicbar >= 110)
+if (ice_key and ice == true and magicbar >= 53)
 {
 	image_index = 0;
 	state = scr_icerod_state;
-	magicbar -= 100;
+	magicbar -= 50;
 }
 
 // Activate Attack
@@ -38,11 +38,11 @@ if (attack_key)
 		image_index = 0;
 		state = scr_sword_state;
 	}
-	else if (attack == 2 and magicbar >= 110)
+	else if (attack == 2 and magicbar >= 53)
 	{
 		image_index = 0;
 		state = scr_bow_state;
-		magicbar -= 100;
+		magicbar -= 50;
 	}
 }
 

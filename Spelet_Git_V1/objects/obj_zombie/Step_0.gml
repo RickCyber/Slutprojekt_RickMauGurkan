@@ -11,9 +11,21 @@ vspd = lengthdir_y(spd,dir);
 //Fall down pit
 if (physics_test_overlap(x,y,0,obj_pit) and tick == false)
 {
+	/*
+	if (state == scr_zombie_chase)
+	{*/
 	state = scr_fall_state;
 	alarm[0] = room_speed/1;
-	tick = true;
+	tick = true;/*
+	}
+	else if (state != scr_zombie_chase and fall == false)
+	{
+		state = scr_zombie_wander;
+		alarm[4] = 10;
+		fall = true;
+		targetx = random(room_width);
+		targety = random(room_height);
+	}*/
 }
 
 if (hp <= 0)

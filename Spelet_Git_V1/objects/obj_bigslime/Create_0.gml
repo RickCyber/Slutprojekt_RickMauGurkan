@@ -7,6 +7,7 @@ image_blend = c_lime;
 image_speed = .25;
 tick = false;
 attacked = false;
+index = false;
 face = 0;
 spd = .5;
 sight = 100;

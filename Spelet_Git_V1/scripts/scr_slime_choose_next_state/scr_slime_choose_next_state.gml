@@ -1,5 +1,7 @@
 ///scr_slime_choose_next_state
 
+sprite_index = spr_slime_right;
+
 //Either stand still or wander around while not chasing
 if (alarm[2] <= 0)
 {

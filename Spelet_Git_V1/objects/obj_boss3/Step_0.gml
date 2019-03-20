@@ -190,6 +190,33 @@ if (fas == 1)
 				obj_player.state = scr_move_state;
 				obj_player.attacked = false;
 				instance_destroy(obj_hookshot);
+				
+				if (obj_player.attack == 1)
+				{
+					switch (obj_player.sprite_index)
+					{
+						case spr_big_boy_side_hookshot_animation_left:
+							obj_player.sprite_index = spr_big_boy_side_sword_animation_left
+							break;
+			
+						case spr_big_boy_side_hookshot_animation_right:
+							obj_player.sprite_index = spr_big_boy_side_sword_animation_right
+							break;
+					}
+				}
+				else
+				{
+					switch (obj_player.sprite_index)
+					{
+						case spr_big_boy_side_hookshot_animation_left:
+							obj_player.sprite_index = spr_big_boy_side_bow_animation_left
+							break;
+			
+						case spr_big_boy_side_hookshot_animation_right:
+							obj_player.sprite_index = spr_big_boy_side_bow_animation_right
+							break;
+					}
+				}
 			}
 		}
 	}
@@ -221,6 +248,33 @@ if (fas == 1)
 				obj_player.state = scr_move_state;
 				obj_player.attacked = false;
 				instance_destroy(obj_hookshot);
+				
+				if (obj_player.attack == 1)
+				{
+					switch (obj_player.sprite_index)
+					{
+						case spr_big_boy_side_hookshot_animation_left:
+							obj_player.sprite_index = spr_big_boy_side_sword_animation_left
+							break;
+			
+						case spr_big_boy_side_hookshot_animation_right:
+							obj_player.sprite_index = spr_big_boy_side_sword_animation_right
+							break;
+					}
+				}
+				else
+				{
+					switch (obj_player.sprite_index)
+					{
+						case spr_big_boy_side_hookshot_animation_left:
+							obj_player.sprite_index = spr_big_boy_side_bow_animation_left
+							break;
+			
+						case spr_big_boy_side_hookshot_animation_right:
+							obj_player.sprite_index = spr_big_boy_side_bow_animation_right
+							break;
+					}
+				}
 			}
 		}
 	}
@@ -421,6 +475,33 @@ if (fas == 2)
 				obj_player.state = scr_move_state;
 				obj_player.attacked = false;
 				instance_destroy(obj_hookshot);
+				
+				if (obj_player.attack == 1)
+				{
+					switch (obj_player.sprite_index)
+					{
+						case spr_big_boy_side_hookshot_animation_left:
+							obj_player.sprite_index = spr_big_boy_side_sword_animation_left
+							break;
+			
+						case spr_big_boy_side_hookshot_animation_right:
+							obj_player.sprite_index = spr_big_boy_side_sword_animation_right
+							break;
+					}
+				}
+				else
+				{
+					switch (obj_player.sprite_index)
+					{
+						case spr_big_boy_side_hookshot_animation_left:
+							obj_player.sprite_index = spr_big_boy_side_bow_animation_left
+							break;
+			
+						case spr_big_boy_side_hookshot_animation_right:
+							obj_player.sprite_index = spr_big_boy_side_bow_animation_right
+							break;
+					}
+				}
 			}
 		}
 	}
@@ -452,6 +533,33 @@ if (fas == 2)
 				obj_player.state = scr_move_state;
 				obj_player.attacked = false;
 				instance_destroy(obj_hookshot);
+				
+				if (obj_player.attack == 1)
+				{
+					switch (obj_player.sprite_index)
+					{
+						case spr_big_boy_side_hookshot_animation_left:
+							obj_player.sprite_index = spr_big_boy_side_sword_animation_left
+							break;
+			
+						case spr_big_boy_side_hookshot_animation_right:
+							obj_player.sprite_index = spr_big_boy_side_sword_animation_right
+							break;
+					}
+				}
+				else
+				{
+					switch (obj_player.sprite_index)
+					{
+						case spr_big_boy_side_hookshot_animation_left:
+							obj_player.sprite_index = spr_big_boy_side_bow_animation_left
+							break;
+			
+						case spr_big_boy_side_hookshot_animation_right:
+							obj_player.sprite_index = spr_big_boy_side_bow_animation_right
+							break;
+					}
+				}
 			}
 		}
 	}
@@ -669,6 +777,33 @@ if (fas == 3)
 				obj_player.state = scr_move_state;
 				obj_player.attacked = false;
 				instance_destroy(obj_hookshot);
+				
+				if (obj_player.attack == 1)
+				{
+					switch (obj_player.sprite_index)
+					{
+						case spr_big_boy_side_hookshot_animation_left:
+							obj_player.sprite_index = spr_big_boy_side_sword_animation_left
+							break;
+			
+						case spr_big_boy_side_hookshot_animation_right:
+							obj_player.sprite_index = spr_big_boy_side_sword_animation_right
+							break;
+					}
+				}
+				else
+				{
+					switch (obj_player.sprite_index)
+					{
+						case spr_big_boy_side_hookshot_animation_left:
+							obj_player.sprite_index = spr_big_boy_side_bow_animation_left
+							break;
+			
+						case spr_big_boy_side_hookshot_animation_right:
+							obj_player.sprite_index = spr_big_boy_side_bow_animation_right
+							break;
+					}
+				}
 			}
 		}
 	}
@@ -700,6 +835,33 @@ if (fas == 3)
 				obj_player.state = scr_move_state;
 				obj_player.attacked = false;
 				instance_destroy(obj_hookshot);
+				
+				if (obj_player.attack == 1)
+				{
+					switch (obj_player.sprite_index)
+					{
+						case spr_big_boy_side_hookshot_animation_left:
+							obj_player.sprite_index = spr_big_boy_side_sword_animation_left
+							break;
+			
+						case spr_big_boy_side_hookshot_animation_right:
+							obj_player.sprite_index = spr_big_boy_side_sword_animation_right
+							break;
+					}
+				}
+				else
+				{
+					switch (obj_player.sprite_index)
+					{
+						case spr_big_boy_side_hookshot_animation_left:
+							obj_player.sprite_index = spr_big_boy_side_bow_animation_left
+							break;
+			
+						case spr_big_boy_side_hookshot_animation_right:
+							obj_player.sprite_index = spr_big_boy_side_bow_animation_right
+							break;
+					}
+				}
 			}
 		}
 	}

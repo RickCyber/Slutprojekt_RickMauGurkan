@@ -2,6 +2,8 @@
 
 image_speed = 0;
 
+image_blend = c_black;
+
 //Change from correct sprite after attack
 switch (sprite_index)
 {
@@ -9,16 +11,16 @@ switch (sprite_index)
 		sprite_index = spr_player_down;
 		break;
 		
-	case spr_attack_right:
-		sprite_index = spr_player_right;
+	case spr_slime_attack_right:
+		sprite_index = spr_slime_right;
 		break;
 			
 	case spr_attack_up:
 		sprite_index = spr_player_up;
 		break;
 		
-	case spr_attack_left:
-		sprite_index = spr_player_left;
+	case spr_slime_attack_left:
+		sprite_index = spr_slime_left;
 		break;
 }
 
