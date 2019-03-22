@@ -11,7 +11,8 @@
         "c71b5347-c19a-4721-b33c-a2ec25c4bae7",
         "1efe2e2b-70fe-4270-bbf1-ed52a790bdb4",
         "3233458e-c95e-4605-aa0a-5cac469e02c6",
-        "feed15f2-ecf0-4d30-aae0-44eaf225efec"
+        "feed15f2-ecf0-4d30-aae0-44eaf225efec",
+        "916b4903-2517-461b-8e44-9f3ff8487405"
     ],
     "filterType": "GMSprite",
     "folderName": "Rick",

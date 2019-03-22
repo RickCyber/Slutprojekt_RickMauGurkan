@@ -1751,6 +1751,14 @@
             }
         },
         {
+            "Key": "916b4903-2517-461b-8e44-9f3ff8487405",
+            "Value": {
+                "id": "12ecf13d-d47f-405b-beaa-f745a49fe187",
+                "resourcePath": "sprites\\spr_smoke\\spr_smoke.yy",
+                "resourceType": "GMSprite"
+            }
+        },
+        {
             "Key": "91797623-0f4e-491b-ae28-532729624440",
             "Value": {
                 "id": "1881ff96-a611-4ba3-9480-668237d73e65",
@@ -1820,6 +1828,14 @@
                 "id": "f946b3f5-be91-4851-8982-8794346d070f",
                 "resourcePath": "sprites\\spr_ice\\spr_ice.yy",
                 "resourceType": "GMSprite"
+            }
+        },
+        {
+            "Key": "96336f51-bfbe-4d37-9795-adbd4e56368e",
+            "Value": {
+                "id": "1dc7d346-b3f9-48e9-8348-b7220ce17cbf",
+                "resourcePath": "objects\\ParticleSystem\\ParticleSystem.yy",
+                "resourceType": "GMObject"
             }
         },
         {
