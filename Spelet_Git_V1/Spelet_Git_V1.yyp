@@ -1519,6 +1519,14 @@
             }
         },
         {
+            "Key": "82fe43d2-235d-4f51-9421-aaf357654a77",
+            "Value": {
+                "id": "a17fea6f-aadd-4dcf-bb39-fba5c9649d87",
+                "resourcePath": "sprites\\spr_teleport\\spr_teleport.yy",
+                "resourceType": "GMSprite"
+            }
+        },
+        {
             "Key": "845256f8-9549-4b21-8520-a6904cd16369",
             "Value": {
                 "id": "e3e55447-2761-4bf2-92ff-8679a7926417",

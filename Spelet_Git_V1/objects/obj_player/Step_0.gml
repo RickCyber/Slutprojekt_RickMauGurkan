@@ -105,6 +105,11 @@ if (hit >= 10){
 
 if keyboard_check(ord("R")) room_restart()
 
+if (room == rm_village)
+{
+	churchfall = false;
+}
+
 if (room == rm_final_1 and churchfall == false)
 {
 	obj_player.state = scr_freeze_state;
