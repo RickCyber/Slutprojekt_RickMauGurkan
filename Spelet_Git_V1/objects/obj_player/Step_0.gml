@@ -11,15 +11,26 @@ if (state != scr_fall_state)
 }
 
 //Reload Item and Magicbars
-if (itembar < 200)
+if (itembar < 100)
 {
-	itembar += 1;
+	itembar += .75;
 }
 
-if (magicbar < 200)
+if (magicbar < 100)
 {
-	magicbar += 1;
+	magicbar += .75;
 }
+
+if (itembar >= 100)
+{
+	itembar = 100;
+}
+
+if (magicbar >= 100)
+{
+	magicbar = 100;
+}
+
 
 //Fall if on pit
 if (physics_test_overlap(x,y,0,obj_pit))
@@ -143,7 +154,7 @@ if (room == rm_final_2 and y < 460 and finalspeach == false)
 			obj_player.sprite_index = spr_big_boy_side_sword_breath_right;
 			break;
 	}
-	if (amulet3 == true)
+	if (amulet2 == true)
 	{
 		scr_start_dialog(obj_dialog_holder,obj_dialog_holder.d_priest_fifth_text);
 	}

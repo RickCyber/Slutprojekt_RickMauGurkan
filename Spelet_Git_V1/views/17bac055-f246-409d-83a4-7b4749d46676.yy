@@ -36,7 +36,11 @@
         "6bc1c189-7d26-4cc7-b0ae-23fd4ae9a5a4",
         "c989cdb2-5e6c-4aa7-bbd6-7ebacf79d9a0",
         "480a69cd-c429-4a3d-be3a-0bd509d58c8e",
-        "aa31f472-60e1-4021-b3c5-1c5a48084714"
+        "aa31f472-60e1-4021-b3c5-1c5a48084714",
+        "bdd43712-69b1-4690-982a-879d68f9f4cf",
+        "88734057-bb87-4134-99ae-6f102c1786bf",
+        "239d2e79-1445-4715-9c09-f60eff1b5842",
+        "45189b3b-22a7-4b9f-8b68-58d9c2083a84"
     ],
     "filterType": "GMObject",
     "folderName": "Maus",

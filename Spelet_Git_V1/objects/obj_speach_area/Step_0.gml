@@ -104,13 +104,28 @@ if (physics_test_overlap(x,y,0,obj_player))
 			scr_start_dialog(obj_dialog_holder,obj_dialog_holder.d_priest_first_text);
 			bootscheck = true;
 		}
-		else if (creator == 10 and obj_player.dash == true and obj_player.amulet1 == false or creator == 10 and instance_exists(obj_dash_item) and obj_player.amulet1 == false)
+		else if (creator == 10 and obj_player.dash == true and obj_player.amulet1 == false)
+		{
+			scr_start_dialog(obj_dialog_holder,obj_dialog_holder.d_priest_sixth_text);
+		}
+		else if (creator == 10 and bootscheck == true and obj_player.amulet1 == false)
 		{
 			scr_start_dialog(obj_dialog_holder,obj_dialog_holder.d_priest_sixth_text);
 		}
 		else if (creator == 10 and obj_player.dash == true and obj_player.amulet1 == true)
 		{
 			scr_start_dialog(obj_dialog_holder,obj_dialog_holder.d_priest_second_text);
+		}
+		
+		if (creator == 11)
+		{
+			obj_dummy.text = true;
+			scr_start_dialog(obj_dialog_holder,obj_dialog_holder.d_wild_seventh_text);
+		}
+		
+		if (creator == 12)
+		{
+			scr_start_dialog(obj_dialog_holder,obj_dialog_holder.d_wild_fifth_text);
 		}
 	}
 }

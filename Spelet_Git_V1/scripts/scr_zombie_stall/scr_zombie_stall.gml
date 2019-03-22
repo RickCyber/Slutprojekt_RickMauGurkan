@@ -1,4 +1,5 @@
 ///scr_zombie_stall
+fall = false;
 
 image_speed = 0;
 

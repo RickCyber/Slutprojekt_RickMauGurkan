@@ -31,20 +31,20 @@ scr_get_face();
 switch (face)
 {
 	case 0:
-		sprite_index = spr_player_right;
+		sprite_index = spr_slime_right;
 		break;
 	
-	case 1:
-		sprite_index = spr_player_up;
-		break;
-		
 	case 2:
+		sprite_index = spr_slime_left;
+		break;
+		/*
+	case 1:
 		sprite_index = spr_player_left;
 		break;
 		
 	case 3:
 		sprite_index = spr_player_down;
-		break;
+		break;*/
 }
 
 if (hp == 0)

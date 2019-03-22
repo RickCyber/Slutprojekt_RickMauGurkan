@@ -17,7 +17,7 @@ draw_set_font( fnt_alagard );
 	// draw our dialog box
 	draw_set_halign(fa_left); //make sure our font is left aligned
 	draw_sprite( spr_Speech_bar_HUD, 0, x_pos, y_pos);
-	draw_text_ext( x_pos + 14, y_pos + 8, string_hash_to_newline( dialog_output) , 16, 268);
+	draw_text_ext( x_pos + 14, y_pos + 8, string_hash_to_newline( dialog_output) , 16, 264);
 	
 	// draw our avatar box (if appropriate)
 	if (dialog_avatar	!= "")	

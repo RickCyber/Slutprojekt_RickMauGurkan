@@ -1,6 +1,5 @@
 ///scr_zombie_wander
 scr_zombie_check_for_player();
-
 image_speed = .25;
 
 //Get random location to wander to

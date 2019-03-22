@@ -1,5 +1,6 @@
 ///scr_zombie_chase
 scr_zombie_check_for_player();
+fall = false;
 
 image_speed = .25;
 
