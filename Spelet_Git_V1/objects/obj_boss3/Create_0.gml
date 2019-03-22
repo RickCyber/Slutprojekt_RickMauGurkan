@@ -24,7 +24,6 @@ yy = obj_boss3.phy_position_y
 global.tdeactive = 0
 
 image_speed = 0
-image_index = 1
 
 x_spd = 0
 y_spd = 0
