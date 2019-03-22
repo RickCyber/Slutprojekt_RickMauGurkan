@@ -14,6 +14,8 @@ if place_meeting(x,y,obj_water){
 }
 else if z <= 1{
 	jump = true
+	land = false;
+	sprite_index = spr_Boss_3_ansikte_2;
 	if (hp >= 100){
 	hp = 100;
 	res = false;
@@ -29,6 +31,7 @@ else if z <= 1{
 }
 if z <= 1 and inwater >= 3{
 	jump = true
+	land = false;
 	if (fas == 2)
 	{
 		flamepos = irandom_range(0,3);

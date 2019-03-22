@@ -14,6 +14,7 @@ inwater = 0
 hittable = false
 firecircle = true
 flamepos = 0;
+land = false;
 res = false
 coluor = c_white;
 knockback = 1000;
@@ -22,8 +23,6 @@ xx = obj_boss3.phy_position_x
 yy = obj_boss3.phy_position_y
 
 global.tdeactive = 0
-
-image_speed = 0
 
 x_spd = 0
 y_spd = 0

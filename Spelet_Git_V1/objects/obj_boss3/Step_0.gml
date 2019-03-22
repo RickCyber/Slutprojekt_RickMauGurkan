@@ -34,10 +34,11 @@ if (hp <= 0){
 	res = true
 	hittable = false
 	alarm[1] = 10;
-	if (room == rm_boss_3 and fas == 3)
-	{
-		fas = 4;
-	}
+}
+
+if (room == rm_boss_3 and fas == 3)
+{
+	fas = 4;
 }
 
 if (res == true)
@@ -104,6 +105,10 @@ if (fas == 1)
 			//Z-axi gravity
 			z_spd -= .5
 			image_alpha *= 1.26
+			if (z >= 20 and sprite_index != spr_Boss_3_ansikte_land)
+			{
+				sprite_index = spr_Boss_3_ansikte_fall_1;
+			}
 		}
 	}
 	}
@@ -155,6 +160,18 @@ if (fas == 1)
 	
 		if z <= 1{
 			image_blend = c_aqua
+			
+			if (land == false)
+			{
+				sprite_index = spr_Boss_3_ansikte_land;
+				land = true;
+			}
+		
+			if (sprite_index == spr_Boss_3_ansikte_land and image_index >= 5)
+			{
+				sprite_index = spr_Boss_3_ansikte_2;
+			}
+			
 			if physics_test_overlap(x,y,0,obj_player)
 			{
 				var dir = point_direction(x,y,obj_player.x,obj_player.y)
@@ -221,6 +238,7 @@ if (fas == 1)
 		}
 	}
 	else if z <= 1{
+		sprite_index = spr_Boss_3_ansikte_2;
 		image_blend = c_aqua
 		if physics_test_overlap(x,y,0,obj_player)
 		{
@@ -375,6 +393,10 @@ if (fas == 2)
 				image_alpha = 0.01
 				jump = false;
 				tick = 0;
+				if (z >= 20 and sprite_index != spr_Boss_3_ansikte_land)
+				{
+					sprite_index = spr_Boss_3_ansikte_fall_1;
+				}
 			}
 		}
 		else{
@@ -431,6 +453,9 @@ if (fas == 2)
 		image_blend = c_white
 	
 		if z <= 1{
+		
+		sprite_index = spr_Boss_3_ansikte_Attack;
+		
 		image_blend = c_aqua
 		if physics_test_overlap(x,y,0,obj_player)
 		{
@@ -506,6 +531,7 @@ if (fas == 2)
 		}
 	}
 	else if z <= 1{
+		sprite_index = spr_Boss_3_ansikte_2;
 		image_blend = c_aqua
 		if physics_test_overlap(x,y,0,obj_player)
 		{
@@ -664,6 +690,10 @@ if (fas == 3)
 				image_alpha = 0.01
 				jump = false;
 				tick = 0;
+				if (z >= 20 and sprite_index != spr_Boss_3_ansikte_land)
+				{
+					sprite_index = spr_Boss_3_ansikte_fall_1;
+				}
 			}
 		}
 		else{
@@ -736,6 +766,18 @@ if (fas == 3)
 		{
 			if (flamepos > 3)
 			{
+				if (land == false)
+				{
+					sprite_index = spr_Boss_3_ansikte_land;
+					land = true;
+				}
+				
+				if (sprite_index == spr_Boss_3_ansikte_land and image_index >= 5)
+				{
+					sprite_index = spr_Boss_3_ansikte_2;
+					
+				}
+				
 				instance_create_depth(x+10,y+10,0,obj_firecircle)
 				instance_create_depth(x+10,y-10,0,obj_firecircle)
 				instance_create_depth(x-10,y+10,0,obj_firecircle)
@@ -747,6 +789,8 @@ if (fas == 3)
 			}
 			else
 			{
+				sprite_index = spr_Boss_3_ansikte_Attack;
+				
 				if (flamepos == 0)
 				{
 					instance_create_depth(x,y+10,0,obj_flamethrower)
@@ -808,6 +852,7 @@ if (fas == 3)
 		}
 	}
 	else if z <= 1{
+		sprite_index = spr_Boss_3_ansikte_2;
 		image_blend = c_aqua
 		if physics_test_overlap(x,y,0,obj_player)
 		{
