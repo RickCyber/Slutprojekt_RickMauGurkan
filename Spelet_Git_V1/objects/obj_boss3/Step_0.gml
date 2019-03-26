@@ -29,26 +29,39 @@ if (sleep == true and obj_player.y < 606 and room == rm_final_boss)
 
 hp += .02
 
-if (hp <= 0){
+if (hp <= 0 and res == false){
 	fas +=1
 	res = true
 	hittable = false
-	alarm[1] = 10;
-}
-
-if (room == rm_boss_3 and fas == 3)
-{
-	fas = 4;
 }
 
 if (res == true)
 {
 	hp += 1.3
+	sprite_index = spr_Boss_3_ansikte_res;
 }
 
-if (hp <= 0){
-	hp = 0;
-	res = true;
+if (sprite_index == spr_Boss_3_ansikte_res)
+{
+	if (image_index >= 7)
+	{
+		image_index = 8;
+	}
+}
+
+if (res == true and hp >= 100)
+{
+	alarm[1] = 1;
+	res = false;
+}
+
+if (hp >= 100){
+	hp = 100;
+	}
+
+if (room == rm_boss_3 and fas == 3)
+{
+	fas = 4;
 }
 
 if (fas == 4){
@@ -159,7 +172,7 @@ if (fas == 1)
 		image_blend = c_white
 	
 		if z <= 1{
-			image_blend = c_aqua
+			image_blend = c_white
 			
 			if (land == false)
 			{
@@ -239,7 +252,7 @@ if (fas == 1)
 	}
 	else if z <= 1{
 		sprite_index = spr_Boss_3_ansikte_2;
-		image_blend = c_aqua
+		image_blend = c_white
 		if physics_test_overlap(x,y,0,obj_player)
 		{
 			var dir = point_direction(x,y,obj_player.x,obj_player.y)
@@ -254,6 +267,8 @@ if (fas == 1)
 		
 		if (hittable == true and res == false)
 		{
+			sprite_index = spr_Boss_3_ansikte_hittable;
+			
 			if physics_test_overlap(x,y,0,obj_pil)
 			{
 				instance_destroy(obj_pil);
@@ -456,7 +471,7 @@ if (fas == 2)
 		
 		sprite_index = spr_Boss_3_ansikte_Attack;
 		
-		image_blend = c_aqua
+		image_blend = c_white
 		if physics_test_overlap(x,y,0,obj_player)
 		{
 			var dir = point_direction(x,y,obj_player.x,obj_player.y)
@@ -532,7 +547,7 @@ if (fas == 2)
 	}
 	else if z <= 1{
 		sprite_index = spr_Boss_3_ansikte_2;
-		image_blend = c_aqua
+		image_blend = c_white
 		if physics_test_overlap(x,y,0,obj_player)
 		{
 			var dir = point_direction(x,y,obj_player.x,obj_player.y)
@@ -547,6 +562,8 @@ if (fas == 2)
 		
 		if (hittable == true and res == false)
 		{
+			sprite_index = spr_Boss_3_ansikte_hittable;
+			
 			if physics_test_overlap(x,y,0,obj_pil)
 			{
 				instance_destroy(obj_pil);
@@ -750,7 +767,7 @@ if (fas == 3)
 		image_blend = c_white
 	
 		if z <= 1{
-		image_blend = c_aqua
+		image_blend = c_white
 		if physics_test_overlap(x,y,0,obj_player)
 		{
 			var dir = point_direction(x,y,obj_player.x,obj_player.y)
@@ -853,7 +870,7 @@ if (fas == 3)
 	}
 	else if z <= 1{
 		sprite_index = spr_Boss_3_ansikte_2;
-		image_blend = c_aqua
+		image_blend = c_white
 		if physics_test_overlap(x,y,0,obj_player)
 		{
 			var dir = point_direction(x,y,obj_player.x,obj_player.y)
@@ -868,6 +885,8 @@ if (fas == 3)
 		
 		if (hittable == true and res == false)
 		{
+			sprite_index = spr_Boss_3_ansikte_hittable;
+			
 			if physics_test_overlap(x,y,0,obj_pil)
 			{
 				instance_destroy(obj_pil);

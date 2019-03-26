@@ -1,6 +1,6 @@
 /// @description Insert description here
 // You can write your code in this editor
-if (!instance_exists(creator))
+if (!instance_exists(create))
 {
 	instance_destroy();
 }

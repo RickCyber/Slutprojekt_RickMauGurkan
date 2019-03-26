@@ -159,6 +159,14 @@
             }
         },
         {
+            "Key": "0aa06819-3a35-42d7-ac5f-65b51b898125",
+            "Value": {
+                "id": "b260696d-dd84-4dab-a3b1-a42b25cced2f",
+                "resourcePath": "objects\\obj_tree\\obj_tree.yy",
+                "resourceType": "GMObject"
+            }
+        },
+        {
             "Key": "0afbea8d-ea13-4d10-a266-ea88a078e091",
             "Value": {
                 "id": "5c371077-d545-4738-8d8c-1a0ff4d0b127",
@@ -388,6 +396,14 @@
                 "id": "c80235b2-e13d-4702-8233-3c53e9c0cabd",
                 "resourcePath": "rooms\\rm1\\rm1.yy",
                 "resourceType": "GMRoom"
+            }
+        },
+        {
+            "Key": "17a3e854-2e00-41cc-b9b0-d449920e8d44",
+            "Value": {
+                "id": "59f1ca8f-b6e1-4550-aa8f-afcc7c6929e5",
+                "resourcePath": "sprites\\spr_tree\\spr_tree.yy",
+                "resourceType": "GMSprite"
             }
         },
         {
@@ -871,6 +887,14 @@
             }
         },
         {
+            "Key": "4506b74d-f2a3-4a82-9504-688f482f3f96",
+            "Value": {
+                "id": "7c69d857-4e6b-4797-9aa8-9487815fa2e3",
+                "resourcePath": "sprites\\spr_tree_evil\\spr_tree_evil.yy",
+                "resourceType": "GMSprite"
+            }
+        },
+        {
             "Key": "450e2086-9bb5-4cbe-87df-d8d905157fdf",
             "Value": {
                 "id": "ca2426ea-31a0-42a2-9d1e-cab93b365092",
@@ -1259,6 +1283,22 @@
             "Value": {
                 "id": "778f8eea-e5a0-43ee-82a7-f8874e9c58e9",
                 "resourcePath": "sprites\\spr_attack_down\\spr_attack_down.yy",
+                "resourceType": "GMSprite"
+            }
+        },
+        {
+            "Key": "672d8f3c-9a6c-4b8f-a2f3-9c7dd04c4f76",
+            "Value": {
+                "id": "99e4156b-ebb1-43f4-aad0-dbd32247f2aa",
+                "resourcePath": "objects\\obj_hus\\obj_hus.yy",
+                "resourceType": "GMObject"
+            }
+        },
+        {
+            "Key": "673f9bcb-1eb1-43fa-8e7d-4ec1ea1f5a73",
+            "Value": {
+                "id": "dafd217c-7e65-4229-a92d-afa7ac4f9a12",
+                "resourcePath": "sprites\\spr_Boss_3_ansikte_res\\spr_Boss_3_ansikte_res.yy",
                 "resourceType": "GMSprite"
             }
         },
@@ -2227,6 +2267,14 @@
             "Value": {
                 "id": "c6f6c711-7ce5-4f64-9911-b1530351d849",
                 "resourcePath": "sprites\\spr_player_down\\spr_player_down.yy",
+                "resourceType": "GMSprite"
+            }
+        },
+        {
+            "Key": "b9a4d2ef-2dad-428b-9ccc-13acf503c284",
+            "Value": {
+                "id": "f6c08497-6443-4e10-b90d-dce60d59ac1d",
+                "resourcePath": "sprites\\spr_Boss_3_ansikte_hittable\\spr_Boss_3_ansikte_hittable.yy",
                 "resourceType": "GMSprite"
             }
         },

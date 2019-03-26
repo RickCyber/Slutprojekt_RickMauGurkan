@@ -7,7 +7,7 @@ if (room == rm_church and obj_player.dash == false)
 {
 	if !(instance_exists(obj_dash_item))
 	{
-		instance_create_depth(328,400,depth,obj_dash_item);
+		instance_create_depth(376,440,depth,obj_dash_item);
 	}
 }
 

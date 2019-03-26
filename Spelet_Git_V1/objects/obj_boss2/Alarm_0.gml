@@ -13,9 +13,9 @@ if (sprite_index == spr_boss2_down and fas == 2 or sprite_index == spr_boss2_up 
 if (sprite_index == spr_boss2_down and fas == 3 or sprite_index == spr_boss2_up and fas == 3){
     instance_create_depth(obj_boss2.x, obj_boss2.y, 1, obj_prutt);
     if (random_range(0,20) < 11){
-    alarm[0] = 80;
+    alarm[0] = 100;
     }
     else{
-    alarm[1] = 80;
+    alarm[1] = 100;
     }
 }
