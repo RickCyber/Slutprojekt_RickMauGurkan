@@ -6,4 +6,6 @@ array[2] = "Quit";
 
 anim = 0;
 anim_n = 0;
+controller = 0;
+check = false;
 //audio_play_sound(snd_main_game,0,true)

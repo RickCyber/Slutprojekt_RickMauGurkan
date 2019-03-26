@@ -1,7 +1,8 @@
 /// @description Insert description here
 // You can write your code in this editor
 
-
+obj_player.spd = 2;
+obj_player.attacked = false;
 
 if (room == rm_church and obj_player.dash == false)
 {

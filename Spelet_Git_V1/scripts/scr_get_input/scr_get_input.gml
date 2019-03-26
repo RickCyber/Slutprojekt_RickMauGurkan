@@ -24,4 +24,8 @@ if (gamepad_is_connected(0))
 	attack_key = gamepad_button_check_pressed(0, gp_face1);
 	hook_key = gamepad_button_check_pressed(0, gp_face3);
 	ice_key = gamepad_button_check_pressed(0, gp_face4);
+	right_key = gamepad_button_check_pressed(0, gp_padr);
+	left_key = gamepad_button_check_pressed(0, gp_padl);
+	down_key = gamepad_button_check_pressed(0, gp_padd);
+	up_key = gamepad_button_check_pressed(0, gp_padu);
 }
