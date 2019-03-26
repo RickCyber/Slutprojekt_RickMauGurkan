@@ -4,7 +4,7 @@ array[0] = "How To Play";
 array[1] = "Start";
 array[2] = "Quit";
 
-anim = 0;
+anim = 1;
 anim_n = 0;
 controller = 0;
 check = false;

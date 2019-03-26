@@ -10,6 +10,11 @@ if (room == rm_final_1)
 	instance_destroy();
 }
 
+if (room == rm_final_2)
+{
+	instance_destroy();
+}
+
 if (physics_test_overlap(x,y,0,obj_player))
 {
 	if (keyboard_check_pressed(ord("E")) or gamepad_button_check_pressed(0, gp_face2))
