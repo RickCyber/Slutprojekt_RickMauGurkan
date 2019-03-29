@@ -122,6 +122,11 @@ if (fas == 1)
 			{
 				sprite_index = spr_Boss_3_ansikte_fall_1;
 			}
+			if (z >= 215 and z <= 225){
+				if !audio_is_playing(snd_bosshitfloor){
+					audio_play_sound(snd_bosshitfloor,10,false)
+				}
+			}
 		}
 	}
 	}
@@ -411,6 +416,11 @@ if (fas == 2)
 				if (z >= 20 and sprite_index != spr_Boss_3_ansikte_land)
 				{
 					sprite_index = spr_Boss_3_ansikte_fall_1;
+				}
+				if (z >= 215 and z <= 225){
+					if !audio_is_playing(snd_bosshitfloor){
+						audio_play_sound(snd_bosshitfloor,10,false)
+					}
 				}
 			}
 		}
@@ -710,6 +720,11 @@ if (fas == 3)
 				if (z >= 20 and sprite_index != spr_Boss_3_ansikte_land)
 				{
 					sprite_index = spr_Boss_3_ansikte_fall_1;
+				}
+				if (z >= 215 and z <= 225){
+					if !audio_is_playing(snd_bosshitfloor){
+						audio_play_sound(snd_bosshitfloor,10,false)
+					}
 				}
 			}
 		}

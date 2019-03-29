@@ -21,3 +21,4 @@ else if (obj_player.face == 3)
 {
     phy_rotation = 180;
 }
+audio_play_sound(snd_freez,1,false)
