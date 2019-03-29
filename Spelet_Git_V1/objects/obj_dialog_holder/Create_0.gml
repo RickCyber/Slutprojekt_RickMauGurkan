@@ -3,6 +3,7 @@
 dialog =[];
 dialog_line =0;
 
+restart = false;
 
 // add some dailog
 
@@ -119,6 +120,9 @@ d_priest_second_text =
 scr_add_dialog( "I can't thank you enough, you don't know how much you've helped me... he.", true, spr_Port_bar_Priest );
 scr_add_dialog( "Wait outside while I start the ritual.", true, spr_Port_bar_Priest );
 scr_add_dialog( "Okay", false, spr_Port_bar_Player, false);
+
+d_player_third_text =
+scr_add_dialog( "So, what to do now when I'm done?", false, spr_Port_bar_Player, false);
 
 d_player_text =
 scr_add_dialog( "Huh, what was that!?", false, spr_Port_bar_Player, false);

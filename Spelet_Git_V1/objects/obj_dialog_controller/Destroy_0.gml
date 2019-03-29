@@ -24,14 +24,21 @@ if (room == rm_church and obj_player.amulet1 == true and instance_exists(obj_vil
 {
 	obj_villager.spd = -1;
 }
-else if (room == rm_church and obj_player.amulet1 == true and !instance_exists(obj_villager))
+else if (room == rm_church and obj_player.amulet1 == true and !instance_exists(obj_villager) and obj_player.what == true and obj_player.faller == false)
+{
+	obj_player.alarm[10] = 1;
+}
+else if (room == rm_church and obj_player.amulet1 == true and !instance_exists(obj_villager) and obj_player.faller == true)
 {
 	obj_player.alarm[8] = 1;
 	obj_player.alarm[1] = room_speed;
 }
 else
 {
-	obj_player.state = scr_move_state;
+	if (obj_player.secondspeach == false)
+	{
+		obj_player.state = scr_move_state;
+	}
 }
 
 if (room == rm_final_1)
@@ -55,7 +62,7 @@ if (room == rm_final_boss)
 
 if (room == rm_final_2 and obj_player.secondspeach == true)
 {
-	game_restart();
+	obj_dialog_holder.alarm[0] = 10;
 }
 else if (room == rm_final_2 and obj_player.secondspeach == false)
 {

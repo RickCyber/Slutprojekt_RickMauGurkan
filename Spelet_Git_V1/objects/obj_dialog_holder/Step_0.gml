@@ -1,5 +1,10 @@
 /// @description Insert description here
 // You can write your code in this editor
+if (gamepad_button_check_pressed(0, gp_select))
+{
+	game_end();
+}
+
 if (room == rm_controller)
 {
 	if (keyboard_check_pressed(vk_anykey))
@@ -53,7 +58,55 @@ if (room == rm_controller)
 	}
 }
 
-if (gamepad_button_check_pressed(0, gp_select))
+if (restart == true)
 {
-	game_end();
+	if (keyboard_check_pressed(vk_anykey))
+	{
+		game_restart();
+	}
+	
+	if (gamepad_button_check_pressed(0, gp_start))
+	{
+		game_restart();
+	}
+	
+	if (gamepad_button_check_pressed(0, gp_face1))
+	{
+		game_restart();
+	}
+	
+	if (gamepad_button_check_pressed(0, gp_face2))
+	{
+		game_restart();
+	}
+	
+	if (gamepad_button_check_pressed(0, gp_face3))
+	{
+		game_restart();
+	}
+	
+	if (gamepad_button_check_pressed(0, gp_face4))
+	{
+		game_restart();
+	}
+	
+	if (gamepad_button_check_pressed(0, gp_shoulderlb))
+	{
+		game_restart();
+	}
+	
+	if (gamepad_button_check_pressed(0, gp_shoulderl))
+	{
+		game_restart();
+	}
+	
+	if (gamepad_button_check_pressed(0, gp_shoulderr))
+	{
+		game_restart();
+	}
+	
+	if (gamepad_button_check_pressed(0, gp_shoulderrb))
+	{
+		game_restart();
+	}
 }

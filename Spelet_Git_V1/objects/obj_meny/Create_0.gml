@@ -1,6 +1,6 @@
 /// @description Insert description here
 // You can write your code in this editor
-array[0] = "How To Play";
+array[0] = "Controlls";
 array[1] = "Start";
 array[2] = "Quit";
 

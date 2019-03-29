@@ -15,6 +15,11 @@ if (room == rm_final_2)
 	instance_destroy();
 }
 
+if (obj_villager.spd != 0)
+{
+	instance_destroy();
+}
+
 if (physics_test_overlap(x,y,0,obj_player))
 {
 	if (keyboard_check_pressed(ord("E")) or gamepad_button_check_pressed(0, gp_face2))
@@ -129,7 +134,10 @@ if (physics_test_overlap(x,y,0,obj_player))
 		
 		if (creator == 11)
 		{
-			obj_dummy.text = true;
+			if (instance_exists(obj_dummy))
+			{
+				obj_dummy.text = true;
+			}
 			scr_start_dialog(obj_dialog_holder,obj_dialog_holder.d_wild_seventh_text);
 		}
 		
