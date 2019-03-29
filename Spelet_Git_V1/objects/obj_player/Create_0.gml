@@ -1,6 +1,7 @@
 /// @description Player Create
 // You can write your code in this editor
 event_inherited();
+draw_set_colour(c_white)
 hp = 100;
 spd = 2;
 hspd = 0;
@@ -28,6 +29,10 @@ hit = 0;
 churchfall = false;
 finalspeach = false;
 secondspeach = false;
+shake = 0;
+what = false;
+faller = false;
+first = false;
 image_speed = .5;
 scr_get_input();
 state = scr_move_state;

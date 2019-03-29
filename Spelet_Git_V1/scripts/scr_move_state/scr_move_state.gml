@@ -123,6 +123,10 @@ else if (attack == 1 and len != 0)
 			{
 				sprite_index = spr_big_boy_side_sword_animation_left;
 			}
+			else if (sprite_index = spr_big_boy_side_sword_animation_left)
+			{
+				sprite_index = spr_big_boy_side_sword_animation_left;
+			}
 			else
 			{
 				sprite_index = spr_big_boy_side_sword_animation_right;
@@ -131,6 +135,10 @@ else if (attack == 1 and len != 0)
 		
 		case 3:
 			if (sprite_index == spr_big_boy_side_sword_breath_left)
+			{
+				sprite_index = spr_big_boy_side_sword_animation_left;
+			}
+			else if (sprite_index = spr_big_boy_side_sword_animation_left)
 			{
 				sprite_index = spr_big_boy_side_sword_animation_left;
 			}
@@ -158,6 +166,10 @@ else if (attack == 2 and len != 0)
 			{
 				sprite_index = spr_big_boy_side_bow_animation_left;
 			}
+			else if (sprite_index = spr_big_boy_side_bow_animation_left)
+			{
+				sprite_index = spr_big_boy_side_bow_animation_left;
+			}
 			else
 			{
 				sprite_index = spr_big_boy_side_bow_animation_right;
@@ -166,6 +178,10 @@ else if (attack == 2 and len != 0)
 		
 		case 3:
 			if (sprite_index == spr_big_boy_side_bow_breath_left)
+			{
+				sprite_index = spr_big_boy_side_bow_animation_left;
+			}
+			else if (sprite_index = spr_big_boy_side_bow_animation_left)
 			{
 				sprite_index = spr_big_boy_side_bow_animation_left;
 			}

@@ -3,6 +3,7 @@
 dialog =[];
 dialog_line =0;
 
+restart = false;
 
 // add some dailog
 
@@ -71,7 +72,7 @@ scr_add_dialog( "Is there anything I can do for you?", true, spr_Port_bar_Player
 scr_add_dialog( "Please tell him that I'm OK.", true, spr_Port_bar_Villager_female);
 scr_add_dialog( "To get to him you need to use this hookshot, he lives in a weird spot.", true, spr_Port_bar_Villager_female);
 scr_add_dialog( "How do I use them?", true, spr_Port_bar_Player, false);
-scr_add_dialog( "You press the K-KEY on Keyboard or the B-BUTTON on Controller.", true, spr_Port_bar_Villager_female );
+scr_add_dialog( "You press the K-KEY on Keyboard or the X-BUTTON on Controller.", true, spr_Port_bar_Villager_female );
 scr_add_dialog( "You use it to hook on these wooden pillars or to attack monsters.", true, spr_Port_bar_Villager_female );
 scr_add_dialog( "Thank you. Leave this matter to me, I'll deliver this message!", false, spr_Port_bar_Player, false);
 
@@ -96,13 +97,16 @@ scr_add_dialog( "The mysterious man appears to the west of the village when it's
 scr_add_dialog( "Thank you stranger!", false, spr_Port_bar_Villager_normal);
 
 d_wild_fifth_text =
-scr_add_dialog( "You can use that Ice Rod to freeze water and enemies.", true, spr_Port_bar_Villager_female );
+scr_add_dialog( "You can use that Ice Rod to freeze water and enemies using the", true, spr_Port_bar_Villager_female );
+scr_add_dialog( "L-KEY on keyboard or the Y-BUTTON on controller.", true, spr_Port_bar_Villager_female );
 scr_add_dialog( "Sounds neat.", false, spr_Port_bar_Player, false);
 
 d_wild_sixth_text =
 scr_add_dialog( "Hi there traveler! I heard you use that sword there by pressing the", true, spr_Port_bar_Villager_normal );
 scr_add_dialog( "J-KEY on keyboard or the A-BUTTON on controller.", true, spr_Port_bar_Villager_normal );
-scr_add_dialog( "Well, ofcourse that's right.", false, spr_Port_bar_Player, false);
+scr_add_dialog( "Well, ofcourse that's right.", true, spr_Port_bar_Player, false);
+scr_add_dialog( "You can speak to people using the E-Key on keyboard", true, spr_Port_bar_Villager_normal );
+scr_add_dialog( "or the B-BUTTON on controller if you're close enough.", false, spr_Port_bar_Villager_normal );
 
 d_wild_seventh_text =
 scr_add_dialog( "So the J-KEY on keyboard or A-BUTTON on controller. I also heard that if you press", true, spr_Port_bar_Villager_normal );
@@ -116,6 +120,9 @@ d_priest_second_text =
 scr_add_dialog( "I can't thank you enough, you don't know how much you've helped me... he.", true, spr_Port_bar_Priest );
 scr_add_dialog( "Wait outside while I start the ritual.", true, spr_Port_bar_Priest );
 scr_add_dialog( "Okay", false, spr_Port_bar_Player, false);
+
+d_player_third_text =
+scr_add_dialog( "So, what to do now when I'm done?", false, spr_Port_bar_Player, false);
 
 d_player_text =
 scr_add_dialog( "Huh, what was that!?", false, spr_Port_bar_Player, false);
