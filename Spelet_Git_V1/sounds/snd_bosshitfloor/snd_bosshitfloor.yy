@@ -1,5 +1,5 @@
 {
-    "id": "a1ffb5a4-aa6d-403c-b142-094cb6fe3302",
+    "id": "d66862ed-4988-4df8-bd14-ae4f46396bab",
     "modelName": "GMSound",
     "mvc": "1.0",
     "name": "snd_bosshitfloor",
@@ -10,5 +10,5 @@
     "preload": false,
     "sampleRate": 44100,
     "type": 0,
-    "volume": 0.4
+    "volume": 1
 }

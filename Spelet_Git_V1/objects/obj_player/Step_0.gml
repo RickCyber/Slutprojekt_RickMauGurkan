@@ -13,12 +13,12 @@ if (state != scr_fall_state)
 //Reload Item and Magicbars
 if (itembar < 100)
 {
-	itembar += .75;
+	itembar += 1;
 }
 
 if (magicbar < 100)
 {
-	magicbar += .75;
+	magicbar += 1;
 }
 
 if (itembar >= 100)
@@ -191,5 +191,38 @@ if (room == rm_final_2 and y < 460 and finalspeach == false)
 	else
 	{
 		scr_start_dialog(obj_dialog_holder,obj_dialog_holder.d_priest_fourth_text);
+	}
+}
+if room == rm_boss_3 or room == rm_final_boss{
+	if audio_is_playing(snd_bgm){
+		audio_stop_sound(snd_bgm)
+	}
+	if !audio_is_playing(snd_boss_bm){
+		audio_play_sound(snd_boss_bm,0,false)
+	}
+	if audio_is_playing(snd_vilage_optional){
+		audio_stop_sound(snd_vilage_optional)
+	}
+}
+else if room == rm_village{
+	if audio_is_playing(snd_bgm){
+		audio_stop_sound(snd_bgm)
+	}
+	if audio_is_playing(snd_boss_bm){
+		audio_stop_sound(snd_boss_bm)
+	}
+	if !audio_is_playing(snd_vilage_optional){
+		audio_play_sound(snd_vilage_optional,1,false)
+	}
+}
+else{
+	if audio_is_playing(snd_boss_bm){
+		audio_stop_sound(snd_boss_bm)
+	}
+	if audio_is_playing(snd_vilage_optional){
+		audio_stop_sound(snd_vilage_optional)
+	}
+	if !audio_is_playing(snd_bgm){
+		audio_play_sound(snd_bgm,1,false)
 	}
 }

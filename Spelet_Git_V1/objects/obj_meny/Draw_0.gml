@@ -9,15 +9,15 @@ anim_n = scr_reach_tween(anim_n,anim,5);
 draw_set_font(fnt_ricksalagard);
 for(var i=0; i<array_length_1d(array); i++){
     if(i==anim){
-        draw_set_colour(c_olive)
+        draw_set_colour(c_yellow)
     }
     else{ 
-        draw_set_colour(c_dkgray)
+        draw_set_colour(c_olive)
     }
     draw_text_transformed(
-    x+lengthdir_x(64,(i-anim_n)*-44),
-    y+lengthdir_y(100,(i-anim_n)*-24),
-    array[i],1,1,mean((i-anim_n)*-44,0));
+    x+lengthdir_x(64,(i-anim_n)*-24),
+    y+lengthdir_y(120,(i-anim_n)*-30),
+    array[i],1,1,mean((i-anim_n)*-5,0));
     if keyboard_check_pressed(vk_enter) or keyboard_check_pressed(vk_space) or (gamepad_button_check_pressed(0,gp_face1) ){
         if(anim==0){
             room_goto(rm_controller)
