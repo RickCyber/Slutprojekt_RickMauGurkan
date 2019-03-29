@@ -15,3 +15,8 @@ phy_position_y += vspd;
 var dash = instance_create_depth(x,y,0,obj_dash_effect);
 dash.sprite_index = sprite_index;
 dash.image_index = image_index;
+
+//Play sound
+if !audio_is_playing(snd_woosh_dash){
+	audio_play_sound(snd_woosh_dash,0,false)
+}
