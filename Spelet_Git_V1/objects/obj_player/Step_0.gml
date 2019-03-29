@@ -110,6 +110,31 @@ if (room == rm_village)
 	churchfall = false;
 }
 
+if (room == rm_village and first == false)
+{
+	first = true;
+	obj_player.state = scr_freeze_state;
+	switch (obj_player.sprite_index)
+	{
+		case spr_big_boy_side_bow_animation_left:
+			obj_player.sprite_index = spr_big_boy_side_bow_breath_left;
+			break;
+		
+		case spr_big_boy_side_bow_animation_right:
+			obj_player.sprite_index = spr_big_boy_side_bow_breath_right;
+			break;
+			
+		case spr_big_boy_side_sword_animation_left:
+			obj_player.sprite_index = spr_big_boy_side_sword_breath_left;
+			break;
+		
+		case spr_big_boy_side_sword_animation_right:
+			obj_player.sprite_index = spr_big_boy_side_sword_breath_right;
+			break;
+	}
+	scr_start_dialog(obj_dialog_holder,obj_dialog_holder.d_villager_intro_text);
+}
+
 if (room == rm_final_1 and churchfall == false)
 {
 	obj_player.state = scr_freeze_state;

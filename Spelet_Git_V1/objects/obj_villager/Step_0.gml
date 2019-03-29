@@ -30,6 +30,7 @@ if (room == rm_final_2)
 {
 	if physics_test_overlap(x,y,0,obj_sword)
 	{
+		sprite_index = spr_notholy_boy_ded;
 		obj_player.state = scr_freeze_state;
 		switch (obj_player.sprite_index)
 		{
@@ -66,11 +67,11 @@ if (room == rm_final_2)
 				break;
 		}
 		scr_start_dialog(obj_dialog_holder,obj_dialog_holder.d_player_second_text);
-		instance_destroy();
 	}
 	
 	if physics_test_overlap(x,y,0,obj_pil)
 	{
+		sprite_index = spr_notholy_boy_ded;
 		obj_player.state = scr_freeze_state;
 		switch (obj_player.sprite_index)
 		{
@@ -107,7 +108,6 @@ if (room == rm_final_2)
 				break;
 		}
 		scr_start_dialog(obj_dialog_holder,obj_dialog_holder.d_player_second_text);
-		instance_destroy();
 		instance_destroy(obj_pil);
 	}
 }
