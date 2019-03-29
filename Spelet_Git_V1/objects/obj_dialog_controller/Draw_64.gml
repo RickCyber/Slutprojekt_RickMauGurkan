@@ -11,13 +11,8 @@ draw_set_font( fnt_alagard );
 			x_offset = 27;
 	}
 	
-	if (room == rm_final_boss or room == rm_boss_3){
-		var x_pos = camera_get_view_width( view_camera[0] ) / (2 - 150 - x_offset) + 190;
-		var y_pos = camera_get_view_height(view_camera[0] ) -100*2.8;	
-	}else{
-		var x_pos = camera_get_view_width( view_camera[0] ) / 2 - 150 - x_offset;
-		var y_pos = camera_get_view_height(view_camera[0] ) -100;
-	}
+	var x_pos = camera_get_view_width( view_camera[0] ) / 2 - 150 - x_offset;
+	var y_pos = camera_get_view_height(view_camera[0] ) -100;
 	
 	// draw our dialog box
 	draw_set_halign(fa_left); //make sure our font is left aligned

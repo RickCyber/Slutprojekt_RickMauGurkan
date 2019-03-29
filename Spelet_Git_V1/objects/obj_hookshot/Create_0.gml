@@ -28,5 +28,3 @@ else if (obj_player.face == 3)
 //Set speed based upon speed and direction
 bhspd = lengthdir_x(bspd, sdir);
 bvspd = lengthdir_y(bspd, sdir);
-
-audio_play_sound(snd_hookshot,1,false)

@@ -22,6 +22,3 @@ switch (obj_player.sprite_index)
 		break;
 }
 instance_destroy();
-if !audio_is_playing(snd_pickup){
-	audio_play_sound(snd_pickup,2,false)
-}

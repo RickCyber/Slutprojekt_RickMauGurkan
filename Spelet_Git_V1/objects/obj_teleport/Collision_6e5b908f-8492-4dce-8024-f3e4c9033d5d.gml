@@ -18,6 +18,3 @@ else
 	obj_player.y = 400;
 	room = rm_village;
 }
-if !audio_is_playing(snd_tp){
-	audio_play_sound(snd_tp,2,false)
-}
