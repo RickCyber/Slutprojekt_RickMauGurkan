@@ -14,7 +14,10 @@
         "482339fe-b344-4255-a4ec-103b38b4a19f",
         "25d29184-d500-4bff-8d91-1191149e52f3",
         "48b2edc0-5af0-4d64-b575-fe21b3847f99",
-        "83ddb740-31f8-4db1-ad41-729ecd8469b2"
+        "83ddb740-31f8-4db1-ad41-729ecd8469b2",
+        "546c5cb0-f064-455c-a369-316762a0b527",
+        "311318b8-8f98-48b3-ac25-f9dc83f8445c",
+        "84d08fb0-d613-4fd5-8db7-857452ca42c6"
     ],
     "filterType": "GMObject",
     "folderName": "Gurkan",

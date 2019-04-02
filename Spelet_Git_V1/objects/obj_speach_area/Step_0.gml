@@ -145,5 +145,10 @@ if (physics_test_overlap(x,y,0,obj_player))
 		{
 			scr_start_dialog(obj_dialog_holder,obj_dialog_holder.d_wild_fifth_text);
 		}
+		
+		if (creator == 13)
+		{
+			scr_start_dialog(obj_dialog_holder,obj_dialog_holder.d_second_text);
+		}
 	}
 }
