@@ -2,6 +2,9 @@
 // You can write your code in this editor
 instance_destroy(other);
 instance_destroy();
+if !audio_is_playing(snd_sword_hit){
+	audio_play_sound(snd_sword_hit,0,false)
+}
 
 if (instance_exists(obj_dummy) and text == false)
 {

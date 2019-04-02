@@ -1,5 +1,5 @@
 {
-    "id": "c1883514-b820-4c72-99bc-5a58d5c50c9d",
+    "id": "cb501057-7fff-4aa6-9fb5-765ccc4756b9",
     "modelName": "GMSound",
     "mvc": "1.0",
     "name": "snd_hookshot",
@@ -10,5 +10,5 @@
     "preload": false,
     "sampleRate": 44100,
     "type": 0,
-    "volume": 0.2
+    "volume": 0.5
 }

@@ -2,7 +2,6 @@
 // You can write your code in this editor
 if (what == true)
 {
-	obj_view.y -= 50;
 	scr_start_dialog(obj_dialog_holder,obj_dialog_holder.d_player_text);
 	faller = true;
 }

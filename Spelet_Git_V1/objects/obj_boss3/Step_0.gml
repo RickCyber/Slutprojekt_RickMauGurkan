@@ -153,7 +153,10 @@ if (fas == 1)
 		}
 	}
 	else{
-		hittable = true;
+		if (z <= 10)
+		{
+			hittable = true;
+		}
 		if ((z + z_spd) < 0){
 			while((z + sign(z_spd)) > 0){
 				z += sign(z_spd)
@@ -277,7 +280,7 @@ if (fas == 1)
 			if physics_test_overlap(x,y,0,obj_pil)
 			{
 				instance_destroy(obj_pil);
-				hp -= 90;
+				hp -= 20;
 			}
 			
 			if physics_test_overlap(x,y,0,obj_hookshot)
@@ -454,7 +457,10 @@ if (fas == 2)
 		}
 	}
 	else{
-		hittable = true
+		if (z <= 10)
+		{
+			hittable = true
+		}
 		if ((z + z_spd) < 0){
 			while((z + sign(z_spd)) > 0){
 				z += sign(z_spd)
@@ -577,7 +583,7 @@ if (fas == 2)
 			if physics_test_overlap(x,y,0,obj_pil)
 			{
 				instance_destroy(obj_pil);
-				hp -= 90;
+				hp -= 20;
 			}
 			
 			if physics_test_overlap(x,y,0,obj_hookshot)
@@ -758,7 +764,10 @@ if (fas == 3)
 		}
 	}
 	else{
-		hittable = true
+		if (z <= 10)
+		{
+			hittable = true
+		}
 		if ((z + z_spd) < 0){
 			while((z + sign(z_spd)) > 0){
 				z += sign(z_spd)
@@ -905,7 +914,7 @@ if (fas == 3)
 			if physics_test_overlap(x,y,0,obj_pil)
 			{
 				instance_destroy(obj_pil);
-				hp -= 90;
+				hp -= 20;
 			}
 			
 			if physics_test_overlap(x,y,0,obj_hookshot)

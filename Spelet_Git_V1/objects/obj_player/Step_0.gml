@@ -108,6 +108,7 @@ if keyboard_check(ord("R")) room_restart()
 if (room == rm_village)
 {
 	churchfall = false;
+	shake = 0;
 }
 
 if (room == rm_village and first == false)
@@ -193,7 +194,7 @@ if (room == rm_final_2 and y < 460 and finalspeach == false)
 		scr_start_dialog(obj_dialog_holder,obj_dialog_holder.d_priest_fourth_text);
 	}
 }
-if room == rm_boss_3 or room == rm_final_boss{
+if room == rm_boss_3 or room == rm_final_boss or room == rm_final_1 or room == rm_final_2 or room == rm3 or room == rm6{
 	if audio_is_playing(snd_bgm){
 		audio_stop_sound(snd_bgm)
 	}

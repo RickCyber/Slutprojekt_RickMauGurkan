@@ -2623,6 +2623,14 @@
             }
         },
         {
+            "Key": "cb501057-7fff-4aa6-9fb5-765ccc4756b9",
+            "Value": {
+                "id": "6cf0798d-71e7-400a-85af-91ae6f0f4594",
+                "resourcePath": "sounds\\snd_hookshot\\snd_hookshot.yy",
+                "resourceType": "GMSound"
+            }
+        },
+        {
             "Key": "cb7b8070-2cc8-41f6-8af2-6006ec9eb4bd",
             "Value": {
                 "id": "af70fbef-46ed-4245-87a7-742a6313f0bb",

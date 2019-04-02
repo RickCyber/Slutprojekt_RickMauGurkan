@@ -1,7 +1,7 @@
 /// @description Insert description here
 // You can write your code in this editor 
 scr_get_input();
-draw_sprite(spr_box,0,x-75,y-275)
+draw_sprite(spr_box,0,x+160,y+30)
 anim += mouse_wheel_down() -mouse_wheel_up();
 //anim += keyboard_check_pressed(ord("S")) -keyboard_check_pressed(ord("W"));
 anim = clamp(anim,0,array_length_1d(array)-1);

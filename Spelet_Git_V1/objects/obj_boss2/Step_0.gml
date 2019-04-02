@@ -39,7 +39,7 @@ else //Dö när den är död
 	fas = 0;
 	sprite_index = spr_boss2_ded;
 	image_speed = 0
-	if (!instance_exists(obj_amulet))
+	if (!instance_exists(obj_amulet) and !instance_exists(obj_teleport))
 	{
 		instance_create_depth(720,576,depth,obj_amulet);
 	}

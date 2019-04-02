@@ -1,7 +1,7 @@
 /// @description Insert description here
 // You can write your code in this editor
 
-if (room == rm_boss_3 or room == rm_final_boss)
+if (room == rm_boss_3 or room == rm_final_boss or room == rm3 or room == rm6)
 {
 	display_set_gui_size(camera_get_view_width(view_camera[0])/1.5, camera_get_view_height(view_camera[0])/1.5);
 	draw_healthbar(52,18,135,44,obj_player.hp,c_dkgray,c_maroon,c_green,0,true,true)
