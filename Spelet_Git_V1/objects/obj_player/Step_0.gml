@@ -204,6 +204,9 @@ if room == rm_boss_3 or room == rm_final_boss or room == rm_final_1 or room == r
 	if audio_is_playing(snd_vilage_optional){
 		audio_stop_sound(snd_vilage_optional)
 	}
+	if audio_is_playing(snd_dream_theme){
+		audio_stop_sound(snd_dream_theme)
+	}
 }
 else if room == rm_village{
 	if audio_is_playing(snd_bgm){
@@ -214,6 +217,20 @@ else if room == rm_village{
 	}
 	if !audio_is_playing(snd_vilage_optional){
 		audio_play_sound(snd_vilage_optional,1,false)
+	}
+}
+else if room == rm8{
+	if audio_is_playing(snd_bgm){
+		audio_stop_sound(snd_bgm)
+	}
+	if audio_is_playing(snd_boss_bm){
+		audio_stop_sound(snd_boss_bm)
+	}
+	if audio_is_playing(snd_vilage_optional){
+		audio_stop_sound(snd_vilage_optional)
+	}
+	if !audio_is_playing(snd_dream_theme){
+		audio_play_sound(snd_dream_theme,1,false)
 	}
 }
 else{

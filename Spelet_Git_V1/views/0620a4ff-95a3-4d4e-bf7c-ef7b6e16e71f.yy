@@ -30,7 +30,9 @@
         "9ab7c2a8-dae1-4352-a762-f1f83067d6ed",
         "890dafb2-0b9e-4bca-86d9-225460837443",
         "17a3e854-2e00-41cc-b9b0-d449920e8d44",
-        "4506b74d-f2a3-4a82-9504-688f482f3f96"
+        "4506b74d-f2a3-4a82-9504-688f482f3f96",
+        "ba67f604-a91b-4b4e-a00f-32f77528ed66",
+        "fc0e79b7-666c-4811-9415-0fe2c7d8999d"
     ],
     "filterType": "GMSprite",
     "folderName": "Mau",

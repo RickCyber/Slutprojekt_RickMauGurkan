@@ -1,8 +1,8 @@
 {
-    "id": "482339fe-b344-4255-a4ec-103b38b4a19f",
+    "id": "48b2edc0-5af0-4d64-b575-fe21b3847f99",
     "modelName": "GMObject",
     "mvc": "1.0",
-    "name": "obj_win",
+    "name": "obj_curby",
     "eventList": [
         
     ],
@@ -24,6 +24,6 @@
     "physicsStartAwake": true,
     "properties": null,
     "solid": false,
-    "spriteId": "430e8fc1-e422-47bb-949d-f23b51b1624a",
+    "spriteId": "fc0e79b7-666c-4811-9415-0fe2c7d8999d",
     "visible": true
 }
