@@ -106,7 +106,7 @@ if (hit >= 10){
 if keyboard_check_pressed(ord("T")) and keyboard_check_pressed(ord("B"))
 {
 	cheat = get_string("Enter the UwU:","")
-	if (cheat == "room")
+	if (cheat == "Room")
 	{
 		room = rm8;
 	}
@@ -117,6 +117,15 @@ if keyboard_check_pressed(ord("T")) and keyboard_check_pressed(ord("B"))
 	else if (cheat == "Slow")
 	{
 		wroom = false;
+	}
+	else if (cheat == "Rick")
+	{
+		amulet1 = true;
+		amulet2 = true;
+		amulet3 = true;
+		dash = true;
+		ice = true;
+		hook = true;
 	}
 }
 
