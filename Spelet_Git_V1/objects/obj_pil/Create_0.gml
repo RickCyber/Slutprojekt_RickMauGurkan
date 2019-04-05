@@ -1,7 +1,7 @@
 /// @description Insert description here
 // You can write your code in this editor
 damage = 5;
-knockback = 10;
+knockback = 100;
 creator = noone;
 
 bspd = 5;

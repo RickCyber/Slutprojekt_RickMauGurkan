@@ -103,12 +103,44 @@ if (hit >= 10){
 	game_restart()
 }
 
-if keyboard_check(ord("R")) room_restart()
+if keyboard_check_pressed(ord("T")) and keyboard_check_pressed(ord("B"))
+{
+	cheat = get_string("Enter the UwU:","")
+	if (cheat == "room")
+	{
+		room = rm8;
+	}
+	else if (cheat == "Speed")
+	{
+		wroom = true;
+	}
+	else if (cheat == "Slow")
+	{
+		wroom = false;
+	}
+}
+
+
+if (wroom == true)
+{
+	spd = 10;
+}
 
 if (room == rm_village)
 {
 	churchfall = false;
 	shake = 0;
+}
+
+if (room == rm8 and uwu == false)
+{
+	phy_position_x = 528;
+	phy_position_y = 400;
+	uwu = true;
+}
+else if (room != rm8)
+{
+	uwu = false;
 }
 
 if (room == rm_village and first == false)

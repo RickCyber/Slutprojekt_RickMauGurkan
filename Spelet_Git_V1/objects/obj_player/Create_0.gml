@@ -35,6 +35,8 @@ shake = 0;
 what = false;
 faller = false;
 first = false;
+uwu = false;
+wroom = false;
 image_speed = .5;
 scr_get_input();
 state = scr_move_state;

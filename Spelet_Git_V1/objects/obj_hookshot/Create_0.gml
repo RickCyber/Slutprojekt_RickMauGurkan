@@ -5,7 +5,7 @@ phy_fixed_rotation = true;
 
 bspd = 8;
 damage = 5;
-knockback = 500;
+knockback = 650;
 
 //Get direction based upon player direction
 if (obj_player.face == 0)
