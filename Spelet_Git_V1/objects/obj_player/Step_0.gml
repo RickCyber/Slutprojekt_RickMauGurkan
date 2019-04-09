@@ -121,8 +121,6 @@ if keyboard_check_pressed(ord("T")) and keyboard_check_pressed(ord("B"))
 	else if (cheat == "Rick")
 	{
 		amulet1 = true;
-		amulet2 = true;
-		amulet3 = true;
 		dash = true;
 		ice = true;
 		hook = true;
