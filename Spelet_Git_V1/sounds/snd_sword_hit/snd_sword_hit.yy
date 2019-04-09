@@ -1,5 +1,5 @@
 {
-    "id": "b83182ce-cb24-4097-95ba-3032bd7ac061",
+    "id": "e99f9d0e-8308-4f09-8319-e08273a00f10",
     "modelName": "GMSound",
     "mvc": "1.0",
     "name": "snd_sword_hit",

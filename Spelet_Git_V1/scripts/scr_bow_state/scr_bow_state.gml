@@ -96,3 +96,8 @@ if (image_index >= 7 and attacked == false)
 	damage.creator = id;
 	attacked = true;
 }
+if sprite_index == 8{
+	if !audio_is_playing(snd_bowpull){
+		audio_play_sound(snd_bowpull,0,false)
+	}
+}

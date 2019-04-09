@@ -1,5 +1,5 @@
 {
-    "id": "56c78e18-1d17-4214-8570-e36563c95559",
+    "id": "ee51b96e-4a84-41e1-aa77-51c2c41b1f34",
     "modelName": "GMSound",
     "mvc": "1.0",
     "name": "snd_enemy_hit__1",

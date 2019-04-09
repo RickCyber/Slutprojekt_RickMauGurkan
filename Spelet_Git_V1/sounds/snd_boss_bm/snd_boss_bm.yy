@@ -1,5 +1,5 @@
 {
-    "id": "06688b95-5743-4b7d-8948-d8873e979630",
+    "id": "90e67adf-b54d-4f3e-a71f-937645c2e520",
     "modelName": "GMSound",
     "mvc": "1.0",
     "name": "snd_boss_bm",

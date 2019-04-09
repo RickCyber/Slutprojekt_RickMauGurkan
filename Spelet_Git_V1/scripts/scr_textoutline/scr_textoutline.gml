@@ -1,4 +1,9 @@
-//draw_text_outlined(x, y, outline color, string color, string)  
+/// @describtion draw_text_outlined(x, y, outline color, string color, string)  
+/// @param x
+/// @param y
+/// @param outline_colour
+/// @param string_colour
+/// @param string
 var xx,yy;  
 xx = argument[0];  
 yy = argument[1];  

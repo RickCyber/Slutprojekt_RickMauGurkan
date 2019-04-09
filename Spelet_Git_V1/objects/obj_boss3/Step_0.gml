@@ -122,9 +122,14 @@ if (fas == 1)
 			{
 				sprite_index = spr_Boss_3_ansikte_fall_1;
 			}
-			if (z >= 215 and z <= 225){
+			if (z >= 215 and z <= 225 and !place_meeting(x,y,obj_water)){
 				if !audio_is_playing(snd_bosshitfloor){
 					audio_play_sound(snd_bosshitfloor,10,false)
+				}
+			}
+			else if (z >= 215 and z <= 225 and place_meeting(x,y,obj_water)){
+				if !audio_is_playing(snd_bosslandwater){
+					audio_play_sound(snd_bosslandwater,10,false)
 				}
 			}
 		}

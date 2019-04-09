@@ -1,5 +1,5 @@
 {
-    "id": "d0633dd6-cf58-4ac4-b635-e630445a2247",
+    "id": "fcf32b4a-f6e5-44ee-b260-4bfbfa6bd095",
     "modelName": "GMSound",
     "mvc": "1.0",
     "name": "snd_pickup",
