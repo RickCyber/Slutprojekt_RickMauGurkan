@@ -14,7 +14,9 @@
         "3df36033-fa1c-4144-a9cf-7247f3eb38ff",
         "3d64f57f-bb74-4e1f-989e-4663e53a99fb",
         "e06e549c-93d0-497d-9b71-eeefcd63aeeb",
-        "a50cd44e-7621-4bef-a5df-994d18bb1900"
+        "a50cd44e-7621-4bef-a5df-994d18bb1900",
+        "a6f364e9-4e08-4e72-bdc0-738b3ff0c209",
+        "d29d0400-18db-494f-b7f8-96374d8e3349"
     ],
     "filterType": "GMObject",
     "folderName": "Extra",

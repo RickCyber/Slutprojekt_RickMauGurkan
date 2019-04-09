@@ -35,6 +35,11 @@ if (hp <= 0 and res == false){
 	hittable = false
 }
 
+if (z >= 11)
+{
+	hittable = false;
+}
+
 if (res == true)
 {
 	hp += 1.3
@@ -160,7 +165,10 @@ if (fas == 1)
 	else{
 		if (z <= 10)
 		{
-			hittable = true;
+			if (res == false)
+			{
+				hittable = true;
+			}
 		}
 		if ((z + z_spd) < 0){
 			while((z + sign(z_spd)) > 0){
@@ -464,7 +472,10 @@ if (fas == 2)
 	else{
 		if (z <= 10)
 		{
-			hittable = true
+			if (res == false)
+			{
+				hittable = true;
+			}
 		}
 		if ((z + z_spd) < 0){
 			while((z + sign(z_spd)) > 0){
@@ -771,7 +782,10 @@ if (fas == 3)
 	else{
 		if (z <= 10)
 		{
-			hittable = true
+			if (res == false)
+			{
+				hittable = true;
+			}
 		}
 		if ((z + z_spd) < 0){
 			while((z + sign(z_spd)) > 0){

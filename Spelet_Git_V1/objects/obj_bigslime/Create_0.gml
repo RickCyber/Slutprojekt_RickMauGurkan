@@ -3,7 +3,6 @@
 event_inherited();
 state = scr_slime_idle;
 alarm[2] = room_speed*irandom_range(2,5);
-image_blend = c_lime;
 image_speed = .25;
 tick = false;
 attacked = false;

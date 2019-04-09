@@ -125,6 +125,18 @@ if keyboard_check_pressed(ord("T")) and keyboard_check_pressed(ord("B"))
 		ice = true;
 		hook = true;
 	}
+	else if (cheat == "Restart")
+	{
+		game_restart();
+	}
+	else if (cheat == "restart")
+	{
+		room_restart();
+	}
+	else if (cheat == "UwU")
+	{
+		sprite_index = spr_PlayerUwU;
+	}
 }
 
 
@@ -268,8 +280,8 @@ else if room == rm8{
 	if audio_is_playing(snd_vilage_optional){
 		audio_stop_sound(snd_vilage_optional)
 	}
-	if !audio_is_playing(snd_dream_theme){
-		audio_play_sound(snd_dream_theme,1,false)
+	if !audio_is_playing(snd_wndrwll){
+		audio_play_sound(snd_wndrwll,1,false)
 	}
 }
 else{

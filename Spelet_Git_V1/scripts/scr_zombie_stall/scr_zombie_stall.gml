@@ -2,6 +2,7 @@
 fall = false;
 
 image_speed = 0;
+image_blend = c_white;
 
 //Change from correct sprite after attack
 switch (sprite_index)

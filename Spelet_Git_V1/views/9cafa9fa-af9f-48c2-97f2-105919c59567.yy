@@ -14,7 +14,9 @@
         "e54e96e9-2157-4486-847c-1671dfdcf441",
         "98ad7d65-9110-4507-ab92-1a7e026aeb2f",
         "10cd909a-ded1-4e1f-ac0d-8bde505879ed",
-        "c65d22fa-cd12-4a08-a856-3fd94f60881a"
+        "c65d22fa-cd12-4a08-a856-3fd94f60881a",
+        "c2f87fae-470f-4683-bb9c-10f901f83dcd",
+        "f7e531b5-1cc4-474e-a842-6eeff694e009"
     ],
     "filterType": "GMSprite",
     "folderName": "Extra",

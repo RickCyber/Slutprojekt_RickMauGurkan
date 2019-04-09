@@ -9,7 +9,7 @@ restart = false;
 
 //bybor
 d_villager_intro_text =
-scr_add_dialog( "Greeting travelers, thank god you're here. We are in grave danger and we need your help.", true, spr_Port_bar_Villager_normal );
+scr_add_dialog( "Greetings traveler, thank god you're here. We are in grave danger and we need your help.", true, spr_Port_bar_Villager_normal );
 scr_add_dialog( "If you're willing to help us please go and meet with the Priest whom", true, spr_Port_bar_Villager_normal );
 scr_add_dialog( "is standing outside the Church.", true, spr_Port_bar_Villager_normal );
 scr_add_dialog( "Just follow this path and go to the upmost right corner of town and you'll find it.", true, spr_Port_bar_Villager_normal );
@@ -48,7 +48,7 @@ scr_add_dialog( "What do I need to do?", true, spr_Port_bar_Player, false);
 scr_add_dialog( "I need you to bring me the holy artifact that the demon lord stole from my church.", true, spr_Port_bar_Priest );
 scr_add_dialog( "The holy artifact are used to unlock the gate to heaven so ", true, spr_Port_bar_Priest );
 scr_add_dialog( "we can contact the guardian angels to help us in this terrible time.", true, spr_Port_bar_Priest );
-scr_add_dialog( "The demon lords lair is hidden somewhere in the Haunted-woods to the north.", true, spr_Port_bar_Priest );
+scr_add_dialog( "The demon lord's lair is hidden somewhere in the Haunted-woods to the north.", true, spr_Port_bar_Priest );
 scr_add_dialog( "I'll be on my way then...", true, spr_Port_bar_Player, false);
 scr_add_dialog( "Wait, take these magical boots with you.", true, spr_Port_bar_Priest );
 scr_add_dialog( "With them you can dash over cliffs and away from enemys.", true, spr_Port_bar_Priest );
@@ -64,14 +64,15 @@ scr_add_dialog( "Good luck out there!", false, spr_Port_bar_Priest );
 
 //Folk i banan
 d_wild_first_text =
-scr_add_dialog( "Thank god, someone came. That pit came too when the monsters came and I've been stuck here.", true, spr_Port_bar_Villager_female);
+scr_add_dialog( "Thank god, someone came. That pit appeared when", true, spr_Port_bar_Villager_female);
+scr_add_dialog( "the monsters showed up and I've been stuck here.", true, spr_Port_bar_Villager_female);
 scr_add_dialog( "I havn't been able too meet with my lover ever since then.", true, spr_Port_bar_Villager_female);
 scr_add_dialog( "Your lover?", true, spr_Port_bar_Player, false);
-scr_add_dialog( "Yes, he lives in the other end of the forest but I can't visit because of the monster.", true, spr_Port_bar_Villager_female);
+scr_add_dialog( "Yes, he lives in the other end of the forest but I can't visit because of the monsters.", true, spr_Port_bar_Villager_female);
 scr_add_dialog( "Is there anything I can do for you?", true, spr_Port_bar_Player, false);
 scr_add_dialog( "Please tell him that I'm OK.", true, spr_Port_bar_Villager_female);
 scr_add_dialog( "To get to him you need to use this hookshot, he lives in a weird spot.", true, spr_Port_bar_Villager_female);
-scr_add_dialog( "How do I use them?", true, spr_Port_bar_Player, false);
+scr_add_dialog( "How do I use it?", true, spr_Port_bar_Player, false);
 scr_add_dialog( "You press the K-KEY on Keyboard or the X-BUTTON on Controller.", true, spr_Port_bar_Villager_female );
 scr_add_dialog( "You use it to hook on these wooden pillars or to attack monsters.", true, spr_Port_bar_Villager_female );
 scr_add_dialog( "Thank you. Leave this matter to me, I'll deliver this message!", false, spr_Port_bar_Player, false);
@@ -104,7 +105,7 @@ scr_add_dialog( "Sounds neat.", false, spr_Port_bar_Player, false);
 d_wild_sixth_text =
 scr_add_dialog( "Hi there traveler! I heard you use that sword there by pressing the", true, spr_Port_bar_Villager_normal );
 scr_add_dialog( "J-KEY on keyboard or the A-BUTTON on controller.", true, spr_Port_bar_Villager_normal );
-scr_add_dialog( "Well, ofcourse that's right.", true, spr_Port_bar_Player, false);
+scr_add_dialog( "Well, of course that's right.", true, spr_Port_bar_Player, false);
 scr_add_dialog( "You can speak to people using the E-Key on keyboard", true, spr_Port_bar_Villager_normal );
 scr_add_dialog( "or the B-BUTTON on controller if you're close enough.", false, spr_Port_bar_Villager_normal );
 
@@ -159,6 +160,7 @@ scr_add_dialog( "Yes and now you'll die OwO", false, spr_Port_bar_Player, false)
 //När man möter bossen
 d_boss_text =
 scr_add_dialog( "Ń̵̲̤̭͇̱̝̳̟̈́͜Ò̴̧̨̹͚̻̤̜͝ͅ ̶̺͈͓̰̳̫̈́͒̽͊̓͊̒̏͝M̴͙̿̾O̶̢̥͖͕̠̮̰̯͑͋̓̀͛͆̓̆Ȓ̵͍͓̖̲̩̱͍̜̈́͋́͆̕ͅT̶̫͇̯̪̣͕̝̮͘ͅḀ̴̗̲̦̤̲̮͖̉̃̅͗̀͘̚L̸̬͔͌̾͂͛ ̸̻͒͐C̷̢̛̭̙̜̓̈́̔̐̌̀̊͘ͅA̴̢̫̖̠̦̻̘̟͎̔͗͝N̶̡͙̘͍̭̼͇̉̃ ̵̧̢̧̞̬͎̫̯̈́̈́͒̆̌̐ͅB̶̼̟̖͓̜̩̘̙͓̉͠Ë̷͈̝̞̜̩̖̥́S̸̥̖̰̪͙̄͆̀̓͆Ṯ̸̘͕̜͙̿̑͝ ̷̝̦̓M̴͍͈̟̪̓Ë̵͔̮͙̖̼́̔̃͐͗͗͂͆͘", true, spr_Port_bar_Boss );
+scr_add_dialog( "(He is made of fire, Water should be effective)", false, spr_Port_bar_Player, false);
 scr_add_dialog( "I'll kill you and save the day!", false, spr_Port_bar_Player, false);
 
 d_boss_second_text =

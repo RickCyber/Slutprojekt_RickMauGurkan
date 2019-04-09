@@ -12,7 +12,8 @@
         "8e8263a3-02c1-4b37-aa68-358586076df1",
         "b1e77a9f-bc7c-4125-b794-8476dd5f6c28",
         "ee1f0683-7f77-4400-8117-88c48d26a4ff",
-        "cb73c7fd-eb02-4982-ba98-360a66231b93"
+        "cb73c7fd-eb02-4982-ba98-360a66231b93",
+        "7aa4484e-8bc4-42db-8f4e-8efd00c7fd8e"
     ],
     "filterType": "GMSprite",
     "folderName": "Skärmar",
