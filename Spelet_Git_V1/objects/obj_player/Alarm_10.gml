@@ -11,3 +11,6 @@ else
 {
 	alarm[11] = 5;
 }
+if !audio_is_playing(snd_churchpit){
+	audio_play_sound(snd_churchpit,1,true)
+}

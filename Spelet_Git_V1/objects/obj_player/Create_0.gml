@@ -36,6 +36,7 @@ what = false;
 faller = false;
 first = false;
 uwu = false;
+owo = false;
 wroom = false;
 image_speed = .5;
 scr_get_input();

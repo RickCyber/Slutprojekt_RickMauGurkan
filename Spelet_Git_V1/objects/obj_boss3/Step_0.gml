@@ -347,105 +347,110 @@ if (fas == 1)
 if (fas == 2)
 {
 	if dead == false{ //Om den är inte död
-	if sleep == false{ //Om den inte sover
-		if z >= 30{ //Inte helt hundra, kan vara gammal
-			collition = true
-		}
-		else{
-			collition = false
-		}
-		if jump == true{//När den hoppar resettas inwater
-			inwater = 0
-			firecircle = false; //Resetta firecircle när den åker upp
-			if z >= 90{//Gör så att den fadar ut
-				image_alpha *= 0.83
+		if sleep == false{ //Om den inte sover
+			if z >= 30{ //Inte helt hundra, kan vara gammal
+				collition = true
 			}
-			if tick <= 50{//
-				if z >= 350{
-					z = 290
-					if (flamepos == 0)
-					{
-						phy_position_x = obj_player.x
-						
-						if (obj_player.y < 228)
-						{
-							phy_position_y = 128;
-						}
-						else
-						{
-							phy_position_y = obj_player.y-100
-						}
-					}
-					else if (flamepos == 1)
-					{
-						phy_position_x = obj_player.x
-						
-						if (obj_player.y > 540)
-						{
-							phy_position_y = 640;
-						}
-						else
-						{
-							phy_position_y = obj_player.y+100
-						}
-					}
-					else if (flamepos == 2)
-					{
-						phy_position_y = obj_player.y
-						
-						if (obj_player.x < 228)
-						{
-							phy_position_x = 128;
-						}
-						else
-						{
-							phy_position_x = obj_player.x-100
-						}
-					}
-					else if (flamepos == 3)
-					{
-						phy_position_y = obj_player.y
-						
-						if (obj_player.x > 860)
-						{
-							phy_position_x = 960;
-						}
-						else
-						{
-							phy_position_x = obj_player.x+100
-						}
-					}
-					tick += 1
+			else{
+				collition = false
+			}
+			if jump == true{//När den hoppar resettas inwater
+				inwater = 0
+				firecircle = false; //Resetta firecircle när den åker upp
+				if z >= 90{//Gör så att den fadar ut
+					image_alpha *= 0.83
 				}
-				z += 2.5
-				z *= 1.08
-				if tick >= 2{
-					if !instance_exists(obj_boss3_land){
-						instance_create_depth(obj_boss3.x,obj_boss3.y,depth,obj_boss3_land)
+				if tick <= 50{//
+					if z >= 350{
+						z = 290
+						if (flamepos == 0)
+						{
+							phy_position_x = obj_player.x
+						
+							if (obj_player.y < 228)
+							{
+								phy_position_y = 128;
+							}
+							else
+							{
+								phy_position_y = obj_player.y-100
+							}
+						}
+						else if (flamepos == 1)
+						{
+							phy_position_x = obj_player.x
+						
+							if (obj_player.y > 540)
+							{
+								phy_position_y = 640;
+							}
+							else
+							{
+								phy_position_y = obj_player.y+100
+							}
+						}
+						else if (flamepos == 2)
+						{
+							phy_position_y = obj_player.y
+						
+							if (obj_player.x < 228)
+							{
+								phy_position_x = 128;
+							}
+							else
+							{
+								phy_position_x = obj_player.x-100
+							}
+						}
+						else if (flamepos == 3)
+						{
+							phy_position_y = obj_player.y
+						
+							if (obj_player.x > 860)
+							{
+								phy_position_x = 960;
+							}
+							else
+							{
+								phy_position_x = obj_player.x+100
+							}
+						}
+						tick += 1
+					}
+					z += 2.5
+					z *= 1.08
+					if tick >= 2{
+						if !instance_exists(obj_boss3_land){
+							instance_create_depth(obj_boss3.x,obj_boss3.y,depth,obj_boss3_land)
+						}
+					}
+				}
+				else{
+					image_alpha = 0.01
+					jump = false;
+					tick = 0;
+					if (z >= 20 and sprite_index != spr_Boss_3_ansikte_land)
+					{
+						sprite_index = spr_Boss_3_ansikte_fall_1;
 					}
 				}
 			}
 			else{
-				image_alpha = 0.01
-				jump = false;
-				tick = 0;
-				if (z >= 20 and sprite_index != spr_Boss_3_ansikte_land)
-				{
-					sprite_index = spr_Boss_3_ansikte_fall_1;
-				}
-				if (z >= 215 and z <= 225){
+				//Z-axi gravity
+				z_spd -= .5
+				image_alpha *= 1.26
+				if (z >= 215 and z <= 225 and !place_meeting(x,y,obj_water)){
 					if !audio_is_playing(snd_bosshitfloor){
 						audio_play_sound(snd_bosshitfloor,10,false)
 					}
 				}
+				else if (z >= 215 and z <= 225 and place_meeting(x,y,obj_water)){
+					if !audio_is_playing(snd_bosslandwater){
+						audio_play_sound(snd_bosslandwater,10,false)
+					}
+				}
 			}
 		}
-		else{
-			//Z-axi gravity
-			z_spd -= .5
-			image_alpha *= 1.26
-		}
-	}
 	}
 	//Check if collition with floor
 	if !place_meeting(x,y,obj_water){
@@ -743,17 +748,22 @@ if (fas == 3)
 				{
 					sprite_index = spr_Boss_3_ansikte_fall_1;
 				}
-				if (z >= 215 and z <= 225){
-					if !audio_is_playing(snd_bosshitfloor){
-						audio_play_sound(snd_bosshitfloor,10,false)
-					}
-				}
 			}
 		}
 		else{
 			//Z-axi gravity
 			z_spd -= .5
 			image_alpha *= 1.26
+			if (z >= 215 and z <= 225 and !place_meeting(x,y,obj_water)){
+				if !audio_is_playing(snd_bosshitfloor){
+					audio_play_sound(snd_bosshitfloor,10,false)
+				}
+			}
+			else if (z >= 215 and z <= 225 and place_meeting(x,y,obj_water)){
+				if !audio_is_playing(snd_bosslandwater){
+					audio_play_sound(snd_bosslandwater,10,false)
+				}
+			}
 		}
 	}
 	}

@@ -1,5 +1,6 @@
 /// @description Insert description here
 // You can write your code in this editor
+/*
 if (room == rm_boss_3 or room == rm_final_boss)
 {
 	obj_boss3.fas += 1;

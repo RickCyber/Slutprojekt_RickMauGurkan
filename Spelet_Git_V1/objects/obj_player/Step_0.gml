@@ -135,7 +135,14 @@ if keyboard_check_pressed(ord("T")) and keyboard_check_pressed(ord("B"))
 	}
 	else if (cheat == "UwU")
 	{
-		sprite_index = spr_PlayerUwU;
+		if (owo == false)
+		{
+			owo = true;
+		}
+		else
+		{
+			owo = false;
+		}
 	}
 }
 
@@ -143,6 +150,11 @@ if keyboard_check_pressed(ord("T")) and keyboard_check_pressed(ord("B"))
 if (wroom == true)
 {
 	spd = 10;
+}
+
+if (owo == true)
+{
+	sprite_index = spr_PlayerUwU;
 }
 
 if (room == rm_village)
@@ -268,6 +280,9 @@ else if room == rm_village{
 	}
 	if !audio_is_playing(snd_vilage_optional){
 		audio_play_sound(snd_vilage_optional,1,false)
+	}
+	if audio_is_playing(snd_flameatt){
+		audio_stop_sound(snd_flameatt)
 	}
 }
 else if room == rm8{
